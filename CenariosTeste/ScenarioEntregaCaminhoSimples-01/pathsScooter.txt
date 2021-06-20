@@ -1,0 +1,2 @@
+#trindade - cais da ribeira - dois sentidos
+41.15227, -8.60929;41.14063, -8.61118;2;asfalto

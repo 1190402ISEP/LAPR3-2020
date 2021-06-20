@@ -1,0 +1,56 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+
+
+class CreditCard {
+    -Integer number
+    -Integer CVV
+    -Date expirateDate
+}
+
+
+
+
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+
+
+
+
+
+
+Client "1" -- "1" User: acts like >
+
+Client "1" -- "*" CreditCard: has >
+
+
+
+
+
+
+@enduml

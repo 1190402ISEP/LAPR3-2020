@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="183px" preserveAspectRatio="none" style="width:600px;height:183px;" version="1.1" viewBox="0 0 600 183" width="600px" zoomAndPan="magnify"><defs><filter height="300%" id="fu5exvef5k9os" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect codeLine="5" fill="#FEFECE" filter="url(#fu5exvef5k9os)" height="40" id="Administrator" style="stroke:#A80036;stroke-width:1.5;" width="105" x="7" y="80.0373"/><ellipse cx="22" cy="96.0373" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24,92.5373 Q24.2031,92.0373 24.4375,91.7873 Q24.6719,91.5373 24.9375,91.5373 Q25.4063,91.5373 25.7031,91.8185 Q26,92.0998 26,92.756 L26,94.3185 Q26,94.9748 25.7188,95.256 Q25.4375,95.5373 25,95.5373 Q24.6094,95.5373 24.3594,95.3654 Q24.1094,95.1935 24,94.7404 Q23.9531,94.4279 23.7813,94.256 Q23.4688,93.9279 22.9063,93.7404 Q22.3438,93.5373 21.7813,93.5373 Q21.0781,93.5373 20.4844,93.8185 Q19.9063,94.0998 19.4531,94.7248 Q19,95.3498 19,96.2092 L19,97.131 Q19,98.1623 19.8438,98.8498 Q20.6875,99.5373 22.1875,99.5373 Q23.0781,99.5373 23.7031,99.3342 Q24.0625,99.2248 24.4688,98.8654 Q24.7344,98.6623 24.875,98.5998 Q25.0156,98.5373 25.1875,98.5373 Q25.5156,98.5373 25.75,98.8029 Q26,99.0529 26,99.4123 Q26,99.756 25.6563,100.1623 Q25.1563,100.756 24.3594,101.0842 Q23.3125,101.5373 22.0313,101.5373 Q20.5313,101.5373 19.3281,100.9435 Q18.3594,100.4748 17.6719,99.4592 Q17,98.4435 17,97.2404 L17,96.1467 Q17,94.8967 17.5938,93.8029 Q18.2031,92.7092 19.25,92.131 Q20.3125,91.5373 21.5,91.5373 Q22.2188,91.5373 22.8438,91.7873 Q23.4688,92.0373 24,92.5373 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="36" y="100.9475">Administrator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="111" y1="112.0373" y2="112.0373"/><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="9" fill="#FEFECE" filter="url(#fu5exvef5k9os)" height="40" id="User" style="stroke:#A80036;stroke-width:1.5;" width="59" x="505.5" y="7.0373"/><ellipse cx="520.5" cy="23.0373" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M522.5,19.5373 Q522.7031,19.0373 522.9375,18.7873 Q523.1719,18.5373 523.4375,18.5373 Q523.9063,18.5373 524.2031,18.8185 Q524.5,19.0998 524.5,19.756 L524.5,21.3185 Q524.5,21.9748 524.2188,22.256 Q523.9375,22.5373 523.5,22.5373 Q523.1094,22.5373 522.8594,22.3654 Q522.6094,22.1935 522.5,21.7404 Q522.4531,21.4279 522.2813,21.256 Q521.9688,20.9279 521.4063,20.7404 Q520.8438,20.5373 520.2813,20.5373 Q519.5781,20.5373 518.9844,20.8185 Q518.4063,21.0998 517.9531,21.7248 Q517.5,22.3498 517.5,23.2092 L517.5,24.131 Q517.5,25.1623 518.3438,25.8498 Q519.1875,26.5373 520.6875,26.5373 Q521.5781,26.5373 522.2031,26.3342 Q522.5625,26.2248 522.9688,25.8654 Q523.2344,25.6623 523.375,25.5998 Q523.5156,25.5373 523.6875,25.5373 Q524.0156,25.5373 524.25,25.8029 Q524.5,26.0529 524.5,26.4123 Q524.5,26.756 524.1563,27.1623 Q523.6563,27.756 522.8594,28.0842 Q521.8125,28.5373 520.5313,28.5373 Q519.0313,28.5373 517.8281,27.9435 Q516.8594,27.4748 516.1719,26.4592 Q515.5,25.4435 515.5,24.2404 L515.5,23.1467 Q515.5,21.8967 516.0938,20.8029 Q516.7031,19.7092 517.75,19.131 Q518.8125,18.5373 520,18.5373 Q520.7188,18.5373 521.3438,18.7873 Q521.9688,19.0373 522.5,19.5373 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="534.5" y="27.9475">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="506.5" x2="563.5" y1="39.0373" y2="39.0373"/><!--MD5=[9bbbf393737a6198989a25ce03335616]
+class PharmacyOwner--><rect codeLine="12" fill="#FEFECE" filter="url(#fu5exvef5k9os)" height="53.8359" id="PharmacyOwner" style="stroke:#A80036;stroke-width:1.5;" width="123" x="237" y="73.0373"/><ellipse cx="252" cy="89.0373" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M254,85.5373 Q254.2031,85.0373 254.4375,84.7873 Q254.6719,84.5373 254.9375,84.5373 Q255.4063,84.5373 255.7031,84.8185 Q256,85.0998 256,85.756 L256,87.3185 Q256,87.9748 255.7188,88.256 Q255.4375,88.5373 255,88.5373 Q254.6094,88.5373 254.3594,88.3654 Q254.1094,88.1935 254,87.7404 Q253.9531,87.4279 253.7813,87.256 Q253.4688,86.9279 252.9063,86.7404 Q252.3438,86.5373 251.7813,86.5373 Q251.0781,86.5373 250.4844,86.8185 Q249.9063,87.0998 249.4531,87.7248 Q249,88.3498 249,89.2092 L249,90.131 Q249,91.1623 249.8438,91.8498 Q250.6875,92.5373 252.1875,92.5373 Q253.0781,92.5373 253.7031,92.3342 Q254.0625,92.2248 254.4688,91.8654 Q254.7344,91.6623 254.875,91.5998 Q255.0156,91.5373 255.1875,91.5373 Q255.5156,91.5373 255.75,91.8029 Q256,92.0529 256,92.4123 Q256,92.756 255.6563,93.1623 Q255.1563,93.756 254.3594,94.0842 Q253.3125,94.5373 252.0313,94.5373 Q250.5313,94.5373 249.3281,93.9435 Q248.3594,93.4748 247.6719,92.4592 Q247,91.4435 247,90.2404 L247,89.1467 Q247,87.8967 247.5938,86.8029 Q248.2031,85.7092 249.25,85.131 Q250.3125,84.5373 251.5,84.5373 Q252.2188,84.5373 252.8438,84.7873 Q253.4688,85.0373 254,85.5373 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="266" y="93.9475">PharmacyOwner</text><line style="stroke:#A80036;stroke-width:1.5;" x1="238" x2="359" y1="105.0373" y2="105.0373"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="243" y="120.4562">-String email</text><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="18" fill="#FEFECE" filter="url(#fu5exvef5k9os)" height="67.6719" id="Pharmacy" style="stroke:#A80036;stroke-width:1.5;" width="102" x="484" y="95.0373"/><ellipse cx="505.75" cy="111.0373" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M507.75,107.5373 Q507.9531,107.0373 508.1875,106.7873 Q508.4219,106.5373 508.6875,106.5373 Q509.1563,106.5373 509.4531,106.8185 Q509.75,107.0998 509.75,107.756 L509.75,109.3185 Q509.75,109.9748 509.4688,110.256 Q509.1875,110.5373 508.75,110.5373 Q508.3594,110.5373 508.1094,110.3654 Q507.8594,110.1935 507.75,109.7404 Q507.7031,109.4279 507.5313,109.256 Q507.2188,108.9279 506.6563,108.7404 Q506.0938,108.5373 505.5313,108.5373 Q504.8281,108.5373 504.2344,108.8185 Q503.6563,109.0998 503.2031,109.7248 Q502.75,110.3498 502.75,111.2092 L502.75,112.131 Q502.75,113.1623 503.5938,113.8498 Q504.4375,114.5373 505.9375,114.5373 Q506.8281,114.5373 507.4531,114.3342 Q507.8125,114.2248 508.2188,113.8654 Q508.4844,113.6623 508.625,113.5998 Q508.7656,113.5373 508.9375,113.5373 Q509.2656,113.5373 509.5,113.8029 Q509.75,114.0529 509.75,114.4123 Q509.75,114.756 509.4063,115.1623 Q508.9063,115.756 508.1094,116.0842 Q507.0625,116.5373 505.7813,116.5373 Q504.2813,116.5373 503.0781,115.9435 Q502.1094,115.4748 501.4219,114.4592 Q500.75,113.4435 500.75,112.2404 L500.75,111.1467 Q500.75,109.8967 501.3438,108.8029 Q501.9531,107.7092 503,107.131 Q504.0625,106.5373 505.25,106.5373 Q505.9688,106.5373 506.5938,106.7873 Q507.2188,107.0373 507.75,107.5373 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="521.25" y="115.9475">Pharmacy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="485" x2="585" y1="127.0373" y2="127.0373"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="490" y="142.4562">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="490" y="156.2922">-String designation</text><!--MD5=[edc107c0a572352bcd12c9afaba4390b]
+link Administrator to User--><path codeLine="27" d="M112.42,82.5273 C122.19,79.4973 132.37,76.5273 142,74.0373 C250.61,45.9473 278.27,37.1773 390,27.0373 C429.84,23.4273 476.13,24.3273 505.24,25.5173 " fill="none" id="Administrator-User" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="276.4482,21.495,267.0747,19.8856,267.919,25.7025,276.4482,21.495" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="280.5" y="27.5324">acts like</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="120.0014" y="94.7681">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="490.5486" y="20.8516">1</text><!--MD5=[8aaadde0a51a6974a75b41b6a40c57cb]
+link Administrator to Pharmacy--><path codeLine="28" d="M104.37,120.1273 C139.42,135.0273 190.26,154.0673 237,162.0373 C323.17,176.7373 424.58,157.7873 483.83,143.1173 " fill="none" id="Administrator-Pharmacy" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="279.4908,153.5155,270.6401,150.0349,270.2846,155.902,279.4908,153.5155" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="283.5" y="158.5324">creates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="109.0053" y="141.5722">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="470.9472" y="159.9053">*</text><!--MD5=[1d159e09b557516dd86ac4e281eeac81]
+link Administrator to PharmacyOwner--><path codeLine="29" d="M112.22,100.0373 C148.86,100.0373 198.14,100.0373 236.67,100.0373 " fill="none" id="Administrator-PharmacyOwner" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="152,91.2131,142.9549,88.2742,142.9549,94.152,152,91.2131" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="156" y="96.5324">registers</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="120.1259" y="114.6821">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="223.8298" y="114.5388">*</text><!--MD5=[5062cbf8407193d0414687dcab1a33a6]
+link PharmacyOwner to Pharmacy--><path codeLine="32" d="M360.19,107.5473 C398.6,112.2973 447.65,118.3573 483.84,122.8373 " fill="none" id="PharmacyOwner-Pharmacy" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="401.9622,103.8267,393.3462,99.7999,392.6248,105.6334,401.9622,103.8267" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="406" y="108.5324">belongs</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="368.135" y="122.9641">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="469.1534" y="136.6333">1</text><!--MD5=[885ae033700fffca8339460a212163f1]
+link PharmacyOwner to User--><path codeLine="33" d="M360.19,81.1473 C406.88,66.6173 469.29,47.1873 505.22,35.9973 " fill="none" id="PharmacyOwner-User" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="399.774,42.7269,390.2642,42.6094,392.0113,48.2215,399.774,42.7269" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="404" y="49.5324">acts like</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="368.135" y="93.3466">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="490.524" y="53.4551">1</text><!--MD5=[6b7022acba27286a74877a93f8b03d00]
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Administrator {
+
+}
+
+class User{
+}
+
+class PharmacyOwner {
+    -String email
+}
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+
+/'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '/
+
+Administrator "1" - - "1" User: acts like >
+Administrator "1" - - "*" Pharmacy: creates >
+Administrator "1" - - "*" PharmacyOwner: registers >
+
+
+PharmacyOwner "1" - - "1" Pharmacy: belongs >
+PharmacyOwner "1" - - "1" User: acts like >
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Administrator {
+
+}
+
+class User{
+}
+
+class PharmacyOwner {
+    -String email
+}
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+
+
+Administrator "1" - - "1" User: acts like >
+Administrator "1" - - "*" Pharmacy: creates >
+Administrator "1" - - "*" PharmacyOwner: registers >
+
+
+PharmacyOwner "1" - - "1" Pharmacy: belongs >
+PharmacyOwner "1" - - "1" User: acts like >
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

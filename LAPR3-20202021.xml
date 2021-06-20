@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ António Daniel Barbosa Fernandes, [17.05.21 19:26]
+  ~ Copyright (c) 2021.
+  ~
+  ~ Programador: António Daniel Barbosa Fernandes
+  ~
+  ~ UserName: anton
+  ~ ----------------
+  ~ INFORMAÇÕES:
+  ~ Nome do Projeto: GITHUB 1190402
+  ~ Módulo: GITHUB 1190402
+  ~ Caminho: E:/GITHUB 1190402/Licenciatura/2ºANO/1ºSEMESTRE/LAPR3/LAPR3-20202021.xml
+  ~ Ficheiro:  LAPR3-20202021.xml
+  ~ Última Edição: 18/05/21, 19:15
+  ~ Nome da Classe: LAPR3-20202021.xml
+  -->
+
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>LAPR3 2020/2021</name>
+    <description/>
+    <Style id="icon-1603-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1841-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1841-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1841-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1841-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1841-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Farmácias</name>
+      <Placemark>
+        <name>Farmácia Sousa Torres</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5608657,41.2196991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmácia Guifões</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6661002,41.2000276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Avenida</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.643729,41.1604978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmácia sá</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6118334,41.1670239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmácia de Fânzeres</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5314053,41.161141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmácia Sá da Bandeira</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6079882,41.1483509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmácia Couto</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6059455,41.1260143,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmácia Sousa Torres</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5608657,41.2196991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmácia Marques da Cunha</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.4995863,41.197642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmácia Central (Valongo)</name>
+        <styleUrl>#icon-1841-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.497875,41.189932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Clientes</name>
+      <Placemark>
+        <name>Centro Comercial Plaza</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6215353,41.2333905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Comercial Stop</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5949293,41.1460067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Comercial de Cedofeita</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6191472,41.15455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shopping Brasilia - Associação Comerciantes</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.627837,41.1575628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Comercial do Carvalhido</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6301726,41.167775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Comercial New City</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6922944,41.1823475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>centro comercial parque</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6821122,41.1845917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Traditional Shopping Street</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6047492,41.1534775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MAR Shopping Matosinhos</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.68733,41.2090041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NorteShopping</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6545763,41.1808164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Alameda Shop & Spot]]></name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5841843,41.1637391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shop</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6158318,41.1479441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espiral Colossal</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6033817,41.1436585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Praceta Salvador Caetano</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6081726,41.1330849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ArrábidaShopping</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6364535,41.1414625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Post Office Valongo</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.4975864,41.1899926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro de Distribuição dos Correios de Ermesinde</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5449672,41.2026113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Posto Correios Forno</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5758935,41.1925968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Posto de Correios de Conde Ferreira</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5881815,41.1711857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CTT</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6128568,41.1714565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Correios CTT Campo Alegre</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6310536,41.1527558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pereiró Post Office</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6549371,41.1724915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tecofix Porto</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5470428,41.1539359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FISHISCO Pesca, Lda.</name>
+        <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5752217,41.1442816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

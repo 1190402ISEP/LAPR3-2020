@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="255.5px" preserveAspectRatio="none" style="width:680px;height:255px;" version="1.1" viewBox="0 0 680 255" width="680px" zoomAndPan="magnify"><defs><filter height="300%" id="f1et55b3ql9m6v" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.0" dy="2.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="195.2305" style="stroke:#A80036;stroke-width:0.5;" width="5" x="288" y="25.8047"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="14" style="stroke:#A80036;stroke-width:0.5;" width="5" x="290.5" y="207.0352"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="555" y="52.1563"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="555" y="82.332"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="555" y="112.5078"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="555" y="142.6836"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="630.25" y="172.8594"/><line style="stroke:#A80036;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="290.5" x2="290.5" y1="20.8047" y2="233.5352"/><line style="stroke:#A80036;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="557.5" x2="557.5" y1="20.8047" y2="233.5352"/><line style="stroke:#A80036;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="632.5" x2="632.5" y1="20.8047" y2="233.5352"/><rect fill="#FEFECE" filter="url(#f1et55b3ql9m6v)" height="15.8047" style="stroke:#A80036;stroke-width:0.75;" width="97" x="241" y="2.5"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="90" x="244.5" y="13.2666">:DroneDeliveryPlanningTask</text><rect fill="#FEFECE" filter="url(#f1et55b3ql9m6v)" height="15.8047" style="stroke:#A80036;stroke-width:0.75;" width="97" x="241" y="233.0352"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="90" x="244.5" y="243.8018">:DroneDeliveryPlanningTask</text><rect fill="#FEFECE" filter="url(#f1et55b3ql9m6v)" height="15.8047" style="stroke:#A80036;stroke-width:0.75;" width="54" x="529.5" y="2.5"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="47" x="533" y="13.2666">db:PlanningDB</text><rect fill="#FEFECE" filter="url(#f1et55b3ql9m6v)" height="15.8047" style="stroke:#A80036;stroke-width:0.75;" width="54" x="529.5" y="233.0352"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="47" x="533" y="243.8018">db:PlanningDB</text><rect fill="#FEFECE" filter="url(#f1et55b3ql9m6v)" height="15.8047" style="stroke:#A80036;stroke-width:0.75;" width="82.5" x="590.5" y="2.5"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="75.5" x="594" y="13.2666">task:ChangeStatesTask</text><rect fill="#FEFECE" filter="url(#f1et55b3ql9m6v)" height="15.8047" style="stroke:#A80036;stroke-width:0.75;" width="82.5" x="590.5" y="233.0352"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="75.5" x="594" y="243.8018">task:ChangeStatesTask</text><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="195.2305" style="stroke:#A80036;stroke-width:0.5;" width="5" x="288" y="25.8047"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="14" style="stroke:#A80036;stroke-width:0.5;" width="5" x="290.5" y="207.0352"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="555" y="52.1563"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="555" y="82.332"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="555" y="112.5078"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="555" y="142.6836"/><rect fill="#FFFFFF" filter="url(#f1et55b3ql9m6v)" height="15" style="stroke:#A80036;stroke-width:0.5;" width="5" x="630.25" y="172.8594"/><polygon fill="#A80036" points="282,34.9805,287,36.9805,282,38.9805,284,36.9805" style="stroke:#A80036;stroke-width:0.5;"/><line style="stroke:#A80036;stroke-width:0.5;" x1="0" x2="285" y1="36.9805" y2="36.9805"/><text fill="#000000" font-family="sans-serif" font-size="6.5" font-weight="bold" lengthAdjust="spacing" textLength="3.5" x="3.5" y="34.5522">1</text><text fill="#000000" font-family="sans-serif" font-size="6.5" lengthAdjust="spacing" textLength="273" x="9" y="34.5522">finalSteps(db, droneID, pharmacyID, pharmacyOrders, distanceDrone, time, energyCost, pass)</text><polygon fill="#A80036" points="549,50.1563,554,52.1563,549,54.1563,551,52.1563" style="stroke:#A80036;stroke-width:0.5;"/><line style="stroke:#A80036;stroke-width:0.5;" x1="293" x2="552" y1="52.1563" y2="52.1563"/><text fill="#000000" font-family="sans-serif" font-size="6.5" font-weight="bold" lengthAdjust="spacing" textLength="3.5" x="296.5" y="49.728">2</text><text fill="#000000" font-family="sans-serif" font-size="6.5" lengthAdjust="spacing" textLength="112" x="302" y="49.728">changeStates(droneID, 0, pharmacyID)</text><polygon fill="#A80036" points="549,80.332,554,82.332,549,84.332,551,82.332" style="stroke:#A80036;stroke-width:0.5;"/><line style="stroke:#A80036;stroke-width:0.5;" x1="293" x2="552" y1="82.332" y2="82.332"/><text fill="#000000" font-family="sans-serif" font-size="6.5" font-weight="bold" lengthAdjust="spacing" textLength="3.5" x="296.5" y="79.9038">3</text><text fill="#000000" font-family="sans-serif" font-size="6.5" lengthAdjust="spacing" textLength="247" x="302" y="79.9038">idDelivery =  insertDelivery(0, droneID, pharmacyID, distanceDrone, time, energyCost)</text><polygon fill="#A80036" points="549,110.5078,554,112.5078,549,114.5078,551,112.5078" style="stroke:#A80036;stroke-width:0.5;"/><line style="stroke:#A80036;stroke-width:0.5;" x1="293" x2="552" y1="112.5078" y2="112.5078"/><text fill="#000000" font-family="sans-serif" font-size="6.5" font-weight="bold" lengthAdjust="spacing" textLength="3.5" x="296.5" y="110.0796">4</text><text fill="#000000" font-family="sans-serif" font-size="6.5" lengthAdjust="spacing" textLength="156" x="302" y="110.0796">takeVehicleEnergy(droneID, energyCost, pharmacyID)</text><polygon fill="#A80036" points="549,140.6836,554,142.6836,549,144.6836,551,142.6836" style="stroke:#A80036;stroke-width:0.5;"/><line style="stroke:#A80036;stroke-width:0.5;" x1="293" x2="552" y1="142.6836" y2="142.6836"/><text fill="#000000" font-family="sans-serif" font-size="6.5" font-weight="bold" lengthAdjust="spacing" textLength="3.5" x="296.5" y="140.2554">5</text><text fill="#000000" font-family="sans-serif" font-size="6.5" lengthAdjust="spacing" textLength="151" x="302" y="140.2554">updateOrdersDeliveryID(pharmacyOrders, idDelivery)</text><polygon fill="#A80036" points="624.25,170.8594,629.25,172.8594,624.25,174.8594,626.25,172.8594" style="stroke:#A80036;stroke-width:0.5;"/><line style="stroke:#A80036;stroke-width:0.5;stroke-dasharray:2.0,2.0;" x1="293" x2="627.25" y1="172.8594" y2="172.8594"/><text fill="#000000" font-family="sans-serif" font-size="6.5" font-weight="bold" lengthAdjust="spacing" textLength="3.5" x="296.5" y="170.4312">6</text><text fill="#000000" font-family="sans-serif" font-size="6.5" lengthAdjust="spacing" textLength="93.5" x="302" y="170.4312">create(droneID, db, pharmacyID)</text><line style="stroke:#A80036;stroke-width:0.5;" x1="295.5" x2="316.5" y1="203.0352" y2="203.0352"/><line style="stroke:#A80036;stroke-width:0.5;" x1="316.5" x2="316.5" y1="203.0352" y2="209.5352"/><line style="stroke:#A80036;stroke-width:0.5;" x1="296" x2="316.5" y1="209.5352" y2="209.5352"/><polygon fill="#A80036" points="301,207.5352,296,209.5352,301,211.5352,299,209.5352" style="stroke:#A80036;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="6.5" font-weight="bold" lengthAdjust="spacing" textLength="3.5" x="299" y="200.6069">7</text><text fill="#000000" font-family="sans-serif" font-size="6.5" lengthAdjust="spacing" textLength="74.5" x="304.5" y="200.6069">changeStateDrone(TASK)</text><!--MD5=[62b5b43a935b7bb6350162356b215d48]
+@startuml
+autonumber
+
+
+participant ":DroneDeliveryPlanningTask" as TASK
+participant "db:PlanningDB" as DB
+participant "task:ChangeStatesTask" as CHANGE
+
+
+activate TASK
+-> TASK: finalSteps(db, droneID, pharmacyID, pharmacyOrders, distanceDrone, time, energyCost, pass)
+
+TASK -> DB: changeStates(droneID, 0, pharmacyID)
+
+activate DB
+deactivate DB
+
+TASK -> DB: idDelivery =  insertDelivery(0, droneID, pharmacyID, distanceDrone, time, energyCost)
+
+activate DB
+deactivate DB
+
+TASK -> DB: takeVehicleEnergy(droneID, energyCost, pharmacyID)
+activate DB
+deactivate DB
+
+
+TASK -> DB: updateOrdersDeliveryID(pharmacyOrders, idDelivery)
+
+activate DB
+deactivate DB
+
+
+TASK - -> CHANGE: create(droneID, db, pharmacyID)
+
+activate CHANGE
+deactivate CHANGE
+
+
+
+
+TASK -> TASK: changeStateDrone(TASK)
+activate TASK
+deactivate TASK
+
+deactivate TASK
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,62 @@
+@startuml
+autonumber
+'hide footbox
+actor "Client" as ADM
+
+participant ":CancelOrderUI" as UI
+participant ":CheckoutBasketController" as CTRL
+participant ":UserSession" as US
+participant "session:UserSession" as SUS
+participant "user:User" as U
+participant ":ClientDB" as AC
+participant ":OrdersQueue" as OQ
+
+activate ADM
+
+ADM -> UI : starts canceling an order
+activate UI
+UI -> CTRL: getClientOrdersByEmail()
+
+activate CTRL
+
+CTRL -> US : session=getUserSession()
+activate US
+deactivate US
+
+CTRL -> SUS : user=getUser()
+activate SUS
+deactivate SUS
+
+CTRL -> U : email=getUserEmail()
+activate U
+deactivate U
+
+CTRL -> AC : getClientOrdersByEmail(email)
+activate AC
+deactivate CTRL
+deactivate AC
+UI --> ADM : shows all orders and requests the order id
+deactivate UI
+
+ADM --> UI : inserts order id
+activate UI
+UI --> CTRL: changeOrderToCanceled(id)
+activate CTRL
+CTRL --> AC: changeOrderToCanceled(id)
+activate AC
+AC --> OQ: removeOrderFromQueue(id)
+activate OQ
+deactivate OQ
+deactivate CTRL
+deactivate AC
+
+
+
+
+UI --> ADM : process finishes
+deactivate UI
+
+
+deactivate ADM
+@enduml
+

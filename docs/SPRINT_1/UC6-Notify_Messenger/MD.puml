@@ -1,0 +1,17 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class ChargingStation {
+    -Integer id
+}
+
+class EmailService {
+}
+
+/'------------------------------------------------------------------------------------ '/
+
+ChargingStation "1" -- "1" EmailService : has >
+
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+
+
+class StatsUI {
+
+}
+
+class StatsController {
+    +showStats()
+
+}
+
+class Statistics {
+    +List<Delivery> getAllDeliverys()
+    +printStatistics(List<Delivery> deliverys)
+
+}
+
+class StatisticsDB {
+    +List<Delivery> getAllDeliverys()
+}
+
+StatsUI ..> StatsController
+
+StatsController ..> Statistics
+StatsController ..> StatisticsDB
+
+
+
+@enduml

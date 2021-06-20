@@ -1,0 +1,167 @@
+@startuml
+autonumber
+
+actor "Timer" as TIME
+
+
+participant ":ScooterDeliveryPlanningTask" as TASK
+participant ":OrdersQueue" as QU
+participant "orders:Map<Integer,List<Integer>>" as MAP
+participant ":PlanningDB" as DB
+participant "pharmacyOrders:List<Integer>" as ORDERS
+participant "cords:LinkedList<String>" AS CORDS
+participant "pesosPorEcomenda:Map<String, Float>" as MAPPESOS
+participant ":DeliveryPlanning" as PLAN
+participant "allFarmacias:Map<Integer, String>" as ALLFARMACIAS
+participant "remainingPath:LinkedList<String>" as REMAINING
+participant ":Print" as PT
+
+
+
+note over TIME: when time arrives
+TIME -> TASK: run()
+activate TASK
+
+TASK -> QU: orders = getOrders()
+
+activate  QU
+deactivate  QU
+
+loop pharmacyOrders = orders.get(i) | i = pharmacyID
+
+
+TASK -> DB: cords = getCordsByOrders(pharmacyOrders)
+
+activate DB
+deactivate DB
+
+TASK -> DB: pesosPorEcomenda = getPesosPorEncomenda(pharmacyOrders)
+
+activate DB
+deactivate DB
+
+TASK -> PLAN: payload = getTotalPayload(pesosPorEcomenda)
+
+activate PLAN
+deactivate PLAN
+
+TASK -> DB: pharmacyCords = getCoordinatesByPharmacyID(pharmacyID)
+
+activate DB
+deactivate DB
+
+TASK -> DB: courierNIF = getAvailableCourier(pharmacyID)
+activate DB
+deactivate DB
+
+alt if courierNIF == 0
+
+ref over TASK: UC_29_DroneDeliveryPlanning
+end
+
+TASK -> DB: scooterID = getAvailableScooter(courierNIF, pharmacyID, payload)
+
+activate DB
+deactivate DB
+
+alt if scooterID == 0
+
+ref over TASK: UC_29_DroneDeliveryPlanning
+end
+
+TASK -> DB: actualBatteryWH = getActualBatteryVehicle(scooterID, pharmacyID)
+
+activate DB
+deactivate DB
+
+
+TASK -> DB: allFarmacias = getCordsOfPharmacysWithAvailableChargingStation(VehicleType.SCOOTER)
+activate DB
+deactivate DB
+
+TASK --> REMAINING**: create()
+
+TASK -> PLAN: path = shortestPath(cords, pharmacyCords, VehicleType.SCOOTER, actualBatteryWH, allFarmacias, remainingPath, payload, pesosPorEncomenda)
+
+activate PLAN
+deactivate PLAN
+
+alt if path == null
+
+ref over TASK: UC_29_DroneDeliveryPlanning
+end
+
+TASK -> PLAN: distance = pathWeight(path)
+
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN: velocidade = getVelocidadeScooter()
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN: time = calculateSpentTime(distance, velocidade)
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN: energyCost = calculateEnergyCost(path, payload, VehicleType.SCOOTER, pesosPorEncomenda)
+activate PLAN
+deactivate PLAN
+
+TASK -> DB: changestates = changeStates(scooterID, courierNIF, pharmacyID)
+activate DB
+deactivate DB
+
+TASK -> DB: deliveryID = insertDelivery(courierNIF, scooterID, pharmacyID, distance, time, energyCost)
+
+activate DB
+deactivate DB
+
+
+TASK -> PT: printFileDelivery(path, distance, time, energyCost, deliveryID, outputFileName, actualBatteryWH, payload, scooterID, courierNIF, pharmacyCords)
+activate PT
+deactivate PT
+
+TASK -> DB: takeVehicleEnergy(scooterID, energyCost, pharmacyID)
+
+activate DB
+deactivate DB
+
+
+TASK -> DB: updateOrdersDeliveryID(pharmacyOrders, deliveryID)
+activate DB
+deactivate DB
+
+alt if !remainingPath.isEmpty()
+ref over TASK: SD_TratarRemainingPath_UC5
+
+end
+
+TASK -> TASK: changeStates(courierNIF, scooterID, pharmacyID)
+activate TASK
+deactivate TASK
+
+TASK -> PT: printPhisics(outputFileName, VehicleType.SCOOTER)
+activate PT
+deactivate PT
+
+
+TASK -> DB: updateOrderStateToDelivered(deliveryID)
+
+activate DB
+deactivate DB
+
+end
+
+TASK -> QU: clearQueue()
+activate QU
+deactivate QU
+
+deactivate TASK
+
+
+
+
+
+
+@enduml

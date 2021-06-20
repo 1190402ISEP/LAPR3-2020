@@ -1,0 +1,10 @@
+delete from INVOICE where ORDERID = 1
+delete from PRODUCTPERORDER where ORDERID = 1
+delete from CLIENTORDER where ID = 1
+delete from ORDERS where ID = 1
+DELETE FROM CREDITCARD WHERE cardNumber = '5454547346385034'
+delete from CLIENT where USEREMAIL = 'rui3@gmail.com'
+delete from Users where email = 'rui3@gmail.com'
+delete from PRODUCT where name = 'Teste'
+delete from ADDRESS where COORDINATES = '42.178594 -8.639224'
+delete from MapPoint where COORDINATES = '42.178594 -8.639224'

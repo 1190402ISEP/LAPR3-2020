@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="560px" preserveAspectRatio="none" style="width:1060px;height:560px;" version="1.1" viewBox="0 0 1060 560" width="1060px" zoomAndPan="magnify"><defs><filter height="300%" id="f19vb6efm4j7n5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="6" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="95.3438" id="User" style="stroke:#A80036;stroke-width:1.5;" width="97" x="216" y="451.5"/><ellipse cx="248.1" cy="467.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M250.1,464 Q250.3031,463.5 250.5375,463.25 Q250.7719,463 251.0375,463 Q251.5063,463 251.8031,463.2813 Q252.1,463.5625 252.1,464.2188 L252.1,465.7813 Q252.1,466.4375 251.8188,466.7188 Q251.5375,467 251.1,467 Q250.7094,467 250.4594,466.8281 Q250.2094,466.6563 250.1,466.2031 Q250.0531,465.8906 249.8813,465.7188 Q249.5688,465.3906 249.0063,465.2031 Q248.4438,465 247.8813,465 Q247.1781,465 246.5844,465.2813 Q246.0063,465.5625 245.5531,466.1875 Q245.1,466.8125 245.1,467.6719 L245.1,468.5938 Q245.1,469.625 245.9438,470.3125 Q246.7875,471 248.2875,471 Q249.1781,471 249.8031,470.7969 Q250.1625,470.6875 250.5688,470.3281 Q250.8344,470.125 250.975,470.0625 Q251.1156,470 251.2875,470 Q251.6156,470 251.85,470.2656 Q252.1,470.5156 252.1,470.875 Q252.1,471.2188 251.7563,471.625 Q251.2563,472.2188 250.4594,472.5469 Q249.4125,473 248.1313,473 Q246.6313,473 245.4281,472.4063 Q244.4594,471.9375 243.7719,470.9219 Q243.1,469.9063 243.1,468.7031 L243.1,467.6094 Q243.1,466.3594 243.6938,465.2656 Q244.3031,464.1719 245.35,463.5938 Q246.4125,463 247.6,463 Q248.3188,463 248.9438,463.25 Q249.5688,463.5 250.1,464 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="265.9" y="472.4102">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="217" x2="312" y1="483.5" y2="483.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="222" y="498.9189">-String name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="222" y="512.7549">-String email</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="222" y="526.5908">-String password</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55" x="222" y="540.4268">-Integer NIF</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="15" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="53.8359" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="85" x="7" y="327"/><ellipse cx="31.45" cy="343" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M33.45,339.5 Q33.6531,339 33.8875,338.75 Q34.1219,338.5 34.3875,338.5 Q34.8563,338.5 35.1531,338.7813 Q35.45,339.0625 35.45,339.7188 L35.45,341.2813 Q35.45,341.9375 35.1688,342.2188 Q34.8875,342.5 34.45,342.5 Q34.0594,342.5 33.8094,342.3281 Q33.5594,342.1563 33.45,341.7031 Q33.4031,341.3906 33.2313,341.2188 Q32.9188,340.8906 32.3563,340.7031 Q31.7938,340.5 31.2313,340.5 Q30.5281,340.5 29.9344,340.7813 Q29.3563,341.0625 28.9031,341.6875 Q28.45,342.3125 28.45,343.1719 L28.45,344.0938 Q28.45,345.125 29.2938,345.8125 Q30.1375,346.5 31.6375,346.5 Q32.5281,346.5 33.1531,346.2969 Q33.5125,346.1875 33.9188,345.8281 Q34.1844,345.625 34.325,345.5625 Q34.4656,345.5 34.6375,345.5 Q34.9656,345.5 35.2,345.7656 Q35.45,346.0156 35.45,346.375 Q35.45,346.7188 35.1063,347.125 Q34.6063,347.7188 33.8094,348.0469 Q32.7625,348.5 31.4813,348.5 Q29.9813,348.5 28.7781,347.9063 Q27.8094,347.4375 27.1219,346.4219 Q26.45,345.4063 26.45,344.2031 L26.45,343.1094 Q26.45,341.8594 27.0438,340.7656 Q27.6531,339.6719 28.7,339.0938 Q29.7625,338.5 30.95,338.5 Q31.6688,338.5 32.2938,338.75 Q32.9188,339 33.45,339.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="47.55" y="347.9102">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="91" y1="359" y2="359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="13" y="374.4189">-Integer credits</text><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="22" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="67.6719" id="Pharmacy" style="stroke:#A80036;stroke-width:1.5;" width="102" x="736" y="7"/><ellipse cx="757.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M759.75,19.5 Q759.9531,19 760.1875,18.75 Q760.4219,18.5 760.6875,18.5 Q761.1563,18.5 761.4531,18.7813 Q761.75,19.0625 761.75,19.7188 L761.75,21.2813 Q761.75,21.9375 761.4688,22.2188 Q761.1875,22.5 760.75,22.5 Q760.3594,22.5 760.1094,22.3281 Q759.8594,22.1563 759.75,21.7031 Q759.7031,21.3906 759.5313,21.2188 Q759.2188,20.8906 758.6563,20.7031 Q758.0938,20.5 757.5313,20.5 Q756.8281,20.5 756.2344,20.7813 Q755.6563,21.0625 755.2031,21.6875 Q754.75,22.3125 754.75,23.1719 L754.75,24.0938 Q754.75,25.125 755.5938,25.8125 Q756.4375,26.5 757.9375,26.5 Q758.8281,26.5 759.4531,26.2969 Q759.8125,26.1875 760.2188,25.8281 Q760.4844,25.625 760.625,25.5625 Q760.7656,25.5 760.9375,25.5 Q761.2656,25.5 761.5,25.7656 Q761.75,26.0156 761.75,26.375 Q761.75,26.7188 761.4063,27.125 Q760.9063,27.7188 760.1094,28.0469 Q759.0625,28.5 757.7813,28.5 Q756.2813,28.5 755.0781,27.9063 Q754.1094,27.4375 753.4219,26.4219 Q752.75,25.4063 752.75,24.2031 L752.75,23.1094 Q752.75,21.8594 753.3438,20.7656 Q753.9531,19.6719 755,19.0938 Q756.0625,18.5 757.25,18.5 Q757.9688,18.5 758.5938,18.75 Q759.2188,19 759.75,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="773.25" y="27.9102">Pharmacy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="737" x2="837" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="742" y="54.4189">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="742" y="68.2549">-String designation</text><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="30" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="123.0156" id="Product" style="stroke:#A80036;stroke-width:1.5;" width="78" x="951" y="82.5"/><ellipse cx="967.8" cy="98.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M969.8,95 Q970.0031,94.5 970.2375,94.25 Q970.4719,94 970.7375,94 Q971.2063,94 971.5031,94.2813 Q971.8,94.5625 971.8,95.2188 L971.8,96.7813 Q971.8,97.4375 971.5188,97.7188 Q971.2375,98 970.8,98 Q970.4094,98 970.1594,97.8281 Q969.9094,97.6563 969.8,97.2031 Q969.7531,96.8906 969.5813,96.7188 Q969.2688,96.3906 968.7063,96.2031 Q968.1438,96 967.5813,96 Q966.8781,96 966.2844,96.2813 Q965.7063,96.5625 965.2531,97.1875 Q964.8,97.8125 964.8,98.6719 L964.8,99.5938 Q964.8,100.625 965.6438,101.3125 Q966.4875,102 967.9875,102 Q968.8781,102 969.5031,101.7969 Q969.8625,101.6875 970.2688,101.3281 Q970.5344,101.125 970.675,101.0625 Q970.8156,101 970.9875,101 Q971.3156,101 971.55,101.2656 Q971.8,101.5156 971.8,101.875 Q971.8,102.2188 971.4563,102.625 Q970.9563,103.2188 970.1594,103.5469 Q969.1125,104 967.8313,104 Q966.3313,104 965.1281,103.4063 Q964.1594,102.9375 963.4719,101.9219 Q962.8,100.9063 962.8,99.7031 L962.8,98.6094 Q962.8,97.3594 963.3938,96.2656 Q964.0031,95.1719 965.05,94.5938 Q966.1125,94 967.3,94 Q968.0188,94 968.6438,94.25 Q969.2688,94.5 969.8,95 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="982.2" y="103.4102">Product</text><line style="stroke:#A80036;stroke-width:1.5;" x1="952" x2="1028" y1="114.5" y2="114.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="957" y="129.9189">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="957" y="143.7549">-String name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="957" y="157.5908">-Integer stock</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="957" y="171.4268">-Float price</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="957" y="185.2627">-float weight</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="42" x="957" y="199.0986">-float iva</text><!--MD5=[cf4d6237fcae255cd2e1656cf84a30e2]
+class Order--><rect codeLine="40" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="95.3438" id="Order" style="stroke:#A80036;stroke-width:1.5;" width="95" x="217" y="153.5"/><ellipse cx="246.4" cy="169.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M248.4,166 Q248.6031,165.5 248.8375,165.25 Q249.0719,165 249.3375,165 Q249.8063,165 250.1031,165.2813 Q250.4,165.5625 250.4,166.2188 L250.4,167.7813 Q250.4,168.4375 250.1188,168.7188 Q249.8375,169 249.4,169 Q249.0094,169 248.7594,168.8281 Q248.5094,168.6563 248.4,168.2031 Q248.3531,167.8906 248.1813,167.7188 Q247.8688,167.3906 247.3063,167.2031 Q246.7438,167 246.1813,167 Q245.4781,167 244.8844,167.2813 Q244.3063,167.5625 243.8531,168.1875 Q243.4,168.8125 243.4,169.6719 L243.4,170.5938 Q243.4,171.625 244.2438,172.3125 Q245.0875,173 246.5875,173 Q247.4781,173 248.1031,172.7969 Q248.4625,172.6875 248.8688,172.3281 Q249.1344,172.125 249.275,172.0625 Q249.4156,172 249.5875,172 Q249.9156,172 250.15,172.2656 Q250.4,172.5156 250.4,172.875 Q250.4,173.2188 250.0563,173.625 Q249.5563,174.2188 248.7594,174.5469 Q247.7125,175 246.4313,175 Q244.9313,175 243.7281,174.4063 Q242.7594,173.9375 242.0719,172.9219 Q241.4,171.9063 241.4,170.7031 L241.4,169.6094 Q241.4,168.3594 241.9938,167.2656 Q242.6031,166.1719 243.65,165.5938 Q244.7125,165 245.9,165 Q246.6188,165 247.2438,165.25 Q247.8688,165.5 248.4,166 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="263.6" y="174.4102">Order</text><line style="stroke:#A80036;stroke-width:1.5;" x1="218" x2="311" y1="185.5" y2="185.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="223" y="200.9189">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="223" y="214.7549">-Date orderDate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="223" y="228.5908">-Date deliverDate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55" x="223" y="242.4268">-Integer NIF</text><!--MD5=[b0808aa00a5c1d2430824b5104b080bc]
+class OrderState--><rect codeLine="48" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="67.6719" id="OrderState" style="stroke:#A80036;stroke-width:1.5;" width="102" x="476" y="160"/><ellipse cx="495.95" cy="176" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M497.95,172.5 Q498.1531,172 498.3875,171.75 Q498.6219,171.5 498.8875,171.5 Q499.3563,171.5 499.6531,171.7813 Q499.95,172.0625 499.95,172.7188 L499.95,174.2813 Q499.95,174.9375 499.6688,175.2188 Q499.3875,175.5 498.95,175.5 Q498.5594,175.5 498.3094,175.3281 Q498.0594,175.1563 497.95,174.7031 Q497.9031,174.3906 497.7313,174.2188 Q497.4188,173.8906 496.8563,173.7031 Q496.2938,173.5 495.7313,173.5 Q495.0281,173.5 494.4344,173.7813 Q493.8563,174.0625 493.4031,174.6875 Q492.95,175.3125 492.95,176.1719 L492.95,177.0938 Q492.95,178.125 493.7938,178.8125 Q494.6375,179.5 496.1375,179.5 Q497.0281,179.5 497.6531,179.2969 Q498.0125,179.1875 498.4188,178.8281 Q498.6844,178.625 498.825,178.5625 Q498.9656,178.5 499.1375,178.5 Q499.4656,178.5 499.7,178.7656 Q499.95,179.0156 499.95,179.375 Q499.95,179.7188 499.6063,180.125 Q499.1063,180.7188 498.3094,181.0469 Q497.2625,181.5 495.9813,181.5 Q494.4813,181.5 493.2781,180.9063 Q492.3094,180.4375 491.6219,179.4219 Q490.95,178.4063 490.95,177.2031 L490.95,176.1094 Q490.95,174.8594 491.5438,173.7656 Q492.1531,172.6719 493.2,172.0938 Q494.2625,171.5 495.45,171.5 Q496.1688,171.5 496.7938,171.75 Q497.4188,172 497.95,172.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="59" x="511.05" y="180.9102">OrderState</text><line style="stroke:#A80036;stroke-width:1.5;" x1="477" x2="577" y1="192" y2="192"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="482" y="207.4189">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="482" y="221.2549">-String designation</text><!--MD5=[894442645724153f40a9f7a43026dbfc]
+class Invoice--><rect codeLine="54" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="67.6719" id="Invoice" style="stroke:#A80036;stroke-width:1.5;" width="96" x="739" y="110"/><ellipse cx="765.7" cy="126" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M767.7,122.5 Q767.9031,122 768.1375,121.75 Q768.3719,121.5 768.6375,121.5 Q769.1063,121.5 769.4031,121.7813 Q769.7,122.0625 769.7,122.7188 L769.7,124.2813 Q769.7,124.9375 769.4188,125.2188 Q769.1375,125.5 768.7,125.5 Q768.3094,125.5 768.0594,125.3281 Q767.8094,125.1563 767.7,124.7031 Q767.6531,124.3906 767.4813,124.2188 Q767.1688,123.8906 766.6063,123.7031 Q766.0438,123.5 765.4813,123.5 Q764.7781,123.5 764.1844,123.7813 Q763.6063,124.0625 763.1531,124.6875 Q762.7,125.3125 762.7,126.1719 L762.7,127.0938 Q762.7,128.125 763.5438,128.8125 Q764.3875,129.5 765.8875,129.5 Q766.7781,129.5 767.4031,129.2969 Q767.7625,129.1875 768.1688,128.8281 Q768.4344,128.625 768.575,128.5625 Q768.7156,128.5 768.8875,128.5 Q769.2156,128.5 769.45,128.7656 Q769.7,129.0156 769.7,129.375 Q769.7,129.7188 769.3563,130.125 Q768.8563,130.7188 768.0594,131.0469 Q767.0125,131.5 765.7313,131.5 Q764.2313,131.5 763.0281,130.9063 Q762.0594,130.4375 761.3719,129.4219 Q760.7,128.4063 760.7,127.2031 L760.7,126.1094 Q760.7,124.8594 761.2938,123.7656 Q761.9031,122.6719 762.95,122.0938 Q764.0125,121.5 765.2,121.5 Q765.9188,121.5 766.5438,121.75 Q767.1688,122 767.7,122.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38" x="782.3" y="130.9102">Invoice</text><line style="stroke:#A80036;stroke-width:1.5;" x1="740" x2="834" y1="142" y2="142"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="745" y="157.4189">-float totalPrice</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="745" y="171.2549">-float deliveryFee</text><!--MD5=[91d4151b6d4c9a3d01b6d84b2458eece]
+class CreditCard--><rect codeLine="59" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="81.5078" id="CreditCard" style="stroke:#A80036;stroke-width:1.5;" width="102" x="476" y="263"/><ellipse cx="495.5" cy="279" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M497.5,275.5 Q497.7031,275 497.9375,274.75 Q498.1719,274.5 498.4375,274.5 Q498.9063,274.5 499.2031,274.7813 Q499.5,275.0625 499.5,275.7188 L499.5,277.2813 Q499.5,277.9375 499.2188,278.2188 Q498.9375,278.5 498.5,278.5 Q498.1094,278.5 497.8594,278.3281 Q497.6094,278.1563 497.5,277.7031 Q497.4531,277.3906 497.2813,277.2188 Q496.9688,276.8906 496.4063,276.7031 Q495.8438,276.5 495.2813,276.5 Q494.5781,276.5 493.9844,276.7813 Q493.4063,277.0625 492.9531,277.6875 Q492.5,278.3125 492.5,279.1719 L492.5,280.0938 Q492.5,281.125 493.3438,281.8125 Q494.1875,282.5 495.6875,282.5 Q496.5781,282.5 497.2031,282.2969 Q497.5625,282.1875 497.9688,281.8281 Q498.2344,281.625 498.375,281.5625 Q498.5156,281.5 498.6875,281.5 Q499.0156,281.5 499.25,281.7656 Q499.5,282.0156 499.5,282.375 Q499.5,282.7188 499.1563,283.125 Q498.6563,283.7188 497.8594,284.0469 Q496.8125,284.5 495.5313,284.5 Q494.0313,284.5 492.8281,283.9063 Q491.8594,283.4375 491.1719,282.4219 Q490.5,281.4063 490.5,280.2031 L490.5,279.1094 Q490.5,277.8594 491.0938,276.7656 Q491.7031,275.6719 492.75,275.0938 Q493.8125,274.5 495,274.5 Q495.7188,274.5 496.3438,274.75 Q496.9688,275 497.5,275.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="60" x="510.5" y="283.9102">CreditCard</text><line style="stroke:#A80036;stroke-width:1.5;" x1="477" x2="577" y1="295" y2="295"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="482" y="310.4189">-Integer number</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="482" y="324.2549">-Integer CVV</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="482" y="338.0908">-Date expirateDate</text><!--MD5=[2a1e996203469562438a97caaf4e1042]
+class BasketProduct--><rect codeLine="65" fill="#FEFECE" filter="url(#f19vb6efm4j7n5)" height="53.8359" id="BasketProduct" style="stroke:#A80036;stroke-width:1.5;" width="112" x="934" y="333"/><ellipse cx="949" cy="349" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M951,345.5 Q951.2031,345 951.4375,344.75 Q951.6719,344.5 951.9375,344.5 Q952.4063,344.5 952.7031,344.7813 Q953,345.0625 953,345.7188 L953,347.2813 Q953,347.9375 952.7188,348.2188 Q952.4375,348.5 952,348.5 Q951.6094,348.5 951.3594,348.3281 Q951.1094,348.1563 951,347.7031 Q950.9531,347.3906 950.7813,347.2188 Q950.4688,346.8906 949.9063,346.7031 Q949.3438,346.5 948.7813,346.5 Q948.0781,346.5 947.4844,346.7813 Q946.9063,347.0625 946.4531,347.6875 Q946,348.3125 946,349.1719 L946,350.0938 Q946,351.125 946.8438,351.8125 Q947.6875,352.5 949.1875,352.5 Q950.0781,352.5 950.7031,352.2969 Q951.0625,352.1875 951.4688,351.8281 Q951.7344,351.625 951.875,351.5625 Q952.0156,351.5 952.1875,351.5 Q952.5156,351.5 952.75,351.7656 Q953,352.0156 953,352.375 Q953,352.7188 952.6563,353.125 Q952.1563,353.7188 951.3594,354.0469 Q950.3125,354.5 949.0313,354.5 Q947.5313,354.5 946.3281,353.9063 Q945.3594,353.4375 944.6719,352.4219 Q944,351.4063 944,350.2031 L944,349.1094 Q944,347.8594 944.5938,346.7656 Q945.2031,345.6719 946.25,345.0938 Q947.3125,344.5 948.5,344.5 Q949.2188,344.5 949.8438,344.75 Q950.4688,345 951,345.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80" x="963" y="353.9102">BasketProduct</text><line style="stroke:#A80036;stroke-width:1.5;" x1="935" x2="1045" y1="365" y2="365"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="940" y="380.4189">-Integer quantity</text><!--MD5=[9a8dc34b38f85b9f3fcdb440f4bffc6a]
+link Client to User--><path codeLine="73" d="M67.3,381.34 C80.24,400.5 99.67,425.52 122,442 C150.13,462.76 186.87,477.26 215.86,486.45 " fill="none" id="Client-User" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="131.0817,436.0637,125.3953,428.4403,122.0004,433.2386,131.0817,436.0637" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="136" y="438.4951">acts like</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="63.2494" y="402.1772">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="200.8761" y="499.249">1</text><!--MD5=[0748050afd2139cbb3c9faec3f892ae9]
+link Client to CreditCard--><path codeLine="75" d="M92.28,349.61 C179.64,340.42 381.33,319.21 475.65,309.29 " fill="none" id="Client-CreditCard" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="256.4726,317.6528,247.1697,315.6761,247.7845,321.5217,256.4726,317.6528" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="260.5" y="323.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="99.9451" y="363.7457">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="463.0773" y="324.7133">*</text><!--MD5=[879bec428a80d843af24dc47845bf14c]
+link Client to Order--><path codeLine="76" d="M75.25,326.78 C88.41,313.1 105.3,296.77 122,284 C151.75,261.26 188.28,239.98 216.76,224.66 " fill="none" id="Client-Order" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="140.0545,231.2499,131,234.1597,134.4396,238.9261,140.0545,231.2499" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="31" x="145" y="239.4951">place</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="73.3953" y="316.1901">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="204.067" y="243.0037">*</text><!--MD5=[af957f8c6a0b6f3d651852b9feddd2cf]
+link Client to BasketProduct--><path codeLine="77" d="M92.01,367.8 C134.56,380.7 202.9,398 263.5,398 C263.5,398 263.5,398 788,398 C837.9,398 893.57,386.55 933.65,376.23 " fill="none" id="Client-BasketProduct" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="617.9997,389.2259,608.9846,386.1965,608.9257,392.074,617.9997,389.2259" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="622" y="394.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="99.918" y="385.0863">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="921.1098" y="392.8626">*</text><!--MD5=[97178b038c2e5d08963e5ba909288002]
+link Product to BasketProduct--><path codeLine="79" d="M990,205.52 C990,247.42 990,300.86 990,332.64 " fill="none" id="Product-BasketProduct" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="958.5,274.4258,961.4389,265.3807,955.5611,265.3807,958.5,274.4258" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="34" x="967.5" y="274.7451">inside</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="982.5953" y="227.0728">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="984.4219" y="322.0177">*</text><!--MD5=[737ca6dd1a667cd849e932d7cf955580]
+link Pharmacy to Product--><path codeLine="81" d="M838.2,66.73 C873.09,84.6 918.86,108.06 950.79,124.42 " fill="none" id="Pharmacy-Product" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="877.4499,77.4558,870.7402,70.7156,868.0598,75.9467,877.4499,77.4558" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="882" y="80.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="845.8922" y="85.0162">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="938.0997" y="135.811">*</text><!--MD5=[e8689f9ac8b030dc23cc8d4cad888e90]
+link Order to Invoice--><path codeLine="83" d="M312.23,181.58 C322.28,177.77 332.91,174.03 343,171 C400.94,153.58 415.85,148.48 476,142 C521.07,137.14 532.67,141.78 578,142 C633.25,142.27 696.76,142.93 738.91,143.42 " fill="none" id="Order-Invoice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="617.9801,133.7304,608.7092,131.6089,609.2328,137.4634,617.9801,133.7304" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="622" y="139.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="320.0746" y="193.327">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="724.0103" y="158.1033">1</text><!--MD5=[72e744b1f7ec345412f1ea79f30940ed]
+link Invoice to Product--><path codeLine="85" d="M835.13,144 C870.4,144 918.03,144 950.91,144 " fill="none" id="Invoice-Product" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="878,135.1758,868.9549,132.2369,868.9549,138.1147,878,135.1758" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="882" y="140.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="843.0358" y="158.7722">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="923.0863" y="158.7969">1..*</text><!--MD5=[ab4946417b991c9aec273b5527d3eb58]
+link Order to OrderState--><path codeLine="88" d="M312.07,199.75 C358.17,198.51 428.52,196.62 475.83,195.35 " fill="none" id="Order-OrderState" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="386.4982,188.0415,377.3774,185.3466,377.5353,191.2223,386.4982,188.0415" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="390.5" y="193.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="319.8901" y="214.2793">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="461.142" y="210.2078">1</text><!--MD5=[9e541693026e1af25d43e03808f1e411]
+link Order to CreditCard--><path codeLine="89" d="M312.07,219.41 C358.17,237.64 428.52,265.46 475.83,284.16 " fill="none" id="Order-CreditCard" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="352.6497,228.0143,345.3189,221.9554,343.1577,227.4215,352.6497,228.0143" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="357" y="231.4951">has associated</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="319.8901" y="236.9497">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="461.142" y="296.0494">1</text><!--MD5=[e9bcb02de78620d2c026015a9c4c76ee]
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+
+
+class Product {
+    -Integer id
+    -String name
+    -Integer stock
+    -Float price
+    -float weight
+    -float iva
+}
+
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+
+}
+                       
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+
+class Invoice {
+    -float totalPrice
+    -float deliveryFee
+}
+
+class CreditCard {
+    -Integer number
+    -Integer CVV
+    -Date expirateDate
+}
+
+class BasketProduct {
+    -Integer quantity
+
+}
+
+/'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '/
+
+
+Client "1" - - "1" User: acts like >
+
+Client "1" - - "*" CreditCard: has >
+Client "1" - - "*" Order: place >
+Client "1" - - "*" BasketProduct: has >
+
+Product "1" - "*" BasketProduct: inside >
+
+Pharmacy "1" - - "*" Product: has >
+
+Order "1" - - - - "1" Invoice: has >
+
+Invoice "1" - - "1..*" Product: has >
+
+
+Order "1" - - "1" OrderState: has >
+Order "1" - - "1" CreditCard: has associated >
+
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+
+
+class Product {
+    -Integer id
+    -String name
+    -Integer stock
+    -Float price
+    -float weight
+    -float iva
+}
+
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+
+}
+                       
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+
+class Invoice {
+    -float totalPrice
+    -float deliveryFee
+}
+
+class CreditCard {
+    -Integer number
+    -Integer CVV
+    -Date expirateDate
+}
+
+class BasketProduct {
+    -Integer quantity
+
+}
+
+
+
+Client "1" - - "1" User: acts like >
+
+Client "1" - - "*" CreditCard: has >
+Client "1" - - "*" Order: place >
+Client "1" - - "*" BasketProduct: has >
+
+Product "1" - "*" BasketProduct: inside >
+
+Pharmacy "1" - - "*" Product: has >
+
+Order "1" - - - - "1" Invoice: has >
+
+Invoice "1" - - "1..*" Product: has >
+
+
+Order "1" - - "1" OrderState: has >
+Order "1" - - "1" CreditCard: has associated >
+
+
+
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

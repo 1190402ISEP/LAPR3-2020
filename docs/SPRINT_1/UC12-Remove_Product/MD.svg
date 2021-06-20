@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="181px" preserveAspectRatio="none" style="width:550px;height:181px;" version="1.1" viewBox="0 0 550 181" width="550px" zoomAndPan="magnify"><defs><filter height="300%" id="f3s741jcubrp0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9bbbf393737a6198989a25ce03335616]
+class PharmacyOwner--><rect codeLine="8" fill="#FEFECE" filter="url(#f3s741jcubrp0)" height="40" id="PharmacyOwner" style="stroke:#A80036;stroke-width:1.5;" width="123" x="7" y="79"/><ellipse cx="22" cy="95" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24,91.5 Q24.2031,91 24.4375,90.75 Q24.6719,90.5 24.9375,90.5 Q25.4063,90.5 25.7031,90.7813 Q26,91.0625 26,91.7188 L26,93.2813 Q26,93.9375 25.7188,94.2188 Q25.4375,94.5 25,94.5 Q24.6094,94.5 24.3594,94.3281 Q24.1094,94.1563 24,93.7031 Q23.9531,93.3906 23.7813,93.2188 Q23.4688,92.8906 22.9063,92.7031 Q22.3438,92.5 21.7813,92.5 Q21.0781,92.5 20.4844,92.7813 Q19.9063,93.0625 19.4531,93.6875 Q19,94.3125 19,95.1719 L19,96.0938 Q19,97.125 19.8438,97.8125 Q20.6875,98.5 22.1875,98.5 Q23.0781,98.5 23.7031,98.2969 Q24.0625,98.1875 24.4688,97.8281 Q24.7344,97.625 24.875,97.5625 Q25.0156,97.5 25.1875,97.5 Q25.5156,97.5 25.75,97.7656 Q26,98.0156 26,98.375 Q26,98.7188 25.6563,99.125 Q25.1563,99.7188 24.3594,100.0469 Q23.3125,100.5 22.0313,100.5 Q20.5313,100.5 19.3281,99.9063 Q18.3594,99.4375 17.6719,98.4219 Q17,97.4063 17,96.2031 L17,95.1094 Q17,93.8594 17.5938,92.7656 Q18.2031,91.6719 19.25,91.0938 Q20.3125,90.5 21.5,90.5 Q22.2188,90.5 22.8438,90.75 Q23.4688,91 24,91.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="36" y="99.9102">PharmacyOwner</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="129" y1="111" y2="111"/><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="12" fill="#FEFECE" filter="url(#f3s741jcubrp0)" height="67.6719" id="Pharmacy" style="stroke:#A80036;stroke-width:1.5;" width="102" x="250" y="7"/><ellipse cx="271.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M273.75,19.5 Q273.9531,19 274.1875,18.75 Q274.4219,18.5 274.6875,18.5 Q275.1563,18.5 275.4531,18.7813 Q275.75,19.0625 275.75,19.7188 L275.75,21.2813 Q275.75,21.9375 275.4688,22.2188 Q275.1875,22.5 274.75,22.5 Q274.3594,22.5 274.1094,22.3281 Q273.8594,22.1563 273.75,21.7031 Q273.7031,21.3906 273.5313,21.2188 Q273.2188,20.8906 272.6563,20.7031 Q272.0938,20.5 271.5313,20.5 Q270.8281,20.5 270.2344,20.7813 Q269.6563,21.0625 269.2031,21.6875 Q268.75,22.3125 268.75,23.1719 L268.75,24.0938 Q268.75,25.125 269.5938,25.8125 Q270.4375,26.5 271.9375,26.5 Q272.8281,26.5 273.4531,26.2969 Q273.8125,26.1875 274.2188,25.8281 Q274.4844,25.625 274.625,25.5625 Q274.7656,25.5 274.9375,25.5 Q275.2656,25.5 275.5,25.7656 Q275.75,26.0156 275.75,26.375 Q275.75,26.7188 275.4063,27.125 Q274.9063,27.7188 274.1094,28.0469 Q273.0625,28.5 271.7813,28.5 Q270.2813,28.5 269.0781,27.9063 Q268.1094,27.4375 267.4219,26.4219 Q266.75,25.4063 266.75,24.2031 L266.75,23.1094 Q266.75,21.8594 267.3438,20.7656 Q267.9531,19.6719 269,19.0938 Q270.0625,18.5 271.25,18.5 Q271.9688,18.5 272.5938,18.75 Q273.2188,19 273.75,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="287.25" y="27.9102">Pharmacy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="251" x2="351" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="256" y="54.4189">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="256" y="68.2549">-String designation</text><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect codeLine="18" fill="#FEFECE" filter="url(#f3s741jcubrp0)" height="136.8516" id="Product" style="stroke:#A80036;stroke-width:1.5;" width="88" x="448" y="30.5"/><ellipse cx="469.3" cy="46.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M471.3,43 Q471.5031,42.5 471.7375,42.25 Q471.9719,42 472.2375,42 Q472.7063,42 473.0031,42.2813 Q473.3,42.5625 473.3,43.2188 L473.3,44.7813 Q473.3,45.4375 473.0188,45.7188 Q472.7375,46 472.3,46 Q471.9094,46 471.6594,45.8281 Q471.4094,45.6563 471.3,45.2031 Q471.2531,44.8906 471.0813,44.7188 Q470.7688,44.3906 470.2063,44.2031 Q469.6438,44 469.0813,44 Q468.3781,44 467.7844,44.2813 Q467.2063,44.5625 466.7531,45.1875 Q466.3,45.8125 466.3,46.6719 L466.3,47.5938 Q466.3,48.625 467.1438,49.3125 Q467.9875,50 469.4875,50 Q470.3781,50 471.0031,49.7969 Q471.3625,49.6875 471.7688,49.3281 Q472.0344,49.125 472.175,49.0625 Q472.3156,49 472.4875,49 Q472.8156,49 473.05,49.2656 Q473.3,49.5156 473.3,49.875 Q473.3,50.2188 472.9563,50.625 Q472.4563,51.2188 471.6594,51.5469 Q470.6125,52 469.3313,52 Q467.8313,52 466.6281,51.4063 Q465.6594,50.9375 464.9719,49.9219 Q464.3,48.9063 464.3,47.7031 L464.3,46.6094 Q464.3,45.3594 464.8938,44.2656 Q465.5031,43.1719 466.55,42.5938 Q467.6125,42 468.8,42 Q469.5188,42 470.1438,42.25 Q470.7688,42.5 471.3,43 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="484.7" y="51.4102">Product</text><line style="stroke:#A80036;stroke-width:1.5;" x1="449" x2="535" y1="62.5" y2="62.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="454" y="77.9189">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="454" y="91.7549">-String barCode</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="454" y="105.5908">-String name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="454" y="119.4268">-Integer stock</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="454" y="133.2627">-Float price</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="454" y="147.0986">-Float weight</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="454" y="160.9346">-Float Iva</text><!--MD5=[88049e0e2e44d38b2f673894a23b1fda]
+link PharmacyOwner to Product--><path codeLine="35" d="M130.12,104.11 C187.32,108.28 275.49,113.02 352,110 C384.17,108.73 420.43,105.81 447.85,103.3 " fill="none" id="PharmacyOwner-Product" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="277,101.163,267.9474,98.2472,267.9624,104.125,277,101.163" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="281" y="106.4951">manages</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="138.0565" y="119.2243">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="435.1236" y="118.8737">*</text><!--MD5=[5062cbf8407193d0414687dcab1a33a6]
+link PharmacyOwner to Pharmacy--><path codeLine="38" d="M130.06,83.76 C167.41,74.36 214.73,62.46 249.95,53.59 " fill="none" id="PharmacyOwner-Pharmacy" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="169.8488,51.9556,160.36,51.3129,161.7944,57.013,169.8488,51.9556" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="174" y="58.4951">belongs</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="137.9892" y="96.3942">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="234.938" y="70.1592">1</text><!--MD5=[737ca6dd1a667cd849e932d7cf955580]
+link Pharmacy to Product--><path codeLine="40" d="M352.15,56.39 C382.01,65.55 419.5,77.06 448,85.8 " fill="none" id="Pharmacy-Product" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="391.78,59.6425,383.995,54.1796,382.2708,59.7989,391.78,59.6425" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="396" y="63.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="359.8352" y="73.2221">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="435.0078" y="98.4443">*</text><!--MD5=[4fa4c4e15b939f6f8d9f6d0aef8e4f97]
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+
+class PharmacyOwner {
+
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+class Product {
+    -Integer id
+    -String barCode
+    -String name
+    -Integer stock
+    -Float price
+    -Float weight
+    -Float Iva
+}
+
+
+
+/'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '/
+
+
+
+
+PharmacyOwner "1" - - "*" Product: manages >
+
+
+PharmacyOwner "1" - - "1" Pharmacy: belongs >
+
+Pharmacy "1" - - "*" Product: has >
+
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+
+class PharmacyOwner {
+
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+class Product {
+    -Integer id
+    -String barCode
+    -String name
+    -Integer stock
+    -Float price
+    -Float weight
+    -Float Iva
+}
+
+
+
+
+
+
+
+PharmacyOwner "1" - - "*" Product: manages >
+
+
+PharmacyOwner "1" - - "1" Pharmacy: belongs >
+
+Pharmacy "1" - - "*" Product: has >
+
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

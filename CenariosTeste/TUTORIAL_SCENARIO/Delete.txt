@@ -1,0 +1,4 @@
+delete from <TABLE_NAME>
+delete from <TABLE2_NAME>
+
+Aqui colocamos as queries a serem executadas no final do cenário separadas por linhas e sem ponto e virgula no final. Exemplo acima.

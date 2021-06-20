@@ -1,0 +1,45 @@
+@startuml
+autonumber
+
+actor "Timer" as TIME
+
+
+participant ":ScooterDeliveryPlanningTask" as TASK
+participant ":OrdersQueue" as QU
+participant "orders:Map<Integer,List<Integer>>" as MAP
+participant ":PlanningDB" as DB
+participant ":EmailHandler" as eh
+
+
+note over TIME: when time arrives
+TIME -> TASK: run()
+activate TASK
+
+TASK -> QU: orders = getOrders()
+
+activate  QU
+deactivate  QU
+
+
+loop until there are no orders in each list of orders
+
+TASK -> DB: destinatario = getClientEmailByOrder(orderID)
+activate DB
+deactivate DB
+
+
+TASK -> eh: sendEmail(destinatario)
+activate eh
+deactivate eh
+
+end loop
+
+
+deactivate TASK
+
+
+
+
+
+
+@enduml

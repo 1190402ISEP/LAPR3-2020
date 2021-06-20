@@ -1,0 +1,13 @@
+c;1;240;10;2;0
+cp;1;1;1
+
+
+c(->create);pharmacyID;voltage;maxOcupation;parkType;currentOcupation
+cp(-> create park place);parkID;isAvailable;isChargingStation
+
+
+
+park types:
+
+1- Scooters
+2- Drones

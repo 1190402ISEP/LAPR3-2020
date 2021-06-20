@@ -1,0 +1,2 @@
+- O mapa de pontos da foto que se encontra neste diretorio nao representa as ligações reais entre os pontos, as mesmas encontram se no ficheiro 
+	pathsScooter.txt. A foto so serve para tirar referencia de onde se encontram os pontos no mapa.

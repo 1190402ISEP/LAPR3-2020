@@ -1,0 +1,69 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":ManageCourierUI" as UI
+participant ":PharmacyController" as P
+participant "db:PharmacyDB" as DB
+participant ":ManageCourierController" as CTRL
+participant "ch: CourierDB" as AC
+
+
+activate ADM
+
+ADM -> UI : starts updating a courier
+activate UI
+UI -> P: getAllPharmacies();
+activate P
+activate DB
+P -> DB : getAllPharmacies();
+deactivate P
+
+deactivate DB
+
+
+
+UI --> ADM : shows the pharmacy list and requests the pharmacy's id
+deactivate UI
+
+ADM --> UI :inserts the pharmacy's id
+activate UI
+UI --> CTRL: getCourierList(pharmacyId)
+activate CTRL
+CTRL --> AC: getCourierList(pharmacyId)
+activate AC
+deactivate CTRL
+deactivate AC
+UI --> ADM : shows the courier's list and requests the courier's nif
+deactivate UI
+
+
+ADM --> UI :inserts the courier's nif
+activate UI
+
+
+UI --> ADM : requests new data (name,nif,niss,email,state,pharmacyId,vehicleId)
+deactivate UI
+ADM -> UI : inserts the requested data
+activate UI
+
+
+UI --> ADM : presents data and requests confirmation
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+UI -> CTRL : updateCourier(name,nif,niss,email,state,pharmacyId,vehicleId)
+
+activate CTRL
+CTRL -> AC : updateCourier(name,nif,niss,email,state,pharmacyId,vehicleId)
+activate AC
+deactivate CTRL
+UI --> ADM : updates the courier and reports the success of the operation
+deactivate AC
+
+deactivate UI
+deactivate ADM
+@enduml
+

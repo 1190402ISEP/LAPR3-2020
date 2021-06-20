@@ -1,0 +1,91 @@
+@startuml
+autonumber
+
+
+participant ":ScooterDeliveryPlanningTask" as STASK
+participant ":DroneDeliveryPlanningTask" as TASK
+participant "pharmacyOrders:List<Integer>" as ORDERSIDS
+participant "cords:List<String>" as CORDS
+participant "db:PlanningDB" as DB
+participant "remainingPath:List<String>" as REMAINING
+participant "plan:DeliveryPlanning" as SPLAN
+participant ":Print" as PRINT
+
+
+
+activate STASK
+STASK -> TASK :plan(pharmacyOrders, pharmacyID, cords, pharmacyCords, payload, db, plan)
+deactivate STASK
+activate TASK
+
+TASK -> DB: droneID = getAvailableDrone(pharmacyID, payload)
+activate DB
+deactivate DB
+
+TASK -> DB: actualBatteryWH = getActualBatteryVehicle(droneID, pharmacyID)
+
+activate DB
+deactivate DB
+
+
+TASK -> DB: allFarmacias = getCordsOfPharmacysWithAvailableChargingStation(VehicleType.DRONE)
+activate DB
+deactivate DB
+
+TASK --> REMAINING**: create()
+
+TASK -> SPLAN: pathDrone = mostEficientPath(cords, pharmacyCords, VehicleType.DRONE, actualBatteryWH, payload, pesosPorEncomenda, allFarmacias, remainingPath)
+activate SPLAN
+deactivate SPLAN
+
+
+TASK -> SPLAN: distanceDrone = pathWeight(pathDrone);
+activate SPLAN
+deactivate SPLAN
+
+
+TASK -> SPLAN: energyCost = calculateEnergyCost(pathDrone, payload, VehicleType.DRONE, pesosPorEncomenda)
+activate SPLAN
+deactivate SPLAN
+
+
+TASK -> SPLAN: time = getSpentTimeLastDronePath()
+activate SPLAN
+deactivate SPLAN
+
+TASK -> TASK: idDelivey = finalSteps(db, droneID, pharmacyID, pharmacyOrders, distanceDrone, time, energyCost, pass)
+activate TASK
+ref over TASK : SD_FinalSteps
+deactivate TASK
+
+
+TASK -> PRINT: printFileDelivery(null, pathDrone, distanceDrone, time, energyCost, idDelivey, outputFileName, actualBatteryWH, payload, droneID, 0, pharmacyCords)
+activate PRINT
+deactivate PRINT
+
+
+
+alt if if (!remainingPath.isEmpty())
+
+TASK -> TASK: tratarRemainingPath(remainingPath, droneID, pharmacyID, plan, pesosPorEncomenda, idDelivey, db, outputFileName)
+
+activate TASK
+deactivate TASK
+ref over TASK: SD_TratarRemainingPath_UC5
+end
+
+TASK -> PRINT: printPhisics(outputFileName, VehicleType.DRONE)
+activate PRINT
+deactivate PRINT
+
+TASK -> DB: updateOrderStateToDelivered(idDelivey)
+activate DB
+deactivate DB
+
+
+
+deactivate TASK
+
+
+
+@enduml

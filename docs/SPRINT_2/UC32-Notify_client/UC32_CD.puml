@@ -1,0 +1,44 @@
+@startuml
+
+class TimerTask {
+    +run()
+}
+
+
+
+class ScooterDeliveryPlanningTask {
+    +run()
+}
+
+class OrdersQueue {
+    +Map<Integer, List<Integer>> getOrders()
+    +clearQueue()
+}
+
+class PlanningDB {
+ +String getClientEmailByOrder(orderID)
+}
+
+class EmailHandler {
+ +boolean sendEmail(destinatario)
+}
+
+
+
+
+
+ScooterDeliveryPlanningTask -|> TimerTask
+
+
+ScooterDeliveryPlanningTask ..> OrdersQueue
+ScooterDeliveryPlanningTask ..> PlanningDB
+ScooterDeliveryPlanningTask ..> EmailHandler
+
+
+
+
+
+
+
+
+@enduml

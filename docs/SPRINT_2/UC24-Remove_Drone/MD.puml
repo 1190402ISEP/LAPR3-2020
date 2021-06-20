@@ -1,0 +1,56 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Administrator {
+
+}
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+class Vehicle{
+    -int id
+    -float batteryCapacity
+    -float actualBattery
+    -double maxWeight
+}
+class Scooter {
+    -boolean qrCode
+}
+class Drone{
+}
+
+
+
+class VehicleState{
+-int id
+-String descricao
+}
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+
+
+Administrator "1" -- "1" User: acts like >
+Administrator "1" -- "*" Scooter: adds, removes and update >
+Administrator "1" -- "*" Drone: adds, removes and update >
+
+
+Pharmacy "1" -- "1..*" Vehicle: has >
+
+
+Vehicle "1" -- "1" VehicleState: has >
+
+
+Vehicle "1" -- "1" Scooter: could be >
+Vehicle "1" -- "1" Drone: could be >
+
+@enduml

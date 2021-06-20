@@ -1,0 +1,21 @@
+6;1;1;2;1;2;1;4;-1
+
+
+É por este ficheiro que arranca a aplicação!
+
+Lista de opções:
+
+1- Login
+	direciona para  ficheiro LoginUserScenario.txt 
+	onde executa apenas uma linha. Quando houver o proximo 
+	login salta essa linha ja lida à frente
+2- Register
+	é semelhante ao login so muda os dados introduzidos.
+	direciona para o ficheiro RegisterClientScenario.txt
+3- Mostrar estatisticas de entregas com drones e scooters
+4- Inicia uma entrega com Drone
+0- Inicia uma entrega com Scooter (este caso pode despoletar na mesma uma entrega com drone caso a entrega não possa ser feita com scooter)
+5- Lê o cenario sem usar restrições fornecidadas pelos ficheiros de restrições. Usa os ficheiros pathsDrone.txt e pathsScooter.txt
+6- Lê o cenario usando os ficheiros de restrições: restricoesScooter.txt e restricoesDrone.txt
+
+##ATENÇÃO!## a primeira opção do ScenarioController deve ser sempre 5 ou 6, pois estes são responsáveis por construir o mapa das entregas! 

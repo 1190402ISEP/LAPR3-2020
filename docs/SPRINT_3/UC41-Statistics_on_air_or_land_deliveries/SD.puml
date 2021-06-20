@@ -1,0 +1,48 @@
+@startuml
+autonumber
+
+actor "Admin" as ADMIN
+
+
+participant ":StatsUI" as UI
+participant ":StatsController" as CTRL
+participant ":Statistics" as STATS
+participant ":StatisticsDB" as DB
+
+activate ADMIN
+
+ADMIN -> UI: requests for statistics
+
+activate UI
+
+UI -> CTRL: showStats()
+
+activate CTRL
+
+CTRL -> STATS: deliverys = getAllDeliverys()
+activate STATS
+
+STATS -> DB: getAllDeliverys()
+
+activate DB
+deactivate DB
+
+deactivate STATS
+
+CTRL -> STATS: printStatistics(deliverys)
+
+activate STATS
+
+deactivate STATS
+
+deactivate CTRL
+
+UI --> ADMIN: process finished
+
+deactivate UI
+deactivate ADMIN
+
+
+
+
+@enduml

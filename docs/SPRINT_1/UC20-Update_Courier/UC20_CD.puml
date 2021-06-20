@@ -1,0 +1,33 @@
+@startuml
+skinparam classAttributeIconSize 0
+left to right direction
+
+
+class CourierDB{
+  +getCourierList()
+  +updateCourier(name,nif,niss,email,state,pharmacyId,vehicleId)
+}
+
+class PharmacyDB{
+  +getAllPharmacies()
+}
+
+
+class ManageCourierController {
+ +getCourierList()
+ +updateCourier(name,nif,niss,email,state,pharmacyId,vehicleId)
+}
+
+class PharmacyController {
+  +getAllPharmacies()
+}
+
+class ManageCourierUI {
+}
+
+ManageCourierUI  ..>  ManageCourierController
+ManageCourierUI  ..>  PharmacyController
+PharmacyController  ..>  PharmacyDB
+ManageCourierController  ..>  CourierDB
+@enduml
+

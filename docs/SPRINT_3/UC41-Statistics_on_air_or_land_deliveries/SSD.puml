@@ -1,0 +1,17 @@
+@startuml
+autonumber
+actor "Admin" as CLI
+
+participant ":System" as SY
+
+activate CLI
+CLI -> SY: starts seeing statistics
+
+activate SY
+
+SY --> CLI : shows statistics and finishes the process
+
+deactivate SY
+
+
+@enduml

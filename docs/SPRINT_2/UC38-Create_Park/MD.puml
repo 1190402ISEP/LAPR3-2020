@@ -1,0 +1,24 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+class Park {
+    -Integer id
+    -Integer maxCapacity
+}
+
+/'------------------------------------------------------------------------------------ '/
+
+Park "1" -- "1..*" ChargingStation: has >
+Park "1" -- "1..*" ParkPlace: has >
+
+Pharmacy "1" -- "1..*" Park: has >
+
+@enduml

@@ -1,0 +1,4 @@
+rui3@gmail.com;255904324;Rui3;rui;41.2090041, -8.68733;Mar shopping matosinhos;4620-742;1161
+rui2@gmail.com;255904321;Rui2;rui2;41.1823475, -8.6922944;New City;4620-738;10
+rui4@gmail.com;255904323;Rui4;rui4;41.1845917, -8.6821122;Centro Comercial parque;4620-734;14
+

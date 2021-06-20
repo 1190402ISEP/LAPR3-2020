@@ -1,0 +1,47 @@
+@startuml
+
+class AddCreditCardUI {
+
+}
+
+class AddCreditCardController {
+  +newCreditCard(Integer number, Integer CVV, Date expirateDate)
+
+}
+
+class ClientDB {
+    +newCreditCard(CreditCard card, String email)
+}
+
+class UserSession {
+    +UserSession getUserSession()
+    +User getUser()
+}
+
+class CreditCard {
+    +create(Integer number, Integer CVV, Date expirateDate)
+}
+
+
+class User {
+    +String getUserEmail()
+
+}
+
+
+AddCreditCardUI ..> AddCreditCardController
+
+AddCreditCardController ..> UserSession
+AddCreditCardController ..> ClientDB
+AddCreditCardController ..> CreditCard
+AddCreditCardController ..> User
+
+UserSession ..> User
+
+ClientDB ..> CreditCard
+ClientDB ..> User
+
+
+
+
+@enduml

@@ -1,0 +1,4 @@
+1;5
+1;2
+
+number of product in the list of products;quantity

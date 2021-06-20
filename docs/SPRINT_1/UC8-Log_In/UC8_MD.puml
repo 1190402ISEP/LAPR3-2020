@@ -1,0 +1,55 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+class Administrator {
+
+}
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+class PharmacyOwner {
+
+}
+
+class Client {
+    -Integer credits
+}
+
+class Courier {
+    -float maxWeight
+}
+
+class UserSession {
+}
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+
+UserSession "1" -- "1" User: has >
+
+Administrator "1" -- "1" User: acts like >
+Administrator "1" -- "*" PharmacyOwner: registers >
+
+Client "1" -- "1" User: acts like >
+
+Courier "1" --- "1" User:  acts like >
+
+PharmacyOwner "1" -- "1" User: acts like >
+
+
+
+
+@enduml

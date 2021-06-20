@@ -1,0 +1,36 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Administrator {
+
+}
+
+class User{
+}
+
+class PharmacyOwner {
+    -String email
+}
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+Administrator "1" -- "1" User: acts like >
+Administrator "1" -- "*" Pharmacy: creates >
+Administrator "1" -- "*" PharmacyOwner: registers >
+
+
+PharmacyOwner "1" -- "1" Pharmacy: belongs >
+PharmacyOwner "1" -- "1" User: acts like >
+
+@enduml

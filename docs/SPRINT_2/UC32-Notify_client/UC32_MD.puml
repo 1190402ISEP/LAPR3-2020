@@ -1,0 +1,78 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+class Address {
+    -String Street
+    -String PostalCode
+    -String GeographicalLocation
+    -Integer doorNumber
+
+}
+
+
+
+
+
+class Delivery {
+    -Integer id
+}
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+
+}
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+
+
+
+
+
+
+
+
+
+Client "1" -- "1" User: acts like >
+Client "1" ---- "1" Address: has >
+Client "1" -- "*" Delivery: requests >
+Client "1" -- "*" Order: place >
+
+
+
+
+
+Delivery "1" -- "1..*" Order: delivers >
+
+
+
+
+Order "1" -- "1" OrderState: has >
+
+
+
+
+@enduml

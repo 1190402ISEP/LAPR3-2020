@@ -1,0 +1,68 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":ManageCourierUI" as UI
+participant ":PharmacyController" as CO
+participant ":ManageCourierController" as CTRL
+participant ":CourierDB" as AC
+participant ":Courier" as C
+
+
+
+activate ADM
+
+ADM -> UI : starts adding a courier
+activate UI
+UI -> CO: getAllPharmacies();
+activate CO
+activate AC
+CO -> AC : getAllPharmacies();
+deactivate CO
+
+
+
+UI --> ADM : shows the pharmacy list and requests the pharmacy's id of the courier
+deactivate AC
+deactivate UI
+
+ADM --> UI :inserts the pharmacy's id
+activate UI
+
+
+UI --> ADM : requests the courier's data (name,nif,niss,email,pharmacyId,vehicleId)
+deactivate UI
+ADM -> UI : inserts the requested data
+activate UI
+UI -> CTRL : newCourier(name,nif,niss,email)
+activate CTRL
+
+CTRL -> AC : courier = newCourier(name,email,nif,niss)
+activate AC
+
+
+AC -> C* : create(name,email,nif,niss,state)
+
+deactivate CTRL
+deactivate AC
+
+UI --> ADM : presents data and asks for confirmation
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+UI -> CTRL : addCourier(name,nif,niss,email,pharmacyId,vehicleId)
+activate CTRL
+
+CTRL -> AC : addCourierHandler(courier,pharmacyId,vehicleId)
+activate AC
+AC -> AC :addCourier(name,nif,niss,email,state,pharmacyId,vehicleId)
+
+UI --> ADM : adds the courier to the system and reports the success of the operation
+deactivate AC
+deactivate CTRL
+deactivate UI
+deactivate ADM
+@enduml
+

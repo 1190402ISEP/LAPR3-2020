@@ -1,0 +1,58 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+class Product {
+    -Integer id
+    -String name
+    -Integer stock
+    -Float price
+    -float weight
+    -float iva
+}
+
+
+
+
+class BasketProduct {
+    -Integer quantity
+
+}
+
+
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+
+Client "1" -- "1" User: acts like >
+
+Client "1" -- "*" BasketProduct: has >
+
+Product "1" -- "*" BasketProduct: inside >
+
+
+
+
+
+@enduml

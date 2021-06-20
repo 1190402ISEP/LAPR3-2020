@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="272px" preserveAspectRatio="none" style="width:1160px;height:272px;" version="1.1" viewBox="0 0 1160 272" width="1160px" zoomAndPan="magnify"><defs><filter height="300%" id="f38k0401yzmfe" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="4.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="8.0" dy="8.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="5" fill="#FEFECE" filter="url(#f38k0401yzmfe)" height="131.8203" id="Pharmacy" style="stroke:#A80036;stroke-width:3.0;" width="232" x="14" y="64"/><ellipse cx="69.2" cy="96" fill="#ADD1B2" rx="22" ry="22" style="stroke:#A80036;stroke-width:2.0;"/><path d="M74.1463,108.2861 Q72.9842,108.8838 71.7059,109.1826 Q70.4275,109.4814 69.0164,109.4814 Q64.0027,109.4814 61.3631,106.1777 Q58.7234,102.874 58.7234,96.6318 Q58.7234,90.373 61.3631,87.0693 Q64.0027,83.7656 69.0164,83.7656 Q70.4275,83.7656 71.7225,84.0645 Q73.0174,84.3633 74.1463,84.9609 L74.1463,90.4063 Q72.8846,89.2441 71.6976,88.7046 Q70.5105,88.165 69.2488,88.165 Q66.5594,88.165 65.1897,90.2983 Q63.8201,92.4316 63.8201,96.6318 Q63.8201,100.8154 65.1897,102.9487 Q66.5594,105.082 69.2488,105.082 Q70.5105,105.082 71.6976,104.5425 Q72.8846,104.0029 74.1463,102.8408 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="24" lengthAdjust="spacing" textLength="112" x="102.8" y="105.0703">Pharmacy</text><line style="stroke:#A80036;stroke-width:3.0;" x1="16" x2="244" y1="128" y2="128"/><text fill="#000000" font-family="sans-serif" font-size="22" lengthAdjust="spacing" textLength="114" x="26" y="157.2695">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="22" lengthAdjust="spacing" textLength="208" x="26" y="183.1797">-String designation</text><!--MD5=[d1eeb527b96f439f56c6bd12ac0dd707]
+class Park--><rect codeLine="11" fill="#FEFECE" filter="url(#f38k0401yzmfe)" height="131.8203" id="Park" style="stroke:#A80036;stroke-width:3.0;" width="256" x="440" y="64"/><ellipse cx="533.5" cy="96" fill="#ADD1B2" rx="22" ry="22" style="stroke:#A80036;stroke-width:2.0;"/><path d="M538.4463,108.2861 Q537.2842,108.8838 536.0059,109.1826 Q534.7275,109.4814 533.3164,109.4814 Q528.3027,109.4814 525.6631,106.1777 Q523.0234,102.874 523.0234,96.6318 Q523.0234,90.373 525.6631,87.0693 Q528.3027,83.7656 533.3164,83.7656 Q534.7275,83.7656 536.0225,84.0645 Q537.3174,84.3633 538.4463,84.9609 L538.4463,90.4063 Q537.1846,89.2441 535.9976,88.7046 Q534.8105,88.165 533.5488,88.165 Q530.8594,88.165 529.4897,90.2983 Q528.1201,92.4316 528.1201,96.6318 Q528.1201,100.8154 529.4897,102.9487 Q530.8594,105.082 533.5488,105.082 Q534.8105,105.082 535.9976,104.5425 Q537.1846,104.0029 538.4463,102.8408 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="24" lengthAdjust="spacing" textLength="52" x="574.5" y="105.0703">Park</text><line style="stroke:#A80036;stroke-width:3.0;" x1="442" x2="694" y1="128" y2="128"/><text fill="#000000" font-family="sans-serif" font-size="22" lengthAdjust="spacing" textLength="114" x="452" y="157.2695">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="22" lengthAdjust="spacing" textLength="232" x="452" y="183.1797">-Integer maxCapacity</text><!--MD5=[7ca35fa42fdd2584ef5892c05d53c42e]
+class ChargingStation--><rect fill="#FEFECE" filter="url(#f38k0401yzmfe)" height="80" id="ChargingStation" style="stroke:#A80036;stroke-width:3.0;" width="242" x="890" y="14"/><ellipse cx="920" cy="46" fill="#ADD1B2" rx="22" ry="22" style="stroke:#A80036;stroke-width:2.0;"/><path d="M924.9463,58.2861 Q923.7842,58.8838 922.5059,59.1826 Q921.2275,59.4814 919.8164,59.4814 Q914.8027,59.4814 912.1631,56.1777 Q909.5234,52.874 909.5234,46.6318 Q909.5234,40.373 912.1631,37.0693 Q914.8027,33.7656 919.8164,33.7656 Q921.2275,33.7656 922.5225,34.0645 Q923.8174,34.3633 924.9463,34.9609 L924.9463,40.4063 Q923.6846,39.2441 922.4976,38.7046 Q921.3105,38.165 920.0488,38.165 Q917.3594,38.165 915.9897,40.2983 Q914.6201,42.4316 914.6201,46.6318 Q914.6201,50.8154 915.9897,52.9487 Q917.3594,55.082 920.0488,55.082 Q921.3105,55.082 922.4976,54.5425 Q923.6846,54.0029 924.9463,52.8408 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="24" lengthAdjust="spacing" textLength="178" x="948" y="55.0703">ChargingStation</text><line style="stroke:#A80036;stroke-width:3.0;" x1="892" x2="1130" y1="78" y2="78"/><!--MD5=[388196bfb1e60c011795b3c04c7c53f7]
+class ParkPlace--><rect fill="#FEFECE" filter="url(#f38k0401yzmfe)" height="80" id="ParkPlace" style="stroke:#A80036;stroke-width:3.0;" width="176" x="923" y="164"/><ellipse cx="953" cy="196" fill="#ADD1B2" rx="22" ry="22" style="stroke:#A80036;stroke-width:2.0;"/><path d="M957.9463,208.2861 Q956.7842,208.8838 955.5059,209.1826 Q954.2275,209.4814 952.8164,209.4814 Q947.8027,209.4814 945.1631,206.1777 Q942.5234,202.874 942.5234,196.6318 Q942.5234,190.373 945.1631,187.0693 Q947.8027,183.7656 952.8164,183.7656 Q954.2275,183.7656 955.5225,184.0645 Q956.8174,184.3633 957.9463,184.9609 L957.9463,190.4063 Q956.6846,189.2441 955.4976,188.7046 Q954.3105,188.165 953.0488,188.165 Q950.3594,188.165 948.9897,190.2983 Q947.6201,192.4316 947.6201,196.6318 Q947.6201,200.8154 948.9897,202.9487 Q950.3594,205.082 953.0488,205.082 Q954.3105,205.082 955.4976,204.5425 Q956.6846,204.0029 957.9463,202.8408 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="24" lengthAdjust="spacing" textLength="112" x="981" y="205.0703">ParkPlace</text><line style="stroke:#A80036;stroke-width:3.0;" x1="925" x2="1097" y1="228" y2="228"/><!--MD5=[80882edf1ba1a5a23075835c2ff1cb78]
+link Park to ChargingStation--><path codeLine="18" d="M696.38,108.12 C757.18,97.6 829.66,85.04 889.54,74.68 " fill="none" id="Park-ChargingStation" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#000000" points="775.8534,67.6047,757.0257,64.8989,759.0311,76.4823,775.8534,67.6047" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="44" x="784" y="79.1367">has</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="16" x="712.1489" y="132.5075">1</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="44" x="829.8491" y="103.7532">1..*</text><!--MD5=[9afa01edeb13dd686951f07f9b6d7017]
+link Park to ParkPlace--><path codeLine="19" d="M696.16,161.9 C716.1,166.34 736.56,170.56 756,174 C811.1,183.76 873.52,191.18 922.58,196.22 " fill="none" id="Park-ParkPlace" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#000000" points="775.8871,158.8092,758.8821,150.2866,757.1203,161.9096,775.8871,158.8092" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="44" x="784" y="167.1367">has</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="16" x="711.9035" y="192.5058">1</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="44" x="863.0522" y="222.4157">1..*</text><!--MD5=[0ae4e3be80761dbc176b3d01b8ab98e4]
+link Pharmacy to Park--><path codeLine="21" d="M246.02,130 C305.54,130 378.52,130 439.74,130 " fill="none" id="Pharmacy-Park" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#000000" points="326,113.3105,307.9098,107.4327,307.9098,119.1884,326,113.3105" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="44" x="334" y="123.1367">has</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="16" x="261.9101" y="157.1099">1</text><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacing" textLength="44" x="380.2444" y="156.7249">1..*</text><!--MD5=[d69a9f0f784e64f2d043aa67286ea8d6]
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+class Park {
+    -Integer id
+    -Integer maxCapacity
+}
+
+/'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '/
+
+Park "1" - - "1..*" ChargingStation: has >
+Park "1" - - "1..*" ParkPlace: has >
+
+Pharmacy "1" - - "1..*" Park: has >
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+class Park {
+    -Integer id
+    -Integer maxCapacity
+}
+
+
+Park "1" - - "1..*" ChargingStation: has >
+Park "1" - - "1..*" ParkPlace: has >
+
+Pharmacy "1" - - "1..*" Park: has >
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 WET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

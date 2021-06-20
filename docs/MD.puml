@@ -1,0 +1,234 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class Platform {
+  -String designation
+}
+
+class Administrator {
+
+}
+
+class PharmacyOwner {
+
+}
+
+class Client {
+    -Integer credits
+}
+
+class Address {
+    -String coordinates
+    -String street
+    -String postalCode
+    -Integer doorNumber
+
+}
+
+class MapPoint{
+    -String coordinates
+    -float altitude
+}
+
+class Path{
+    -Integer id
+    -String point1
+    -String point2
+    -Integer connectionType
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+class Vehicle{
+    -Integer id
+    -float batteryCapacity
+    -float battery
+    -double maxPayload
+}
+
+class Scooter {
+    -boolean qrCode
+}
+class Drone{
+    -Integer id
+}
+
+class Park {
+    -Integer id
+    -Integer maxCapacity
+}
+
+class ParkPlace {
+    -Integer id
+    -Integer isAvailable
+}
+
+class ParkType{
+    -Integer id
+    -String designation
+}
+
+class ChargingStation {
+    -Integer id
+    -float voltage
+}
+
+class Courier {
+    -Integer nif
+    -char niss
+    -String name
+    -String email
+    -float maxWeight
+}
+
+class CourierState{
+    -Integer id
+    -String designation
+}
+
+class Product {
+    -Integer id
+    -String barCode
+    -String name
+    -Integer stock
+    -Float price
+    -float weight
+    -float IVA
+}
+
+class Delivery {
+    -Integer id
+    -Integer nif
+    -float distanceMeters
+    -float timeMinutes
+    -float energyCostWH
+}
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+}
+
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+
+class Invoice {
+    -float totalPrice
+    -float deliveryFee
+    -float productsTotalPrice
+    -float totalWithDiscount
+}
+
+class CreditCard {
+    -Integer cardNumber
+    -Integer CVV
+    -Date expirateDate
+    -Date creationDate
+}
+
+class BasketProducts {
+    -Integer barCode
+    -Integer quantity
+}
+
+class User{
+-String email
+-int NIF
+-String name
+-String password
+}
+
+class UserSession {
+}
+
+class VehicleState{
+-int id
+-String designation
+}
+
+class EmailService {
+}
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+Platform "1" ---- "*" User: has registered>
+Platform "1" ---- "1..*" Pharmacy: has registered >
+Platform "1" ---- "*" Delivery: plans >
+Platform "1" -- "1" EmailService: has >
+
+UserSession "1" -- "1" User: has >
+
+Address "1" -- "1" MapPoint: has>
+
+MapPoint "2" -- "*" Path: have>
+
+Administrator "1" -- "1" User: acts like >
+Administrator "1" -- "*" Scooter: adds, removes and update >
+Administrator "1" -- "*" Drone: adds, removes and update >
+Administrator "1" -- "*" Pharmacy: creates >
+Administrator "1" -- "*" PharmacyOwner: registers >
+Administrator "1" -- "*" Courier: adds and updates >
+
+ChargingStation "1" -- "1" ParkPlace : is a >
+
+Client "1" -- "1" User: acts like >
+Client "1" ---- "1" Address: has >
+Client "1" -- "*" Delivery: requests >
+Client "1" -- "*" CreditCard: has >
+Client "1" -- "*" Order: places and cancels >
+Client "1" -- "*" BasketProducts: has >
+
+Product "1" - "*" BasketProducts: inside >
+
+Park "1" -- "1..*" ChargingStation: has >
+Park "1" -- "1..*" ParkPlace: has >
+
+ParkType "1" -- "1" Park: can be>
+
+Pharmacy "1" -- "1..*" Park: has >
+Pharmacy "1" -- "1..*" Vehicle: has >
+Pharmacy "1" -- "*" Product: has >
+Pharmacy "1" -- "1" Address: has >
+
+
+Vehicle "1" -- "1" ParkPlace: parks at >
+Vehicle "1" -- "1" VehicleState: has >
+
+Courier "1" --- "1..*" Scooter: uses >
+Courier "1" --- "*" Delivery: makes >
+Courier "*" --- "1" Pharmacy: works in >
+Courier "1" --- "1" CourierState: has >
+
+Delivery "1" -- "1..*" Order: delivers >
+
+Invoice "1" -- "1..*" Product: has >
+
+PharmacyOwner "1" -- "*" Product: manages >
+PharmacyOwner "1" -- "1" Pharmacy: belongs >
+PharmacyOwner "1" -- "1" User: acts like >
+
+Order "1" ---- "1" Invoice: has >
+Order "1" -- "1" OrderState: has >
+Order "1" -- "1" CreditCard: has associated >
+
+ChargingStation "*" -- "1" EmailService: has >
+
+Vehicle "1" -- "1" Scooter: could be >
+Vehicle "1" -- "1" Drone: could be >
+
+Drone "1" -- "*" Delivery: makes >
+
+@enduml

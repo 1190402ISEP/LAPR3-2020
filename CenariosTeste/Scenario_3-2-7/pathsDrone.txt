@@ -1,0 +1,6 @@
+#clientes dois sentidos
+41.167775, -8.6301726;41.1714565, -8.6128568;2;asfalto
+#farmacia - CTT dois sentidos
+41.1670239, -8.6118334;41.1714565, -8.6128568;2;asfalto
+#farmacia - Centro Comercial do Carvalhido dois sentidos
+41.1670239, -8.6118334;41.167775, -8.6301726;2;asfalto

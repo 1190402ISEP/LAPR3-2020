@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="233px" preserveAspectRatio="none" style="width:332px;height:233px;" version="1.1" viewBox="0 0 332 233" width="332px" zoomAndPan="magnify"><defs><filter height="300%" id="f4dvgaxlti7i0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="8" fill="#FEFECE" filter="url(#f4dvgaxlti7i0)" height="95.3438" id="User" style="stroke:#A80036;stroke-width:1.5;" width="97" x="218.5" y="7"/><ellipse cx="250.6" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M252.6,19.5 Q252.8031,19 253.0375,18.75 Q253.2719,18.5 253.5375,18.5 Q254.0063,18.5 254.3031,18.7813 Q254.6,19.0625 254.6,19.7188 L254.6,21.2813 Q254.6,21.9375 254.3188,22.2188 Q254.0375,22.5 253.6,22.5 Q253.2094,22.5 252.9594,22.3281 Q252.7094,22.1563 252.6,21.7031 Q252.5531,21.3906 252.3813,21.2188 Q252.0688,20.8906 251.5063,20.7031 Q250.9438,20.5 250.3813,20.5 Q249.6781,20.5 249.0844,20.7813 Q248.5063,21.0625 248.0531,21.6875 Q247.6,22.3125 247.6,23.1719 L247.6,24.0938 Q247.6,25.125 248.4438,25.8125 Q249.2875,26.5 250.7875,26.5 Q251.6781,26.5 252.3031,26.2969 Q252.6625,26.1875 253.0688,25.8281 Q253.3344,25.625 253.475,25.5625 Q253.6156,25.5 253.7875,25.5 Q254.1156,25.5 254.35,25.7656 Q254.6,26.0156 254.6,26.375 Q254.6,26.7188 254.2563,27.125 Q253.7563,27.7188 252.9594,28.0469 Q251.9125,28.5 250.6313,28.5 Q249.1313,28.5 247.9281,27.9063 Q246.9594,27.4375 246.2719,26.4219 Q245.6,25.4063 245.6,24.2031 L245.6,23.1094 Q245.6,21.8594 246.1938,20.7656 Q246.8031,19.6719 247.85,19.0938 Q248.9125,18.5 250.1,18.5 Q250.8188,18.5 251.4438,18.75 Q252.0688,19 252.6,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="268.4" y="27.9102">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="219.5" x2="314.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="224.5" y="54.4189">-String name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="224.5" y="68.2549">-String email</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="224.5" y="82.0908">-String password</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55" x="224.5" y="95.9268">-Integer NIF</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="17" fill="#FEFECE" filter="url(#f4dvgaxlti7i0)" height="53.8359" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="85" x="7" y="89.5"/><ellipse cx="31.45" cy="105.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M33.45,102 Q33.6531,101.5 33.8875,101.25 Q34.1219,101 34.3875,101 Q34.8563,101 35.1531,101.2813 Q35.45,101.5625 35.45,102.2188 L35.45,103.7813 Q35.45,104.4375 35.1688,104.7188 Q34.8875,105 34.45,105 Q34.0594,105 33.8094,104.8281 Q33.5594,104.6563 33.45,104.2031 Q33.4031,103.8906 33.2313,103.7188 Q32.9188,103.3906 32.3563,103.2031 Q31.7938,103 31.2313,103 Q30.5281,103 29.9344,103.2813 Q29.3563,103.5625 28.9031,104.1875 Q28.45,104.8125 28.45,105.6719 L28.45,106.5938 Q28.45,107.625 29.2938,108.3125 Q30.1375,109 31.6375,109 Q32.5281,109 33.1531,108.7969 Q33.5125,108.6875 33.9188,108.3281 Q34.1844,108.125 34.325,108.0625 Q34.4656,108 34.6375,108 Q34.9656,108 35.2,108.2656 Q35.45,108.5156 35.45,108.875 Q35.45,109.2188 35.1063,109.625 Q34.6063,110.2188 33.8094,110.5469 Q32.7625,111 31.4813,111 Q29.9813,111 28.7781,110.4063 Q27.8094,109.9375 27.1219,108.9219 Q26.45,107.9063 26.45,106.7031 L26.45,105.6094 Q26.45,104.3594 27.0438,103.2656 Q27.6531,102.1719 28.7,101.5938 Q29.7625,101 30.95,101 Q31.6688,101 32.2938,101.25 Q32.9188,101.5 33.45,102 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="47.55" y="110.4102">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="91" y1="121.5" y2="121.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="13" y="136.9189">-Integer credits</text><!--MD5=[91d4151b6d4c9a3d01b6d84b2458eece]
+class CreditCard--><rect codeLine="25" fill="#FEFECE" filter="url(#f4dvgaxlti7i0)" height="81.5078" id="CreditCard" style="stroke:#A80036;stroke-width:1.5;" width="102" x="216" y="137.5"/><ellipse cx="235.5" cy="153.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M237.5,150 Q237.7031,149.5 237.9375,149.25 Q238.1719,149 238.4375,149 Q238.9063,149 239.2031,149.2813 Q239.5,149.5625 239.5,150.2188 L239.5,151.7813 Q239.5,152.4375 239.2188,152.7188 Q238.9375,153 238.5,153 Q238.1094,153 237.8594,152.8281 Q237.6094,152.6563 237.5,152.2031 Q237.4531,151.8906 237.2813,151.7188 Q236.9688,151.3906 236.4063,151.2031 Q235.8438,151 235.2813,151 Q234.5781,151 233.9844,151.2813 Q233.4063,151.5625 232.9531,152.1875 Q232.5,152.8125 232.5,153.6719 L232.5,154.5938 Q232.5,155.625 233.3438,156.3125 Q234.1875,157 235.6875,157 Q236.5781,157 237.2031,156.7969 Q237.5625,156.6875 237.9688,156.3281 Q238.2344,156.125 238.375,156.0625 Q238.5156,156 238.6875,156 Q239.0156,156 239.25,156.2656 Q239.5,156.5156 239.5,156.875 Q239.5,157.2188 239.1563,157.625 Q238.6563,158.2188 237.8594,158.5469 Q236.8125,159 235.5313,159 Q234.0313,159 232.8281,158.4063 Q231.8594,157.9375 231.1719,156.9219 Q230.5,155.9063 230.5,154.7031 L230.5,153.6094 Q230.5,152.3594 231.0938,151.2656 Q231.7031,150.1719 232.75,149.5938 Q233.8125,149 235,149 Q235.7188,149 236.3438,149.25 Q236.9688,149.5 237.5,150 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="60" x="250.5" y="158.4102">CreditCard</text><line style="stroke:#A80036;stroke-width:1.5;" x1="217" x2="317" y1="169.5" y2="169.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="222" y="184.9189">-Integer number</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="222" y="198.7549">-Integer CVV</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="222" y="212.5908">-Date expirateDate</text><!--MD5=[9a8dc34b38f85b9f3fcdb440f4bffc6a]
+link Client to User--><path codeLine="46" d="M92.05,104.55 C128.13,94.17 180.38,79.13 218.19,68.25 " fill="none" id="Client-User" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="131.805,68.293,122.2999,67.9702,123.9254,73.6188,131.805,68.293" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="136" y="74.9951">acts like</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="99.9648" y="117.4105">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="203.507" y="84.9402">1</text><!--MD5=[0748050afd2139cbb3c9faec3f892ae9]
+link Client to CreditCard--><path codeLine="48" d="M92.05,128.45 C127.4,138.62 178.26,153.26 215.87,164.08 " fill="none" id="Client-CreditCard" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="145.805,130.0585,137.9254,124.7329,136.2999,130.3815,145.805,130.0585" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="150" y="133.9951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="99.9648" y="145.4183">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="202.9931" y="176.6941">*</text><!--MD5=[9627f15ebcd6b0ac7d41c597b6b6ad8c]
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+
+
+class CreditCard {
+    -Integer number
+    -Integer CVV
+    -Date expirateDate
+}
+
+
+
+
+
+
+
+/'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '/
+
+
+
+
+
+
+
+
+Client "1" - - "1" User: acts like >
+
+Client "1" - - "*" CreditCard: has >
+
+
+
+
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+
+
+class CreditCard {
+    -Integer number
+    -Integer CVV
+    -Date expirateDate
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Client "1" - - "1" User: acts like >
+
+Client "1" - - "*" CreditCard: has >
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

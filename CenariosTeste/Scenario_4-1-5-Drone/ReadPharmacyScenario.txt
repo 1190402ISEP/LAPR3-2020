@@ -1,0 +1,2 @@
+c;po@gmail.com;Farmácia Sousa Torres;41.2196991, -8.5608657;Farmácia Sousa Torres;4600-777;150
+c;po2@gmail.com;Farmácia Guifoes;41.2000276, -8.6661002;Farmácia Guifoes;4600-772;151

@@ -1,0 +1,103 @@
+@startuml
+
+usecase UC1 as "UC1 - Add new Scooter"
+usecase UC2 as "UC2 - Remove Scooter"
+usecase UC3 as "UC3 - Update Scooter List"
+usecase UC4 as "UC4 - Sign Up On System"
+usecase UC6 as "UC6 - Notify Messenger"
+usecase UC8 as "UC8 - Log In"
+usecase UC9 as "UC9 - Update Stock"
+usecase UC10 as "UC10 - Add Product to Basket"
+usecase UC11 as "UC11 - Create Product"
+usecase UC12 as "UC12 - Remove Product"
+usecase UC13 as "UC13 - Update Product"
+usecase UC16 as "UC16 - Create Pharmacy"
+usecase UC18 as "UC18 - Add Courier"
+usecase UC20 as "UC20 - Update Courier"
+usecase UC21 as "UC21 - Checkout Basket"
+usecase UC22 as "UC22 - Add Credit Card"
+usecase UC5 as "UC5- Scooter Delivery Plan"
+usecase UC23 as "UC23- Create Drone"
+usecase UC24 as "UC24- Remove Drone"
+usecase UC25 as "UC25- Update Drone"
+usecase UC28 as "UC28- Create Pharmacy Owner"
+usecase UC29 as "UC29- Drone Delivery Plan"
+usecase UC30 as "UC30- Automatic Pharmacy Order Back"
+usecase UC31 as "UC31- Notify Courier"
+usecase UC32 as "UC32- Notify Client"
+usecase UC33 as "UC33- Earn Points"
+usecase UC34 as "UC34- Update Pharmacy"
+usecase UC36 as "UC36- Create Adress"
+usecase UC37 as "UC37- Notify Administrator"
+usecase UC38 as "UC38- Create Park"
+usecase UC39 as "UC39- Scooter Parking"
+usecase UC40 as "UC40- Scooter Charging"
+usecase UC41 as "UC41- Statistics on Air Or Land Deliveries"
+usecase UC42 as "UC42- Cancel Order"
+usecase UC43 as "UC43- Consult Order Status"
+usecase UC44 as "UC44- Update Park"
+usecase UC45 as "UC45- Remove Park"
+
+
+
+actor "Administrator" as ADM
+actor "Non-registered user" as NUSE
+actor "Pharmacy Owner" as OW
+actor "Client" as CLI
+actor "System/Timer" as SYS
+actor "Courier" as COU
+actor "Registered User"as RU
+actor "Pharmacy" as PH
+
+ADM-->(UC1)
+ADM-->(UC2)
+ADM-->(UC3)
+ADM-->(UC23)
+ADM-->(UC24)
+ADM-->(UC25)
+ADM-->(UC28)
+ADM-->(UC16)
+ADM-->(UC38)
+ADM-->(UC41)
+ADM-->(UC44)
+ADM-->(UC36)
+ADM-->(UC18)
+ADM-->(UC20)
+ADM-->(UC45)
+
+
+SYS-->(UC5)
+SYS-->(UC6)
+SYS-->(UC29)
+SYS-->(UC32)
+SYS-->(UC37)
+SYS-->(UC31)
+SYS-->(UC40)
+
+CLI-->(UC10)
+CLI-->(UC21)
+CLI-->(UC22)
+CLI-->(UC43)
+CLI-->(UC42)
+CLI-->(UC33)
+
+OW-->(UC11)
+OW-->(UC12)
+OW-->(UC13)
+OW-->(UC9)
+OW-->(UC34)
+
+NUSE-->(UC4)
+
+RU-->(UC8)
+
+COU-->(UC39)
+
+PH-->(UC30)
+
+LEFT to right direction
+
+
+
+
+@enduml

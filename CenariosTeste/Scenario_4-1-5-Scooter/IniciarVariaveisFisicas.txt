@@ -1,0 +1,15 @@
+vel scooter(m/s)--8.33
+vel subida drone--6
+vel descida drone--6
+vel cruzeiro drone--16
+coeficiente de arrasto--1.1
+coeficiente atrito asfalto--0.5
+coeficiente atrito terra--0
+massa courier--80
+massa scooter(kg)--50
+massa drone--3.3
+area frontal veiculos--0.3
+densidade ar--1.225
+aceleracao gravitica--9.8
+vel vento (m/s)--10
+altura deslocamento horizontal drone--100

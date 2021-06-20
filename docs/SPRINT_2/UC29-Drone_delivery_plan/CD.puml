@@ -1,0 +1,69 @@
+@startuml
+
+class DroneDeliveryPlanningTask {
++boolean plan(List<Integer> pharmacyOrders, int pharmacyID, List<String> cords, String pharmacyCords, float payload, PlanningDB db, DeliveryPlanning plan)
++finalSteps(PlanningDB db, int droneID, int pharmacyID, List<Integer> pharmacyOrders, float distanceDrone, float time, float energyCost, boolean[] pass)
++boolean tratarRemainingPath( LinkedList<String> remaining, int droneID, int pharmacyID, DeliveryPlanning plan, Map<String, Float> pesosPorEncomenda, int idDelivery, PlanningDB db, String outputFileName)
++boolean changeStateDrone(ChangeStatesTask task)
+
+
+}
+
+class PlanningDB {
++Integer getAvailableDrone(int pharmacyID, float payload)
++float getActualBatteryVehicle(int scooterID, Integer pharmacyID)
++Map<Integer, String> getCordsOfPharmacysWithAvailableChargingStation(VehicleType type)
++Map<String, Float> getPesosPorEncomenda(List<Integer> pharmacyOrders)
++boolean updateOrderStateToDelivered(Integer deliveryID)
++boolean changeStates(int vehicleID, Integer courierNIF, Integer pharmacyID)
++Integer insertDelivery(Integer courierNIF, int vehicleID, Integer pharmacyID, float distance, float time, float energyCost)
++boolean takeVehicleEnergy(int vehicleID, float totalEnergy, int pharmacyID)
++boolean updateOrdersDeliveryID(List<Integer> pharmacyOrders, int deliveryID)
+
+
+
+
+
+
+
+}
+
+ class DeliveryPlanning {
+ +List<String> mostEficientPath(List<String> casasClientes, String startingFarmacia, VehicleType type, float bateriaAtualMW, float payload, Map<String, Float> pesosPorEncomenda, Map<Integer, String> allFarmacias, LinkedList<String> remainingPath)
+  +float pathWeight(List<String> path)
+  +float calculateEnergyCost(List<String> path, float payload, VehicleType type, Map<String, Float> pesosPorEncomenda)
+  +float getSpentTimeLastDronePath()
+  +List<String> shortestPathDrone(List<String> cords, String pharmacyCords, String lastFarmacia)
+
+
+
+
+
+ }
+
+ class StopForCharging {
+ +boolean run(ChangeStatesTask cst)
+
+
+ }
+
+ class Print {
+ +boolean printFileDelivery(LinkedList<String> mostEficiente, LinkedList<String> path, float distance, float time, float energyCost, Integer deliveryID, String outputFileName, float actualBatteryWH, float payload, int vehicleID, int courierNIF, String pharmacyCords)
+ +void printPhisics(String outputFileName, VehicleType type)
+ +void printRemainingDeliveryPath(String outputFileName, String actualFarmacia, LinkedList<String> fullRemainingPath, float gastoEnergeticoRestante, float distanciaRestante, float tempoRestante, VehicleType type)
+ }
+
+
+
+
+DroneDeliveryPlanningTask ..> DeliveryPlanning
+DroneDeliveryPlanningTask ..> PlanningDB
+DroneDeliveryPlanningTask ..> Print
+DroneDeliveryPlanningTask ..> StopForCharging
+
+
+
+
+
+
+@enduml

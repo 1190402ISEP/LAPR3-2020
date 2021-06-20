@@ -1,0 +1,77 @@
+@startuml
+
+class CheckoutBasketUI {
+
+}
+
+class CheckoutBasketController {
+  +getClient()
+  +getCreditCardsClient()
+  +getCardByOption()
+  +newCreditCard()
+  +setNif()
+  +newOrder()
+
+}
+
+class ClientDB {
+    +List<CreditCard> getClientCreditCardsByEmail(String email)
+    +boolean hasClientNif(String email)
+    +Integer getClientNifByEmail(String email)
+    +Integer getClientCreditsByEmail(String email)
+    +List<Product> getProductsInBasketByClientEmail(String email)
+    +CreditCard getClientLastAddedCard(String email)
+    +newOrder(String email, List<Product> products, CreditCard card, Integer nif, Integer creditsToUse)
+
+
+}
+
+class UserSession {
+    +UserSession getUserSession()
+    +User getUser()
+}
+
+class CreditCard {
+    +create(Integer number, Integer CVV, Date expirateDate)
+
+}
+
+
+class User {
+    +String getUserEmail()
+
+}
+
+class Utils {
+ +E getItemByOption(List<E> list, Integer option)
+}
+
+
+
+class Product {
+
+
+}
+
+
+
+
+CheckoutBasketUI ..> CheckoutBasketController
+
+CheckoutBasketController ..> UserSession
+CheckoutBasketController ..> ClientDB
+CheckoutBasketController ..> CreditCard
+CheckoutBasketController ..> User
+CheckoutBasketController ..> Utils
+
+UserSession ..> User
+
+ClientDB ..> CreditCard
+ClientDB ..> Product
+ClientDB ..> User
+
+
+
+
+
+@enduml

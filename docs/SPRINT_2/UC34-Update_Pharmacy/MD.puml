@@ -1,0 +1,29 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Address {
+    -String Street
+    -String PostalCode
+    -String GeographicalLocation
+    -Integer doorNumber
+
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+Pharmacy "1" -- "1..*" Park: has >
+Pharmacy "1" -- "1..*" Vehicle: has >
+Pharmacy "1" -- "*" Product: has >
+Pharmacy "1" -- "1" Address: has >
+
+
+@enduml

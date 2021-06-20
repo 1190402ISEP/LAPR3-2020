@@ -1,0 +1,6 @@
+1;0
+
+Opções:
+
+1- Create a new product - ficheiro ReadProductScenario.txt
+0- log out

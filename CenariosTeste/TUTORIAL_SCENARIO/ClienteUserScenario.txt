@@ -1,0 +1,9 @@
+2;3;0
+
+Opções separadas por ;
+Lista de opções:
+
+1 - new credit card - ficheiro AddCardScenario.txt
+2- add product to basket - ficheiro SelectProdutScenario.txt
+3- checkout - ficheiro CheckoutBasketScenario.txt
+4- cancel order - ficheiro CancelOrderScenario.txt

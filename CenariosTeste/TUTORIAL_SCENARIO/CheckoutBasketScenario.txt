@@ -1,0 +1,4 @@
+1;;;0
+1;;;0
+
+[1-new card; 2-existing card];[if 2: list of cards option];[if user has no nif: nif];[selectedCredits]

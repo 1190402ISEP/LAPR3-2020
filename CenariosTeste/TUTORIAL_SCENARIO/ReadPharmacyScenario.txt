@@ -1,0 +1,3 @@
+c;po@gmail.com;Farmácia sá da bandeira;41.1483509, -8.6079882;farmacia sa da bandeira;4600-777;150
+
+C;ownerEmail;name;coordinates;address;postalcode;door_number

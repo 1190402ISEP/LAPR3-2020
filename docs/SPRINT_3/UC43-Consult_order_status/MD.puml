@@ -1,0 +1,47 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class Client {
+    -Integer credits
+}
+
+class Delivery {
+    -Integer id
+    -Integer nif
+    -float distanceMeters
+    -float timeMinutes
+    -float energyCostWH
+}
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+class User{
+-String email
+-int NIF
+-String name
+-String password
+}
+
+class UserSession {
+}
+
+
+/'------------------------------------------------------------------------------------ '/
+
+UserSession "1" -- "1" User: has >
+
+Client "1" -- "1" User: acts like >
+Client "1" -- "*" Delivery: requests >
+
+
+Delivery "1" -- "1..*" Order: delivers >
+
+Order "1" -- "1" OrderState: has >
+
+
+@enduml

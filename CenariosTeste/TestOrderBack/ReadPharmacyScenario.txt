@@ -1,0 +1,2 @@
+c;po@gmail.com;Farmacia;41.15227, -8.60929;Estrada de teste;4600-777;150
+c;po2@gmail.com;Farmacia2;41.14582, -8.61398;Estrada de teste2;4700-787;151

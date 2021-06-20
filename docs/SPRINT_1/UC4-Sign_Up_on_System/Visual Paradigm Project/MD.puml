@@ -1,0 +1,58 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class Platform {
+  -String designation
+}
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+class Client {
+    -Integer credits
+}
+
+class Address {
+    -String Street
+    -String PostalCode
+    -String GeographicalLocation
+    -Integer doorNumber
+
+}
+
+class UserSession {
+}
+
+
+class CreditCard {
+    -Integer number
+    -Integer CVV
+    -Date expirateDate
+}
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+Platform "1" ---- "*" User: has registered>
+
+UserSession "1" --- "1" User: has >
+
+
+Client "1" -- "1" User: acts like >
+Client "1" ---- "1" Address: has >
+Client "1" -- "*" CreditCard: has >
+
+
+
+
+@enduml

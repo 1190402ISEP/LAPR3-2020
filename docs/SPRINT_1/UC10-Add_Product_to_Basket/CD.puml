@@ -1,0 +1,51 @@
+@startuml
+
+class AddProductToBasketUI {
+
+}
+
+class AddProductToBasketController {
+  +getProductsList()
+  +addProductToBasket(Integer option, Integer quantity)
+
+
+}
+
+class ProductsDB {
+    +List<Product> getProductsList()
+    +addBasketProduct(String email, Integer id, Integer quantity)
+}
+
+class Product {
+
+}
+
+class UserSession {
+    +UserSession getUserSession()
+    +User getUser()
+}
+
+class User {
+    +String getUserEmail()
+
+}
+
+class Utils {
+    +E getItemByOption(List<E> list, Integer option)
+}
+
+
+AddProductToBasketUI ..> AddProductToBasketController
+
+AddProductToBasketController ..> UserSession
+AddProductToBasketController ..> ProductsDB
+AddProductToBasketController ..> Product
+AddProductToBasketController ..> User
+AddProductToBasketController ..> Utils
+
+UserSession "1" --> "1" User: has
+ProductsDB "1" --> "*" Product: has
+
+
+
+@enduml

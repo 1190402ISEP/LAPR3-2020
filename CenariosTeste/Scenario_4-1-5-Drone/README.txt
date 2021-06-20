@@ -1,0 +1,1 @@
+- Entrega impossivel porque o drone nao tem energia suficiente para qualquer uma das farmacias mais proximas.

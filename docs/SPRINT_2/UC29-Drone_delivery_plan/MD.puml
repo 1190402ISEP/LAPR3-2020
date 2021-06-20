@@ -1,0 +1,154 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+
+
+class Client {
+    -Integer credits
+}
+
+class Address {
+    -String coordinates
+    -String street
+    -String postalCode
+    -Integer doorNumber
+
+}
+
+class MapPoint{
+    -String coordinates
+    -float altitude
+}
+
+class Path{
+    -Integer id
+    -String point1
+    -String point2
+    -Integer connectionType
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+class Vehicle{
+    -Integer id
+    -float batteryCapacity
+    -float battery
+    -double maxPayload
+}
+
+class Drone{
+    -Integer id
+}
+
+class Park {
+    -Integer id
+    -Integer maxCapacity
+}
+
+class ParkPlace {
+    -Integer id
+    -Integer isAvailable
+}
+
+class ParkType{
+    -Integer id
+    -String designation
+}
+
+class ChargingStation {
+    -Integer id
+    -float voltage
+}
+
+
+
+
+class Delivery {
+    -Integer id
+    -Integer nif
+    -float distanceMeters
+    -float timeMinutes
+    -float energyCostWH
+}
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+}
+
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+
+
+
+class User{
+-String email
+-int NIF
+-String name
+-String password
+}
+
+
+class VehicleState{
+-int id
+-String designation
+}
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+
+
+
+Address "1" -- "1" MapPoint: has>
+
+MapPoint "2" -- "*" Path: have>
+
+
+
+ChargingStation "1" -- "1" ParkPlace : is a >
+
+Client "1" -- "1" User: acts like >
+Client "1" ---- "1" Address: has >
+Client "1" -- "*" Delivery: requests >
+
+
+Park "1" -- "1..*" ChargingStation: has >
+Park "1" -- "1..*" ParkPlace: has >
+
+ParkType "1" -- "1" Park: can be>
+
+
+
+Vehicle "1" -- "1" ParkPlace: parks at >
+Vehicle "1" -- "1" VehicleState: has >
+
+
+Delivery "1" -- "1..*" Order: delivers >
+
+Pharmacy "1" -- "1..*" Park: has >
+Pharmacy "1" -- "1..*" Vehicle: has >
+
+
+
+Order "1" -- "1" OrderState: has >
+
+
+Vehicle "1" -- "1" Drone: could be >
+
+Drone "1" -- "*" Delivery: makes >
+
+@enduml

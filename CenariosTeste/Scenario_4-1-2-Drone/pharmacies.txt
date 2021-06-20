@@ -1,0 +1,11 @@
+#pharmacies
+Farmácia Sousa Torres--41.2196991, -8.5608657;0
+Farmácia Guifões--41.2000276, -8.6661002;0
+Farmacia Avenida--41.1604978, -8.643729;0
+Farmácia sá--41.1670239, -8.6118334;0
+Farmácia de Fânzeres--41.161141, -8.5314053;0
+Farmácia Sá da Bandeira--41.1483509, -8.6079882;0
+Farmácia Couto--41.1260143, -8.6059455;0
+Farmácia Sousa Torres--41.2196991, -8.5608657;0
+Farmácia Marques da Cunha--41.197642, -8.4995863;0
+Farmácia Central (Valongo)--41.189932, -8.497875;0

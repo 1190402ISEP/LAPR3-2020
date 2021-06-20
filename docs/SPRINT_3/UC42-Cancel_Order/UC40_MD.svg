@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="221.4px" preserveAspectRatio="none" style="width:472px;height:221px;" version="1.1" viewBox="0 0 472 221" width="472.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fqt13vgl27mdr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.8"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.6" dy="3.6" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="6" fill="#FEFECE" filter="url(#fqt13vgl27mdr)" height="85.8094" id="User" style="stroke: #A80036; stroke-width: 1.35;" width="87.3" x="194.4" y="6.3"/><ellipse cx="223.29" cy="20.7" fill="#ADD1B2" rx="9.9" ry="9.9" style="stroke: #A80036; stroke-width: 0.9;"/><path d="M225.09,17.55 Q225.2728,17.1 225.4838,16.875 Q225.6947,16.65 225.9338,16.65 Q226.3556,16.65 226.6228,16.9031 Q226.89,17.1563 226.89,17.7469 L226.89,19.1531 Q226.89,19.7438 226.6369,19.9969 Q226.3838,20.25 225.99,20.25 Q225.6384,20.25 225.4134,20.0953 Q225.1884,19.9406 225.09,19.5328 Q225.0478,19.2516 224.8931,19.0969 Q224.6119,18.8016 224.1056,18.6328 Q223.5994,18.45 223.0931,18.45 Q222.4603,18.45 221.9259,18.7031 Q221.4056,18.9563 220.9978,19.5188 Q220.59,20.0813 220.59,20.8547 L220.59,21.6844 Q220.59,22.6125 221.3494,23.2313 Q222.1088,23.85 223.4588,23.85 Q224.2603,23.85 224.8228,23.6672 Q225.1463,23.5688 225.5119,23.2453 Q225.7509,23.0625 225.8775,23.0063 Q226.0041,22.95 226.1588,22.95 Q226.4541,22.95 226.665,23.1891 Q226.89,23.4141 226.89,23.7375 Q226.89,24.0469 226.5806,24.4125 Q226.1306,24.9469 225.4134,25.2422 Q224.4713,25.65 223.3181,25.65 Q221.9681,25.65 220.8853,25.1156 Q220.0134,24.6938 219.3947,23.7797 Q218.79,22.8656 218.79,21.7828 L218.79,20.7984 Q218.79,19.6734 219.3244,18.6891 Q219.8728,17.7047 220.815,17.1844 Q221.7713,16.65 222.84,16.65 Q223.4869,16.65 224.0494,16.875 Q224.6119,17.1 225.09,17.55 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="10.8" lengthAdjust="spacingAndGlyphs" textLength="24.3" x="239.31" y="25.1191">User</text><line style="stroke: #A80036; stroke-width: 1.35;" x1="195.3" x2="280.8" y1="35.1" y2="35.1"/><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="54.9" x="199.8" y="48.9771">-String name</text><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="53.1" x="199.8" y="61.4294">-String email</text><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="76.5" x="199.8" y="73.8817">-String password</text><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="49.5" x="199.8" y="86.3341">-Integer NIF</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="15" fill="#FEFECE" filter="url(#fqt13vgl27mdr)" height="48.4523" id="Client" style="stroke: #A80036; stroke-width: 1.35;" width="76.5" x="6.3" y="67.05"/><ellipse cx="28.305" cy="81.45" fill="#ADD1B2" rx="9.9" ry="9.9" style="stroke: #A80036; stroke-width: 0.9;"/><path d="M30.105,78.3 Q30.2878,77.85 30.4988,77.625 Q30.7097,77.4 30.9488,77.4 Q31.3706,77.4 31.6378,77.6531 Q31.905,77.9063 31.905,78.4969 L31.905,79.9031 Q31.905,80.4938 31.6519,80.7469 Q31.3988,81 31.005,81 Q30.6534,81 30.4284,80.8453 Q30.2034,80.6906 30.105,80.2828 Q30.0628,80.0016 29.9081,79.8469 Q29.6269,79.5516 29.1206,79.3828 Q28.6144,79.2 28.1081,79.2 Q27.4753,79.2 26.9409,79.4531 Q26.4206,79.7063 26.0128,80.2688 Q25.605,80.8313 25.605,81.6047 L25.605,82.4344 Q25.605,83.3625 26.3644,83.9813 Q27.1238,84.6 28.4738,84.6 Q29.2753,84.6 29.8378,84.4172 Q30.1613,84.3188 30.5269,83.9953 Q30.7659,83.8125 30.8925,83.7563 Q31.0191,83.7 31.1738,83.7 Q31.4691,83.7 31.68,83.9391 Q31.905,84.1641 31.905,84.4875 Q31.905,84.7969 31.5956,85.1625 Q31.1456,85.6969 30.4284,85.9922 Q29.4863,86.4 28.3331,86.4 Q26.9831,86.4 25.9003,85.8656 Q25.0284,85.4438 24.4097,84.5297 Q23.805,83.6156 23.805,82.5328 L23.805,81.5484 Q23.805,80.4234 24.3394,79.4391 Q24.8878,78.4547 25.83,77.9344 Q26.7863,77.4 27.855,77.4 Q28.5019,77.4 29.0644,77.625 Q29.6269,77.85 30.105,78.3 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="10.8" lengthAdjust="spacingAndGlyphs" textLength="28.8" x="42.795" y="85.8691">Client</text><line style="stroke: #A80036; stroke-width: 1.35;" x1="7.2" x2="81.9" y1="95.85" y2="95.85"/><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="65.7" x="11.7" y="109.7271">-Integer credits</text><!--MD5=[cf4d6237fcae255cd2e1656cf84a30e2]
+class Order--><rect codeLine="21" fill="#FEFECE" filter="url(#fqt13vgl27mdr)" height="85.8094" id="Order" style="stroke: #A80036; stroke-width: 1.35;" width="85.5" x="195.3" y="123.3"/><ellipse cx="221.76" cy="137.7" fill="#ADD1B2" rx="9.9" ry="9.9" style="stroke: #A80036; stroke-width: 0.9;"/><path d="M223.56,134.55 Q223.7428,134.1 223.9538,133.875 Q224.1647,133.65 224.4038,133.65 Q224.8256,133.65 225.0928,133.9031 Q225.36,134.1563 225.36,134.7469 L225.36,136.1531 Q225.36,136.7438 225.1069,136.9969 Q224.8538,137.25 224.46,137.25 Q224.1084,137.25 223.8834,137.0953 Q223.6584,136.9406 223.56,136.5328 Q223.5178,136.2516 223.3631,136.0969 Q223.0819,135.8016 222.5756,135.6328 Q222.0694,135.45 221.5631,135.45 Q220.9303,135.45 220.3959,135.7031 Q219.8756,135.9563 219.4678,136.5188 Q219.06,137.0813 219.06,137.8547 L219.06,138.6844 Q219.06,139.6125 219.8194,140.2313 Q220.5788,140.85 221.9288,140.85 Q222.7303,140.85 223.2928,140.6672 Q223.6163,140.5688 223.9819,140.2453 Q224.2209,140.0625 224.3475,140.0063 Q224.4741,139.95 224.6288,139.95 Q224.9241,139.95 225.135,140.1891 Q225.36,140.4141 225.36,140.7375 Q225.36,141.0469 225.0506,141.4125 Q224.6006,141.9469 223.8834,142.2422 Q222.9413,142.65 221.7881,142.65 Q220.4381,142.65 219.3553,142.1156 Q218.4834,141.6938 217.8647,140.7797 Q217.26,139.8656 217.26,138.7828 L217.26,137.7984 Q217.26,136.6734 217.7944,135.6891 Q218.3428,134.7047 219.285,134.1844 Q220.2413,133.65 221.31,133.65 Q221.9569,133.65 222.5194,133.875 Q223.0819,134.1 223.56,134.55 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="10.8" lengthAdjust="spacingAndGlyphs" textLength="27.9" x="237.24" y="142.1191">Order</text><line style="stroke: #A80036; stroke-width: 1.35;" x1="196.2" x2="279.9" y1="152.1" y2="152.1"/><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="43.2" x="200.7" y="165.9771">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="69.3" x="200.7" y="178.4294">-Date orderDate</text><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="74.7" x="200.7" y="190.8817">-Date deliverDate</text><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="49.5" x="200.7" y="203.3341">-Integer NIF</text><!--MD5=[b0808aa00a5c1d2430824b5104b080bc]
+class OrderState--><rect codeLine="29" fill="#FEFECE" filter="url(#fqt13vgl27mdr)" height="60.9047" id="OrderState" style="stroke: #A80036; stroke-width: 1.35;" width="91.8" x="368.1" y="135.45"/><ellipse cx="386.055" cy="149.85" fill="#ADD1B2" rx="9.9" ry="9.9" style="stroke: #A80036; stroke-width: 0.9;"/><path d="M387.855,146.7 Q388.0378,146.25 388.2488,146.025 Q388.4597,145.8 388.6988,145.8 Q389.1206,145.8 389.3878,146.0531 Q389.655,146.3063 389.655,146.8969 L389.655,148.3031 Q389.655,148.8938 389.4019,149.1469 Q389.1488,149.4 388.755,149.4 Q388.4034,149.4 388.1784,149.2453 Q387.9534,149.0906 387.855,148.6828 Q387.8128,148.4016 387.6581,148.2469 Q387.3769,147.9516 386.8706,147.7828 Q386.3644,147.6 385.8581,147.6 Q385.2253,147.6 384.6909,147.8531 Q384.1706,148.1063 383.7628,148.6688 Q383.355,149.2313 383.355,150.0047 L383.355,150.8344 Q383.355,151.7625 384.1144,152.3813 Q384.8738,153 386.2238,153 Q387.0253,153 387.5878,152.8172 Q387.9113,152.7188 388.2769,152.3953 Q388.5159,152.2125 388.6425,152.1563 Q388.7691,152.1 388.9238,152.1 Q389.2191,152.1 389.43,152.3391 Q389.655,152.5641 389.655,152.8875 Q389.655,153.1969 389.3456,153.5625 Q388.8956,154.0969 388.1784,154.3922 Q387.2363,154.8 386.0831,154.8 Q384.7331,154.8 383.6503,154.2656 Q382.7784,153.8438 382.1597,152.9297 Q381.555,152.0156 381.555,150.9328 L381.555,149.9484 Q381.555,148.8234 382.0894,147.8391 Q382.6378,146.8547 383.58,146.3344 Q384.5363,145.8 385.605,145.8 Q386.2519,145.8 386.8144,146.025 Q387.3769,146.25 387.855,146.7 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="10.8" lengthAdjust="spacingAndGlyphs" textLength="53.1" x="399.645" y="154.2691">OrderState</text><line style="stroke: #A80036; stroke-width: 1.35;" x1="369" x2="459" y1="164.25" y2="164.25"/><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="43.2" x="373.5" y="178.1271">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="9.9" lengthAdjust="spacingAndGlyphs" textLength="81" x="373.5" y="190.5794">-String designation</text><!--MD5=[9a8dc34b38f85b9f3fcdb440f4bffc6a]
+link Client to User--><path codeLine="38" d="M82.8668,83.0934 C114.7923,76.0491 160.704,65.9187 194.139,58.5405 " fill="none" id="Client-User" style="stroke: #A80036; stroke-width: 0.9;"/><polygon fill="#000000" points="118.6943,56.3386,110.175,55.5097,111.3149,60.6756,118.6943,56.3386" style="stroke: #000000; stroke-width: 0.9;"/><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="44.1" x="122.4" y="62.0956">acts like</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="6.3" x="89.9939" y="95.0973">1</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="6.3" x="180.9269" y="73.138">1</text><!--MD5=[879bec428a80d843af24dc47845bf14c]
+link Client to Order--><path codeLine="41" d="M82.8668,105.93 C115.119,118.4985 161.6454,136.6281 195.1623,149.6885 " fill="none" id="Client-Order" style="stroke: #A80036; stroke-width: 0.9;"/><polygon fill="#000000" points="120.2929,112.0421,113.6682,106.6218,111.7475,111.5509,120.2929,112.0421" style="stroke: #000000; stroke-width: 0.9;"/><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="40.5" x="124.2" y="115.1956">cancels</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="6.3" x="89.9939" y="121.8589">1</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="4.5" x="183.4685" y="160.3746">*</text><!--MD5=[ab4946417b991c9aec273b5527d3eb58]
+link Order to OrderState--><path codeLine="49" d="M281.1069,166.05 C307.3806,166.05 341.1666,166.05 367.9794,166.05 " fill="none" id="Order-OrderState" style="stroke: #A80036; stroke-width: 0.9;"/><polygon fill="#000000" points="317.7,158.1082,309.5594,155.4632,309.5594,160.7532,317.7,158.1082" style="stroke: #000000; stroke-width: 0.9;"/><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="18.9" x="321.3" y="162.8956">has</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="6.3" x="287.8935" y="179.2536">1</text><text fill="#000000" font-family="sans-serif" font-size="11.7" lengthAdjust="spacingAndGlyphs" textLength="6.3" x="354.4575" y="179.298">1</text><!--MD5=[a05a649154284aabf7812011dc41d90a]
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+
+}
+
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+
+/'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '/
+
+
+Client "1" - - "1" User: acts like >
+
+
+Client "1" - - "*" Order: cancels >
+
+
+
+
+
+
+
+Order "1" - - "1" OrderState: has >
+
+
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+
+}
+
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+
+
+
+Client "1" - - "1" User: acts like >
+
+
+Client "1" - - "*" Order: cancels >
+
+
+
+
+
+
+
+Order "1" - - "1" OrderState: has >
+
+
+
+
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

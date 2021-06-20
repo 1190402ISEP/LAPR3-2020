@@ -1,0 +1,3 @@
+rui3@gmail.com;255904324;Rui3;rui;41.14063, -8.61118;Estrada Test3;4620-742;1161
+rui2@gmail.com;255904321;Rui2;rui2;41.14871, -8.60746;Estrada Test4;4620-738;10
+

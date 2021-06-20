@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="89.6px" preserveAspectRatio="none" style="width:323px;height:89px;" version="1.1" viewBox="0 0 323 89" width="323.2px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ahn7ilkr0n9l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.6"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.2" dy="3.2" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0f39e4cb6f03951afbf6d14bd2505654]
+class Address--><rect codeLine="5" fill="#FEFECE" filter="url(#f1ahn7ilkr0n9l)" height="73.4563" id="Address" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="136" x="176" y="5.6"/><ellipse cx="221.4" cy="18.4" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8;"/><path d="M223.3785,23.3145 Q222.9137,23.5535 222.4023,23.673 Q221.891,23.7926 221.3266,23.7926 Q219.3211,23.7926 218.2652,22.4711 Q217.2094,21.1496 217.2094,18.6527 Q217.2094,16.1492 218.2652,14.8277 Q219.3211,13.5063 221.3266,13.5063 Q221.891,13.5063 222.409,13.6258 Q222.927,13.7453 223.3785,13.9844 L223.3785,16.1625 Q222.8738,15.6977 222.399,15.4818 Q221.9242,15.266 221.4195,15.266 Q220.3438,15.266 219.7959,16.1193 Q219.248,16.9727 219.248,18.6527 Q219.248,20.3262 219.7959,21.1795 Q220.3438,22.0328 221.4195,22.0328 Q221.9242,22.0328 222.399,21.817 Q222.8738,21.6012 223.3785,21.1363 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="38.4" x="237.8" y="22.0281">Address</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="176.8" x2="311.2" y1="31.2" y2="31.2"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="57.6" x="180.8" y="42.9078">-String Street</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="80.8" x="180.8" y="53.2719">-String PostalCode</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="126.4" x="180.8" y="63.6359">-String GeographicalLocation</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="92.8" x="180.8" y="74">-Integer doorNumber</text><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="12" fill="#FEFECE" filter="url(#f1ahn7ilkr0n9l)" height="52.7281" id="Pharmacy" style="stroke:#A80036;stroke-width:1.2000000000000002;" width="92.8" x="5.6" y="16"/><ellipse cx="27.68" cy="28.8" fill="#ADD1B2" rx="8.8" ry="8.8" style="stroke:#A80036;stroke-width:0.8;"/><path d="M29.6585,33.7145 Q29.1937,33.9535 28.6823,34.073 Q28.171,34.1926 27.6066,34.1926 Q25.6011,34.1926 24.5452,32.8711 Q23.4894,31.5496 23.4894,29.0527 Q23.4894,26.5492 24.5452,25.2277 Q25.6011,23.9063 27.6066,23.9063 Q28.171,23.9063 28.689,24.0258 Q29.207,24.1453 29.6585,24.3844 L29.6585,26.5625 Q29.1538,26.0977 28.679,25.8818 Q28.2042,25.666 27.6995,25.666 Q26.6238,25.666 26.0759,26.5193 Q25.528,27.3727 25.528,29.0527 Q25.528,30.7262 26.0759,31.5795 Q26.6238,32.4328 27.6995,32.4328 Q28.2042,32.4328 28.679,32.217 Q29.1538,32.0012 29.6585,31.5363 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="44.8" x="41.12" y="32.4281">Pharmacy</text><line style="stroke:#A80036;stroke-width:1.2000000000000002;" x1="6.4" x2="97.6" y1="41.6" y2="41.6"/><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="45.6" x="10.4" y="53.3078">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="8.8" lengthAdjust="spacing" textLength="83.2" x="10.4" y="63.6719">-String designation</text><!--MD5=[89baec1bfb4a213750f7c61516e0a0f1]
+link Pharmacy to Address--><path codeLine="19" d="M98.408,42.4 C121.616,42.4 150.288,42.4 175.976,42.4 " fill="none" id="Pharmacy-Address" style="stroke:#A80036;stroke-width:0.8;"/><polygon fill="#000000" points="130.4,35.7242,123.1639,33.3731,123.1639,38.0754,130.4,35.7242" style="stroke:#000000;stroke-width:0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="17.6" x="133.6" y="39.6547">has</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="6.4" x="104.764" y="53.244">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacing" textLength="6.4" x="163.2326" y="53.0065">1</text><!--MD5=[25fc2f30068ba727244c5af9cee83a30]
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Address {
+    -String Street
+    -String PostalCode
+    -String GeographicalLocation
+    -Integer doorNumber
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+/'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '/
+
+Pharmacy "1" - - "1" Address: has >
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Address {
+    -String Street
+    -String PostalCode
+    -String GeographicalLocation
+    -Integer doorNumber
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+Pharmacy "1" - - "1" Address: has >
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 WET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

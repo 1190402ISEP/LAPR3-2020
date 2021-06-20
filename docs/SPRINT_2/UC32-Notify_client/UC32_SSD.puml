@@ -1,0 +1,10 @@
+@startuml
+autonumber
+actor "Timer" as ADM
+
+activate ADM
+ADM -> ":System" : When the delivery starts it sends an email to the client.
+deactivate ":System"
+
+deactivate ADM
+@enduml

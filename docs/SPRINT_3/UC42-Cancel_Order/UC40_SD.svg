@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="709px" preserveAspectRatio="none" style="width:1323px;height:709px;" version="1.1" viewBox="0 0 1323 709" width="1323px" zoomAndPan="magnify"><defs><filter height="300%" id="f1xz2kibnvp5fq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="506.2188" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="302.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="308" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="151.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="308" y="454.4219"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="241.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="508" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="90.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="508" y="484.7734"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="701" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="836" y="243.0156"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="960" y="303.3672"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1048" y="363.7188"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1048" y="515.125"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1254" y="545.4766"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="26" x2="26" y1="89.6094" y2="623.8281"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="312.5" x2="312.5" y1="89.6094" y2="623.8281"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="512.5" x2="512.5" y1="89.6094" y2="623.8281"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="705.5" x2="705.5" y1="89.6094" y2="623.8281"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="840.5" x2="840.5" y1="89.6094" y2="623.8281"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="964.5" x2="964.5" y1="89.6094" y2="623.8281"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1052.5" x2="1052.5" y1="89.6094" y2="623.8281"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1258.5" x2="1258.5" y1="89.6094" y2="623.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="5" y="86.5332">Client</text><ellipse cx="26" cy="15" fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M26,23 L26,50 M13,31 L39,31 M26,50 L13,65 M26,50 L39,65 " fill="none" filter="url(#f1xz2kibnvp5fq)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="5" y="637.3613">Client</text><ellipse cx="26" cy="650.4375" fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M26,658.4375 L26,685.4375 M13,666.4375 L39,666.4375 M26,685.4375 L13,700.4375 M26,685.4375 L39,700.4375 " fill="none" filter="url(#f1xz2kibnvp5fq)" style="stroke: #A80036; stroke-width: 2.0;"/><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="255.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="262.5" y="74.5332">:CancelOrderUI</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="255.5" y="622.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="262.5" y="644.3613">:CancelOrderUI</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="183" x="419.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="426.5" y="74.5332">:CheckoutBasketController</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="183" x="419.5" y="622.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="426.5" y="644.3613">:CheckoutBasketController</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="655.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="662.5" y="74.5332">:UserSession</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="655.5" y="622.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="662.5" y="644.3613">:UserSession</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="145" x="766.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="773.5" y="74.5332">session:UserSession</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="145" x="766.5" y="622.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="773.5" y="644.3613">session:UserSession</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="75" x="925.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="932.5" y="74.5332">user:User</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="75" x="925.5" y="622.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="932.5" y="644.3613">user:User</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="73" x="1014.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="1021.5" y="74.5332">:ClientDB</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="73" x="1014.5" y="622.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="1021.5" y="644.3613">:ClientDB</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="105" x="1204.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="1211.5" y="74.5332">:OrdersQueue</text><rect fill="#FEFECE" filter="url(#f1xz2kibnvp5fq)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="105" x="1204.5" y="622.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="1211.5" y="644.3613">:OrdersQueue</text><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="506.2188" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="302.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="308" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="151.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="308" y="454.4219"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="241.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="508" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="90.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="508" y="484.7734"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="701" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="836" y="243.0156"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="960" y="303.3672"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1048" y="363.7188"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1048" y="515.125"/><rect fill="#FFFFFF" filter="url(#f1xz2kibnvp5fq)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1254" y="545.4766"/><polygon fill="#A80036" points="296,117.9609,306,121.9609,296,125.9609,300,121.9609" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="302" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="38" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="143" x="49" y="117.1045">starts canceling an order</text><polygon fill="#A80036" points="496,148.3125,506,152.3125,496,156.3125,500,152.3125" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="318" x2="502" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="325" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="147" x="336" y="147.4561">getClientOrdersByEmail()</text><polygon fill="#A80036" points="689,178.6641,699,182.6641,689,186.6641,693,182.6641" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="518" x2="695" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="525" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="153" x="536" y="177.8076">session=getUserSession()</text><polygon fill="#A80036" points="824,239.0156,834,243.0156,824,247.0156,828,243.0156" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="518" x2="830" y1="243.0156" y2="243.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="525" y="238.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="86" x="536" y="238.1592">user=getUser()</text><polygon fill="#A80036" points="948,299.3672,958,303.3672,948,307.3672,952,303.3672" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="518" x2="954" y1="303.3672" y2="303.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="525" y="298.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="125" x="536" y="298.5107">email=getUserEmail()</text><polygon fill="#A80036" points="1036,359.7188,1046,363.7188,1036,367.7188,1040,363.7188" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="518" x2="1042" y1="363.7188" y2="363.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="525" y="358.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="178" x="536" y="358.8623">getClientOrdersByEmail(email)</text><polygon fill="#A80036" points="42,420.0703,32,424.0703,42,428.0703,38,424.0703" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="36" x2="312" y1="424.0703" y2="424.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="48" y="419.2139">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="242" x="59" y="419.2139">shows all orders and requests the order id</text><polygon fill="#A80036" points="296,450.4219,306,454.4219,296,458.4219,300,454.4219" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="31" x2="302" y1="454.4219" y2="454.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="38" y="449.5654">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="86" x="49" y="449.5654">inserts order id</text><polygon fill="#A80036" points="496,480.7734,506,484.7734,496,488.7734,500,484.7734" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="318" x2="502" y1="484.7734" y2="484.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7" x="325" y="479.917">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="160" x="336" y="479.917">changeOrderToCanceled(id)</text><polygon fill="#A80036" points="1036,511.125,1046,515.125,1036,519.125,1040,515.125" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="518" x2="1042" y1="515.125" y2="515.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="525" y="510.2686">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="160" x="543" y="510.2686">changeOrderToCanceled(id)</text><polygon fill="#A80036" points="1242,541.4766,1252,545.4766,1242,549.4766,1246,545.4766" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="1058" x2="1248" y1="545.4766" y2="545.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="1065" y="540.6201">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="159" x="1083" y="540.6201">removeOrderFromQueue(id)</text><polygon fill="#A80036" points="37,601.8281,27,605.8281,37,609.8281,33,605.8281" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="31" x2="312" y1="605.8281" y2="605.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="43" y="600.9717">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="94" x="61" y="600.9717">process finishes</text><!--MD5=[3a5cc85fbf2814a82d7bbdc32f1bd23a]
+@startuml
+autonumber
+'hide footbox
+actor "Client" as ADM
+
+participant ":CancelOrderUI" as UI
+participant ":CheckoutBasketController" as CTRL
+participant ":UserSession" as US
+participant "session:UserSession" as SUS
+participant "user:User" as U
+participant ":ClientDB" as AC
+participant ":OrdersQueue" as OQ
+
+activate ADM
+
+ADM -> UI : starts canceling an order
+activate UI
+UI -> CTRL: getClientOrdersByEmail()
+
+activate CTRL
+
+CTRL -> US : session=getUserSession()
+activate US
+deactivate US
+
+CTRL -> SUS : user=getUser()
+activate SUS
+deactivate SUS
+
+CTRL -> U : email=getUserEmail()
+activate U
+deactivate U
+
+CTRL -> AC : getClientOrdersByEmail(email)
+activate AC
+deactivate CTRL
+deactivate AC
+UI - -> ADM : shows all orders and requests the order id
+deactivate UI
+
+ADM - -> UI : inserts order id
+activate UI
+UI - -> CTRL: changeOrderToCanceled(id)
+activate CTRL
+CTRL - -> AC: changeOrderToCanceled(id)
+activate AC
+AC - -> OQ: removeOrderFromQueue(id)
+activate OQ
+deactivate OQ
+deactivate CTRL
+deactivate AC
+
+
+
+
+UI - -> ADM : process finishes
+deactivate UI
+
+
+deactivate ADM
+@enduml
+
+@startuml
+autonumber
+actor "Client" as ADM
+
+participant ":CancelOrderUI" as UI
+participant ":CheckoutBasketController" as CTRL
+participant ":UserSession" as US
+participant "session:UserSession" as SUS
+participant "user:User" as U
+participant ":ClientDB" as AC
+participant ":OrdersQueue" as OQ
+
+activate ADM
+
+ADM -> UI : starts canceling an order
+activate UI
+UI -> CTRL: getClientOrdersByEmail()
+
+activate CTRL
+
+CTRL -> US : session=getUserSession()
+activate US
+deactivate US
+
+CTRL -> SUS : user=getUser()
+activate SUS
+deactivate SUS
+
+CTRL -> U : email=getUserEmail()
+activate U
+deactivate U
+
+CTRL -> AC : getClientOrdersByEmail(email)
+activate AC
+deactivate CTRL
+deactivate AC
+UI - -> ADM : shows all orders and requests the order id
+deactivate UI
+
+ADM - -> UI : inserts order id
+activate UI
+UI - -> CTRL: changeOrderToCanceled(id)
+activate CTRL
+CTRL - -> AC: changeOrderToCanceled(id)
+activate AC
+AC - -> OQ: removeOrderFromQueue(id)
+activate OQ
+deactivate OQ
+deactivate CTRL
+deactivate AC
+
+
+
+
+UI - -> ADM : process finishes
+deactivate UI
+
+
+deactivate ADM
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

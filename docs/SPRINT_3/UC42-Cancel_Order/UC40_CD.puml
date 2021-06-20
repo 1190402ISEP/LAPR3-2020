@@ -1,0 +1,48 @@
+@startuml
+
+class CancelOrderUI {
+
+}
+
+class CheckoutBasketController {
+  +getClientOrdersByEmail()
+  +changeOrderToCanceled(id)
+}
+
+class ClientDB {
+    +List<Order> getClientCreditOrdersByEmail(String email)
+    +changeOrderToCanceled(int id)
+}
+
+class UserSession {
+    +UserSession getUserSession()
+    +User getUser()
+}
+
+class User {
+    +String getUserEmail()
+
+}
+
+class OrdersQueue {
+    +removeOrderFromQueue(id)
+
+}
+
+
+
+CancelOrderUI ..> CheckoutBasketController
+
+CheckoutBasketController ..> UserSession
+CheckoutBasketController ..> ClientDB
+CheckoutBasketController ..> User
+ClientDB ..> OrdersQueue
+UserSession ..> User
+
+ClientDB ..> User
+
+
+
+
+
+@enduml

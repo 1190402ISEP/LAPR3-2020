@@ -1,0 +1,2 @@
+#pharmacies
+Farmácia Marques da Cunha--41.197803435620706, -8.499554115487804;100

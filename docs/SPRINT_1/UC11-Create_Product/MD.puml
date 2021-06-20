@@ -1,0 +1,45 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+
+class PharmacyOwner {
+
+}
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+class Product {
+    -Integer id
+    -String barCode
+    -String name
+    -Integer stock
+    -Float price
+    -Float weight
+    -Float Iva
+}
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+
+
+PharmacyOwner "1" -- "*" Product: manages >
+
+
+PharmacyOwner "1" -- "1" Pharmacy: belongs >
+
+Pharmacy "1" -- "*" Product: has >
+
+
+
+@enduml

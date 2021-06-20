@@ -1,0 +1,61 @@
+@startuml
+autonumber
+
+
+participant ":DroneDeliveryPlanningTask" as TASK
+participant ":remaining:List<String>" as RE
+participant "plan:DeliveryPlanning" as PLAN
+participant "pesosPorEcomenda:Map<String, Float>" as PESOS
+participant ":Print" as P
+participant "stop:StopForCharging" as STOP
+
+
+
+
+
+activate TASK
+
+-> TASK: tratarRemainingPath(remainingPath, droneID, pharmacyID, plan, pesosPorEncomenda, idDelivey, db, outputFileName)
+
+TASK -> RE: actualFarmacia = removeFirst()
+activate RE
+deactivate RE
+
+TASK -> RE: startingFarmacia = removeLast()
+activate RE
+deactivate RE
+
+TASK -> PLAN: completeRemainingPath = ShortestPathDrone(remaining, actualFarmacia, startingFarmacia)
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN : payload = getActualPayload()
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN: gastoEnergeticoRestante = calculateEnergyCost(completeRemainingPath, payload, VehicleType.DRONE, pesosPorEncomenda)
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN:  distanciaRestante = pathWeight(completeRemainingPath)
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN: tempoRestante = getSpentTimeLastDronePath()
+activate PLAN
+deactivate PLAN
+
+
+TASK -> P: printRemainingDeliveryPath(outputFileName, actualFarmacia, completeRemainingPath, gastoEnergeticoRestante, distanciaRestante, tempoRestante, VehicleType.DRONE)
+activate P
+deactivate P
+
+TASK --> STOP**: create(completeRemainingPath, gastoEnergeticoRestante, tempoRestante, distanciaRestante, droneID, pharmacyID, deliveryID, db)
+
+TASK -> STOP: run()
+activate STOP
+deactivate STOP
+
+deactivate TASK
+
+@enduml

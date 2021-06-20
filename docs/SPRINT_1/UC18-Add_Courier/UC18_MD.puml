@@ -1,0 +1,60 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+class Courier {
+    -Integer nif
+    -char niss
+    -String name
+    -String email
+    -float maxWeight
+}
+
+class CourierState{
+    -Integer id
+    -String designation
+}
+
+class Scooter {
+    -boolean qrCode
+}
+
+class Vehicle{
+    -Integer id
+    -float batteryCapacity
+    -float battery
+    -double maxPayload
+}
+class Administrator {
+
+}
+class User{
+-String email
+-int NIF
+-String name
+-String password
+}
+
+
+
+/'------------------------------------------------------------------------------------ '/
+Administrator "1" -- "1" User: acts like >
+Administrator "1" -- "*" Courier: adds >
+Courier "1" --- "1..*" Scooter: uses >
+Courier "*" --- "1" Pharmacy: works in >
+Courier "1" --- "1" CourierState: has >
+Pharmacy "1" -- "1..*" Vehicle: has >
+
+
+
+
+
+
+@enduml

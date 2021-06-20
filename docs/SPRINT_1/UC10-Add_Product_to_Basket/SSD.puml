@@ -1,0 +1,21 @@
+@startuml
+autonumber
+actor "Client" as CLB
+
+activate CLB
+CLB -> ":System" : starts adding product to basket
+activate ":System"
+":System" --> CLB : shows the list of products
+deactivate ":System"
+CLB -> ":System" : selects a product
+activate ":System"
+":System" --> CLB : requests the quantity of the same product
+deactivate ":System"
+
+CLB -> ":System" : the client inserts the quantity
+activate ":System"
+":System" --> CLB : successful operation
+deactivate ":System"
+
+deactivate CLB
+@enduml

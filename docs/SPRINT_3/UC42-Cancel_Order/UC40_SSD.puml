@@ -1,0 +1,17 @@
+@startuml
+autonumber
+actor "Client" as ADM
+
+activate ADM
+ADM -> ":System" : starts canceling an order
+activate ":System"
+":System" --> ADM : shows all orders and requests the order id
+deactivate ":System"
+ADM -> ":System" : inserts order id
+
+activate ":System"
+":System" --> ADM : process finished
+deactivate ":System"
+
+deactivate ADM
+@enduml

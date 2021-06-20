@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="755px" preserveAspectRatio="none" style="width:1599px;height:755px;" version="1.1" viewBox="0 0 1599 755" width="1599px" zoomAndPan="magnify"><defs><filter height="300%" id="f90x4j0nb23wf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="552.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="137.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="353" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="362.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="353" y="289.7188"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="611" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="301.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="611" y="320.0703"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="876" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="876" y="591.8281"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1248" y="410.7734"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1383" y="471.125"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1497" y="531.4766"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1560.5" y="350.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="358" x2="358" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="616" x2="616" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="880.5" x2="880.5" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1021.5" x2="1021.5" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1152.5" x2="1152.5" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1252.5" x2="1252.5" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1387.5" x2="1387.5" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1501.5" x2="1501.5" y1="89.6094" y2="670.1797"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1565.5" x2="1565.5" y1="89.6094" y2="670.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="86.5332">Client</text><ellipse cx="26" cy="15" fill="#FEFECE" filter="url(#f90x4j0nb23wf)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,23 L26,50 M13,31 L39,31 M26,50 L13,65 M26,50 L39,65 " fill="none" filter="url(#f90x4j0nb23wf)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="683.7129">Client</text><ellipse cx="26" cy="696.7891" fill="#FEFECE" filter="url(#f90x4j0nb23wf)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,704.7891 L26,731.7891 M13,712.7891 L39,712.7891 M26,731.7891 L13,746.7891 M26,731.7891 L39,746.7891 " fill="none" filter="url(#f90x4j0nb23wf)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="164" x="274" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="281" y="74.5332">:AddProductToBasketUI</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="164" x="274" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="281" y="690.7129">:AddProductToBasketUI</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="214" x="507" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="514" y="74.5332">:AddProductToBasketController</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="214" x="507" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="514" y="690.7129">:AddProductToBasketController</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="93" x="832.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="839.5" y="74.5332">:ProductsDB</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="93" x="832.5" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="839.5" y="690.7129">:ProductsDB</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="160" x="939.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="946.5" y="74.5332">products:List&lt;Product&gt;</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="160" x="939.5" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="946.5" y="690.7129">products:List&lt;Product&gt;</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="75" x="1113.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1120.5" y="74.5332">p:Product</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="75" x="1113.5" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1120.5" y="690.7129">p:Product</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="97" x="1202.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1209.5" y="74.5332">:UserSession</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="97" x="1202.5" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1209.5" y="690.7129">:UserSession</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="145" x="1313.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="1320.5" y="74.5332">session:UserSession</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="145" x="1313.5" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="1320.5" y="690.7129">session:UserSession</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="55" x="1472.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="1479.5" y="74.5332">u:User</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="55" x="1472.5" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="1479.5" y="690.7129">u:User</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="44" x="1541.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="1548.5" y="74.5332">:Utils</text><rect fill="#FEFECE" filter="url(#f90x4j0nb23wf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="44" x="1541.5" y="669.1797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="1548.5" y="690.7129">:Utils</text><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="552.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="137.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="353" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="362.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="353" y="289.7188"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="611" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="301.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="611" y="320.0703"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="876" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="876" y="591.8281"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1248" y="410.7734"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1383" y="471.125"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1497" y="531.4766"/><rect fill="#FFFFFF" filter="url(#f90x4j0nb23wf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1560.5" y="350.4219"/><polygon fill="#A80036" points="341,117.9609,351,121.9609,341,125.9609,345,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="347" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="38" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="49" y="117.1045">The client starts adding new product to basket</text><polygon fill="#A80036" points="599,148.3125,609,152.3125,599,156.3125,603,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="363" x2="605" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="370" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="381" y="147.4561">getProductsList()</text><polygon fill="#A80036" points="864,178.6641,874,182.6641,864,186.6641,868,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="621" x2="870" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="628" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="639" y="177.8076">products = getProductsList()</text><polygon fill="#A80036" points="42,255.3672,32,259.3672,42,263.3672,38,259.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="357" y1="259.3672" y2="259.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="48" y="246.335">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="59" y="238.1592">the system shows the list of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="283" x="63" y="254.5107">products and requests data (product ID, quantity)</text><polygon fill="#A80036" points="341,285.7188,351,289.7188,341,293.7188,345,289.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="347" y1="289.7188" y2="289.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="38" y="284.8623">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="49" y="284.8623">the user inserts the data</text><polygon fill="#A80036" points="599,316.0703,609,320.0703,599,324.0703,603,320.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="363" x2="605" y1="320.0703" y2="320.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="370" y="315.2139">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="381" y="315.2139">addProductToBasket(option, quantity)</text><polygon fill="#A80036" points="1548.5,346.4219,1558.5,350.4219,1548.5,354.4219,1552.5,350.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="621" x2="1554.5" y1="350.4219" y2="350.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="628" y="345.5654">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="221" x="639" y="345.5654">p = getItemByOption(products, option)</text><polygon fill="#A80036" points="1236,406.7734,1246,410.7734,1236,414.7734,1240,410.7734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="621" x2="1242" y1="410.7734" y2="410.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="628" y="405.917">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="639" y="405.917">session = getUserSession()</text><polygon fill="#A80036" points="1371,467.125,1381,471.125,1371,475.125,1375,471.125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="621" x2="1377" y1="471.125" y2="471.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="628" y="466.2686">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="639" y="466.2686">user = getUser()</text><polygon fill="#A80036" points="1485,527.4766,1495,531.4766,1485,535.4766,1489,531.4766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="621" x2="1491" y1="531.4766" y2="531.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="628" y="526.6201">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="646" y="526.6201">email = getUserEmail()</text><polygon fill="#A80036" points="864,587.8281,874,591.8281,864,595.8281,868,591.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="621" x2="870" y1="591.8281" y2="591.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="628" y="586.9717">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="646" y="586.9717">addBasketProduct(email, id, quantity)</text><polygon fill="#A80036" points="37,648.1797,27,652.1797,37,656.1797,33,652.1797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="31" x2="357" y1="652.1797" y2="652.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="43" y="647.3232">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="61" y="647.3232">process finished</text><!--MD5=[1a8246d484bd6ccc8e6a89fb751a122a]
+@startuml
+autonumber
+
+actor "Client" as CLI
+
+participant ":AddProductToBasketUI" as UI
+participant ":AddProductToBasketController" as CTRL
+participant ":ProductsDB" as PDB
+participant "products:List<Product>" as list
+participant "p:Product" as P
+participant ":UserSession" as US
+participant "session:UserSession" as S
+participant "u:User" as U
+participant ":Utils" as UTILS
+
+
+
+
+
+activate CLI
+CLI -> UI: The client starts adding new product to basket
+activate UI
+
+UI -> CTRL: getProductsList()
+
+activate CTRL
+
+CTRL -> PDB : products = getProductsList()
+activate PDB
+deactivate PDB
+
+deactivate CTRL
+
+
+CLI <- - UI: the system shows the list of\n products and requests data (product ID, quantity)
+
+deactivate UI
+
+CLI -> UI: the user inserts the data
+
+activate UI
+
+UI -> CTRL: addProductToBasket(option, quantity)
+
+activate CTRL
+
+CTRL -> UTILS: p = getItemByOption(products, option)
+activate UTILS
+deactivate UTILS
+
+
+
+CTRL -> US: session = getUserSession()
+
+activate US
+deactivate US
+
+CTRL -> S: user = getUser()
+
+activate S
+deactivate S
+
+CTRL -> U: email = getUserEmail()
+
+activate U
+deactivate U
+
+
+
+CTRL -> PDB: addBasketProduct(email, id, quantity)
+
+activate PDB
+deactivate PDB
+
+deactivate CTRL
+
+CLI <- - UI: process finished
+
+deactivate UI
+deactivate CLI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

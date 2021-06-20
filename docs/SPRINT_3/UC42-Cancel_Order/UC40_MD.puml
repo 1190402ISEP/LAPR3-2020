@@ -1,0 +1,55 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+
+}
+
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+Client "1" -- "1" User: acts like >
+
+
+Client "1" -- "*" Order: cancels >
+
+
+
+
+
+
+
+Order "1" -- "1" OrderState: has >
+
+
+
+
+@enduml

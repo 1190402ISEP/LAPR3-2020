@@ -1,0 +1,48 @@
+@startuml
+autonumber
+
+
+participant ":DroneDeliveryPlanningTask" as TASK
+participant "db:PlanningDB" as DB
+participant "task:ChangeStatesTask" as CHANGE
+
+
+activate TASK
+-> TASK: finalSteps(db, droneID, pharmacyID, pharmacyOrders, distanceDrone, time, energyCost, pass)
+
+TASK -> DB: changeStates(droneID, 0, pharmacyID)
+
+activate DB
+deactivate DB
+
+TASK -> DB: idDelivery =  insertDelivery(0, droneID, pharmacyID, distanceDrone, time, energyCost)
+
+activate DB
+deactivate DB
+
+TASK -> DB: takeVehicleEnergy(droneID, energyCost, pharmacyID)
+activate DB
+deactivate DB
+
+
+TASK -> DB: updateOrdersDeliveryID(pharmacyOrders, idDelivery)
+
+activate DB
+deactivate DB
+
+
+TASK --> CHANGE: create(droneID, db, pharmacyID)
+
+activate CHANGE
+deactivate CHANGE
+
+
+
+
+TASK -> TASK: changeStateDrone(TASK)
+activate TASK
+deactivate TASK
+
+deactivate TASK
+
+@enduml

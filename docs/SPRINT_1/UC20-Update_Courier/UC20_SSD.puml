@@ -1,0 +1,32 @@
+@startuml
+autonumber
+actor "Administrator" as ADM
+
+activate ADM
+ADM -> ":System" : Starts updating courier
+activate ":System"
+":System" --> ADM : shows the pharmacy list and requests the pharmacy's id
+deactivate ":System"
+ADM -> ":System" : inserts the pharmacy's id
+activate ":System"
+":System" --> ADM : shows the courier's list and requests the courier's nif
+deactivate ":System"
+
+
+
+ADM -> ":System" : inserts the courier's nif
+activate ":System"
+":System" --> ADM : requests new data (name,nif,niss,email,state,pharmacyId,vehicleId)
+deactivate ":System"
+
+ADM -> ":System" : inserts the requested data
+activate ":System"
+":System" --> ADM : presents data and requests confirmation
+deactivate ":System"
+
+ADM -> ":System" : confirms
+activate ":System"
+":System" --> ADM : updates the courier and informs the success of the operation
+deactivate ":System"
+deactivate ADM
+@enduml

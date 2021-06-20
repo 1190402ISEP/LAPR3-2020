@@ -1,0 +1,12 @@
+c;264;8;1;100
+
+c;Battery capacity Wh;max payload kg;pharmacyID;batteryPercentage 0-100
+u;id;Battery capacity Wh;max payload kg;pharmacyID;batteryPercentage 0-100;state
+r;id;pharmacyID
+
+states:
+
+1- AVAILABLE
+2- UNAVAILABLE
+3- BROKEN
+4- CHARGING

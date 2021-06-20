@@ -1,0 +1,32 @@
+#Farmácia Guifões - MAR Shopping Matosinhos
+41.2000276, -8.6661002;41.2090041, -8.68733;0
+#Farmácia Guifões - NorteShopping
+41.2000276, -8.6661002;41.1808164, -8.6545763;1
+#NorteShopping - Centro Comercial New City
+41.1808164, -8.6545763;41.1823475, -8.6922944;1
+#Farmácia Sousa Torres - Posto Correios Forno
+41.2196991, -8.5608657;41.1925968, -8.5758935;1
+#Farmácia Marques da Cunha - Post Office Valongo
+41.197642, -8.4995863;41.1899926, -8.4975864;0
+#Shopping Brasilia - Associação Comerciantes - Shop
+41.1575628, -8.627837;41.1479441, -8.6158318;1
+#CTT - Posto de Correios de Conde Ferreira
+41.1714565, -8.6128568;41.1711857, -8.5881815;1
+#Farmácia sá - Posto de Correios de Conde Ferreira
+41.1670239, -8.6118334;41.1711857, -8.5881815;1
+#Farmácia sá - Traditional Shopping Street
+41.1670239, -8.6118334;41.1534775, -8.6047492;0
+#Posto de Correios de Conde Ferreira - Alameda Shop & Spot
+41.1711857, -8.5881815;41.1637391, -8.5841843;1
+#Alameda Shop & Spot - Traditional Shopping Street
+41.1637391, -8.5841843;41.1534775, -8.6047492;1
+#Alameda Shop & Spot - FISHISCO Pesca, Lda.
+41.1637391, -8.5841843;41.1442816, -8.5752217;1
+
+
+coordinateOrigem;coordinateDestination;conectionType
+
+Conections Types:
+
+	1- sentido unico -> da coordenada das esquerda para a direita
+	0- sem caminho

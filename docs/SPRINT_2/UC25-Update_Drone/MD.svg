@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="225.68px" preserveAspectRatio="none" style="width:410px;height:225px;" version="1.1" viewBox="0 0 410 225" width="410.44px" zoomAndPan="magnify"><defs><filter height="300%" id="f1iblk7iuvmhax" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.24"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.48" dy="2.48" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect codeLine="5" fill="#FEFECE" filter="url(#f1iblk7iuvmhax)" height="24.8" id="Administrator" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="65.1" x="130.51" y="40.3"/><ellipse cx="139.81" cy="50.22" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M141.05,48.05 Q141.1759,47.74 141.3213,47.585 Q141.4666,47.43 141.6313,47.43 Q141.9219,47.43 142.1059,47.6044 Q142.29,47.7788 142.29,48.1856 L142.29,49.1544 Q142.29,49.5613 142.1156,49.7356 Q141.9413,49.91 141.67,49.91 Q141.4278,49.91 141.2728,49.8034 Q141.1178,49.6969 141.05,49.4159 Q141.0209,49.2222 140.9144,49.1156 Q140.7206,48.9122 140.3719,48.7959 Q140.0231,48.67 139.6744,48.67 Q139.2384,48.67 138.8703,48.8444 Q138.5119,49.0188 138.2309,49.4063 Q137.95,49.7938 137.95,50.3266 L137.95,50.8981 Q137.95,51.5375 138.4731,51.9638 Q138.9963,52.39 139.9263,52.39 Q140.4784,52.39 140.8659,52.2641 Q141.0888,52.1963 141.3406,51.9734 Q141.5053,51.8475 141.5925,51.8087 Q141.6797,51.77 141.7863,51.77 Q141.9897,51.77 142.135,51.9347 Q142.29,52.0897 142.29,52.3125 Q142.29,52.5256 142.0769,52.7775 Q141.7669,53.1456 141.2728,53.3491 Q140.6238,53.63 139.8294,53.63 Q138.8994,53.63 138.1534,53.2619 Q137.5528,52.9713 137.1266,52.3416 Q136.71,51.7119 136.71,50.9659 L136.71,50.2878 Q136.71,49.5128 137.0781,48.8347 Q137.4559,48.1566 138.105,47.7981 Q138.7638,47.43 139.5,47.43 Q139.9456,47.43 140.3331,47.585 Q140.7206,47.74 141.05,48.05 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacingAndGlyphs" textLength="45.26" x="148.49" y="53.2643">Administrator</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="131.13" x2="194.99" y1="60.14" y2="60.14"/><!--MD5=[7f2a9fafcebe4f099f71398fd3e2ed00]
+class Pharmacy--><rect codeLine="11" fill="#FEFECE" filter="url(#f1iblk7iuvmhax)" height="41.9566" id="Pharmacy" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="63.24" x="4.34" y="139.5"/><ellipse cx="17.825" cy="149.42" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M19.065,147.25 Q19.1909,146.94 19.3363,146.785 Q19.4816,146.63 19.6463,146.63 Q19.9369,146.63 20.1209,146.8044 Q20.305,146.9788 20.305,147.3856 L20.305,148.3544 Q20.305,148.7613 20.1306,148.9356 Q19.9563,149.11 19.685,149.11 Q19.4428,149.11 19.2878,149.0034 Q19.1328,148.8969 19.065,148.6159 Q19.0359,148.4222 18.9294,148.3156 Q18.7356,148.1122 18.3869,147.9959 Q18.0381,147.87 17.6894,147.87 Q17.2534,147.87 16.8853,148.0444 Q16.5269,148.2188 16.2459,148.6063 Q15.965,148.9938 15.965,149.5266 L15.965,150.0981 Q15.965,150.7375 16.4881,151.1638 Q17.0113,151.59 17.9413,151.59 Q18.4934,151.59 18.8809,151.4641 Q19.1038,151.3963 19.3556,151.1734 Q19.5203,151.0475 19.6075,151.0088 Q19.6947,150.97 19.8013,150.97 Q20.0047,150.97 20.15,151.1347 Q20.305,151.2897 20.305,151.5125 Q20.305,151.7256 20.0919,151.9775 Q19.7819,152.3456 19.2878,152.5491 Q18.6387,152.83 17.8444,152.83 Q16.9144,152.83 16.1684,152.4619 Q15.5678,152.1713 15.1416,151.5416 Q14.725,150.9119 14.725,150.1659 L14.725,149.4878 Q14.725,148.7128 15.0931,148.0347 Q15.4709,147.3566 16.12,146.9981 Q16.7788,146.63 17.515,146.63 Q17.9606,146.63 18.3481,146.785 Q18.7356,146.94 19.065,147.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacingAndGlyphs" textLength="34.1" x="27.435" y="152.4643">Pharmacy</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="4.96" x2="66.96" y1="159.34" y2="159.34"/><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="29.76" x="8.06" y="168.8997">-Integer id</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="55.8" x="8.06" y="177.478">-String designation</text><!--MD5=[3aa0d89c6bfdcbf7f32042cedac57549]
+class Vehicle--><rect codeLine="16" fill="#FEFECE" filter="url(#f1iblk7iuvmhax)" height="59.1131" id="Vehicle" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="71.92" x="127.1" y="131.13"/><ellipse cx="148.676" cy="141.05" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M149.916,138.88 Q150.0419,138.57 150.1873,138.415 Q150.3326,138.26 150.4973,138.26 Q150.7879,138.26 150.9719,138.4344 Q151.156,138.6088 151.156,139.0156 L151.156,139.9844 Q151.156,140.3912 150.9816,140.5656 Q150.8073,140.74 150.536,140.74 Q150.2938,140.74 150.1388,140.6334 Q149.9838,140.5269 149.916,140.2459 Q149.8869,140.0522 149.7804,139.9456 Q149.5866,139.7422 149.2379,139.6259 Q148.8891,139.5 148.5404,139.5 Q148.1044,139.5 147.7363,139.6744 Q147.3779,139.8488 147.0969,140.2363 Q146.816,140.6238 146.816,141.1566 L146.816,141.7281 Q146.816,142.3675 147.3391,142.7938 Q147.8623,143.22 148.7923,143.22 Q149.3444,143.22 149.7319,143.0941 Q149.9548,143.0263 150.2066,142.8034 Q150.3713,142.6775 150.4585,142.6388 Q150.5457,142.6 150.6523,142.6 Q150.8557,142.6 151.001,142.7647 Q151.156,142.9197 151.156,143.1425 Q151.156,143.3556 150.9429,143.6075 Q150.6329,143.9756 150.1388,144.1791 Q149.4898,144.46 148.6954,144.46 Q147.7654,144.46 147.0194,144.0919 Q146.4188,143.8013 145.9926,143.1716 Q145.576,142.5419 145.576,141.7959 L145.576,141.1178 Q145.576,140.3428 145.9441,139.6647 Q146.3219,138.9866 146.971,138.6281 Q147.6298,138.26 148.366,138.26 Q148.8116,138.26 149.1991,138.415 Q149.5866,138.57 149.916,138.88 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacingAndGlyphs" textLength="24.8" x="160.084" y="144.0943">Vehicle</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="127.72" x2="198.4" y1="150.97" y2="150.97"/><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="16.12" x="130.82" y="160.5297">-int id</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="64.48" x="130.82" y="169.108">-float batteryCapacity</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="57.04" x="130.82" y="177.6863">-float actualBattery</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="57.04" x="130.82" y="186.2646">-double maxWeight</text><!--MD5=[f4402668d5d5bb8485350c0fdb60ac8e]
+class Scooter--><rect codeLine="22" fill="#FEFECE" filter="url(#f1iblk7iuvmhax)" height="33.3783" id="Scooter" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="57.04" x="342.24" y="56.42"/><ellipse cx="356.562" cy="66.34" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M357.802,64.17 Q357.9279,63.86 358.0733,63.705 Q358.2186,63.55 358.3833,63.55 Q358.6739,63.55 358.8579,63.7244 Q359.042,63.8988 359.042,64.3056 L359.042,65.2744 Q359.042,65.6813 358.8676,65.8556 Q358.6933,66.03 358.422,66.03 Q358.1798,66.03 358.0248,65.9234 Q357.8698,65.8169 357.802,65.5359 Q357.7729,65.3422 357.6664,65.2356 Q357.4726,65.0322 357.1239,64.9159 Q356.7751,64.79 356.4264,64.79 Q355.9904,64.79 355.6223,64.9644 Q355.2639,65.1388 354.9829,65.5263 Q354.702,65.9138 354.702,66.4466 L354.702,67.0181 Q354.702,67.6575 355.2251,68.0838 Q355.7483,68.51 356.6783,68.51 Q357.2304,68.51 357.6179,68.3841 Q357.8408,68.3163 358.0926,68.0934 Q358.2573,67.9675 358.3445,67.9288 Q358.4317,67.89 358.5383,67.89 Q358.7417,67.89 358.887,68.0547 Q359.042,68.2097 359.042,68.4325 Q359.042,68.6456 358.8289,68.8975 Q358.5189,69.2656 358.0248,69.4691 Q357.3758,69.75 356.5814,69.75 Q355.6514,69.75 354.9054,69.3819 Q354.3048,69.0913 353.8786,68.4616 Q353.462,67.8319 353.462,67.0859 L353.462,66.4078 Q353.462,65.6328 353.8301,64.9547 Q354.2079,64.2766 354.857,63.9181 Q355.5158,63.55 356.252,63.55 Q356.6976,63.55 357.0851,63.705 Q357.4726,63.86 357.802,64.17 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacingAndGlyphs" textLength="26.04" x="366.358" y="69.3843">Scooter</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="342.86" x2="398.66" y1="76.26" y2="76.26"/><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="49.6" x="345.96" y="85.8197">-boolean qrCode</text><!--MD5=[2e3f1e60e74253ff42e47f8bfdb04ee2]
+class Drone--><rect codeLine="25" fill="#FEFECE" filter="url(#f1iblk7iuvmhax)" height="24.8" id="Drone" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="40.92" x="350.3" y="122.76"/><ellipse cx="359.6" cy="132.68" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M360.84,130.51 Q360.9659,130.2 361.1113,130.045 Q361.2566,129.89 361.4213,129.89 Q361.7119,129.89 361.8959,130.0644 Q362.08,130.2388 362.08,130.6456 L362.08,131.6144 Q362.08,132.0213 361.9056,132.1956 Q361.7313,132.37 361.46,132.37 Q361.2178,132.37 361.0628,132.2634 Q360.9078,132.1569 360.84,131.8759 Q360.8109,131.6822 360.7044,131.5756 Q360.5106,131.3722 360.1619,131.2559 Q359.8131,131.13 359.4644,131.13 Q359.0284,131.13 358.6603,131.3044 Q358.3019,131.4788 358.0209,131.8663 Q357.74,132.2538 357.74,132.7866 L357.74,133.3581 Q357.74,133.9975 358.2631,134.4238 Q358.7863,134.85 359.7163,134.85 Q360.2684,134.85 360.6559,134.7241 Q360.8788,134.6563 361.1306,134.4334 Q361.2953,134.3075 361.3825,134.2688 Q361.4697,134.23 361.5763,134.23 Q361.7797,134.23 361.925,134.3947 Q362.08,134.5497 362.08,134.7725 Q362.08,134.9856 361.8669,135.2375 Q361.5569,135.6056 361.0628,135.8091 Q360.4138,136.09 359.6194,136.09 Q358.6894,136.09 357.9434,135.7219 Q357.3428,135.4313 356.9166,134.8016 Q356.5,134.1719 356.5,133.4259 L356.5,132.7478 Q356.5,131.9728 356.8681,131.2947 Q357.2459,130.6166 357.895,130.2581 Q358.5538,129.89 359.29,129.89 Q359.7356,129.89 360.1231,130.045 Q360.5106,130.2 360.84,130.51 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacingAndGlyphs" textLength="21.08" x="368.28" y="135.7243">Drone</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="350.92" x2="390.6" y1="142.6" y2="142.6"/><!--MD5=[207480c68836bdc00a20c8f267df5562]
+class VehicleState--><rect codeLine="30" fill="#FEFECE" filter="url(#f1iblk7iuvmhax)" height="41.9566" id="VehicleState" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="62" x="339.76" y="175.46"/><ellipse cx="349.06" cy="185.38" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M350.3,183.21 Q350.4259,182.9 350.5713,182.745 Q350.7166,182.59 350.8813,182.59 Q351.1719,182.59 351.3559,182.7644 Q351.54,182.9388 351.54,183.3456 L351.54,184.3144 Q351.54,184.7213 351.3656,184.8956 Q351.1913,185.07 350.92,185.07 Q350.6778,185.07 350.5228,184.9634 Q350.3678,184.8569 350.3,184.5759 Q350.2709,184.3822 350.1644,184.2756 Q349.9706,184.0722 349.6219,183.9559 Q349.2731,183.83 348.9244,183.83 Q348.4884,183.83 348.1203,184.0044 Q347.7619,184.1788 347.4809,184.5663 Q347.2,184.9537 347.2,185.4866 L347.2,186.0581 Q347.2,186.6975 347.7231,187.1238 Q348.2463,187.55 349.1763,187.55 Q349.7284,187.55 350.1159,187.4241 Q350.3388,187.3563 350.5906,187.1334 Q350.7553,187.0075 350.8425,186.9688 Q350.9297,186.93 351.0363,186.93 Q351.2397,186.93 351.385,187.0947 Q351.54,187.2497 351.54,187.4725 Q351.54,187.6856 351.3269,187.9375 Q351.0169,188.3056 350.5228,188.5091 Q349.8738,188.79 349.0794,188.79 Q348.1494,188.79 347.4034,188.4219 Q346.8028,188.1313 346.3766,187.5016 Q345.96,186.8719 345.96,186.1259 L345.96,185.4478 Q345.96,184.6728 346.3281,183.9947 Q346.7059,183.3166 347.355,182.9581 Q348.0138,182.59 348.75,182.59 Q349.1956,182.59 349.5831,182.745 Q349.9706,182.9 350.3,183.21 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacingAndGlyphs" textLength="42.16" x="357.74" y="188.4243">VehicleState</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="340.38" x2="401.14" y1="195.3" y2="195.3"/><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="16.12" x="343.48" y="204.8597">-int id</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacingAndGlyphs" textLength="51.46" x="343.48" y="213.438">-String descricao</text><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect fill="#FEFECE" filter="url(#f1iblk7iuvmhax)" height="24.8" id="User" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="36.58" x="352.47" y="4.34"/><ellipse cx="361.77" cy="14.26" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M363.01,12.09 Q363.1359,11.78 363.2813,11.625 Q363.4266,11.47 363.5913,11.47 Q363.8819,11.47 364.0659,11.6444 Q364.25,11.8188 364.25,12.2256 L364.25,13.1944 Q364.25,13.6013 364.0756,13.7756 Q363.9013,13.95 363.63,13.95 Q363.3878,13.95 363.2328,13.8434 Q363.0778,13.7369 363.01,13.4559 Q362.9809,13.2622 362.8744,13.1556 Q362.6806,12.9522 362.3319,12.8359 Q361.9831,12.71 361.6344,12.71 Q361.1984,12.71 360.8303,12.8844 Q360.4719,13.0588 360.1909,13.4463 Q359.91,13.8338 359.91,14.3666 L359.91,14.9381 Q359.91,15.5775 360.4331,16.0038 Q360.9563,16.43 361.8863,16.43 Q362.4384,16.43 362.8259,16.3041 Q363.0488,16.2363 363.3006,16.0134 Q363.4653,15.8875 363.5525,15.8487 Q363.6397,15.81 363.7463,15.81 Q363.9497,15.81 364.095,15.9747 Q364.25,16.1297 364.25,16.3525 Q364.25,16.5656 364.0369,16.8175 Q363.7269,17.1856 363.2328,17.3891 Q362.5838,17.67 361.7894,17.67 Q360.8594,17.67 360.1134,17.3019 Q359.5128,17.0113 359.0866,16.3816 Q358.67,15.7519 358.67,15.0059 L358.67,14.3278 Q358.67,13.5528 359.0381,12.8747 Q359.4159,12.1966 360.065,11.8381 Q360.7238,11.47 361.46,11.47 Q361.9056,11.47 362.2931,11.625 Q362.6806,11.78 363.01,12.09 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacingAndGlyphs" textLength="16.74" x="370.45" y="17.3043">User</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="353.09" x2="388.43" y1="24.18" y2="24.18"/><!--MD5=[edc107c0a572352bcd12c9afaba4390b]
+link Administrator to User--><path codeLine="41" d="M195.8828,46.2582 C203.0314,44.8694 210.5768,43.4372 217.62,42.16 C266.2218,33.3622 323.7516,24.0808 352.2654,19.5548 " fill="none" id="Administrator-User" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="255.7058,19.4272,249.8711,18.575,250.4845,22.1673,255.7058,19.4272" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="30.38" x="258.23" y="23.247">acts like</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="200.585" y="54.4407">1</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="343.1467" y="29.7449">1</text><!--MD5=[b89ea4b32c229b5fbd9fe2aca6748544]
+link Administrator to Scooter--><path codeLine="42" d="M195.7154,55.8744 C235.8666,59.8548 304.0356,66.6066 342.178,70.3886 " fill="none" id="Administrator-Scooter" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="223.8049,53.1147,218.404,50.7484,218.0446,54.3749,223.8049,53.1147" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="94.24" x="226.3" y="56.107">adds, removes and update</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="200.6127" y="65.4006">1</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="3.1" x="334.0874" y="79.1445">*</text><!--MD5=[7e5f2900cc75c5dbfbca355ecc60e139]
+link Administrator to Drone--><path codeLine="43" d="M181.7344,65.2054 C191.9086,71.8084 205.065,79.6142 217.62,84.94 C261.4974,103.54 276.3154,96.7014 321.16,112.84 C330.9188,116.3492 341.4278,121.0116 350.1946,125.1718 " fill="none" id="Administrator-Drone" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="223.6405,80.5086,218.9683,76.9113,217.7462,80.3445,223.6405,80.5086" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="94.24" x="226.3" y="82.767">adds, removes and update</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="182.0363" y="78.5152">1</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="3.1" x="342.2569" y="132.4627">*</text><!--MD5=[54d578fb0508ace1f5af24263b5e5dc0]
+link Pharmacy to Vehicle--><path codeLine="46" d="M67.6916,160.58 C85.6716,160.58 108.3574,160.58 127.0194,160.58 " fill="none" id="Pharmacy-Vehicle" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="92.38,155.109,86.772,153.2869,86.772,156.9311,92.38,155.109" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="13.02" x="94.86" y="158.407">has</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="72.459" y="169.6741">1</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="12.4" x="109.7353" y="169.5208">1..*</text><!--MD5=[06efc869691796c492c284b2034979fd]
+link Vehicle to VehicleState--><path codeLine="49" d="M199.2556,179.5892 C205.2448,182.1312 211.5068,184.4066 217.62,186 C258.8438,196.7322 308.3322,198.152 339.512,197.718 " fill="none" id="Vehicle-VehicleState" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="264.4044,180.9264,259.0763,178.4004,258.6092,182.0146,264.4044,180.9264" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="13.02" x="266.91" y="183.827">has</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="203.9314" y="190.8777">1</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="330.4726" y="206.9778">1</text><!--MD5=[c14db07f1eaff8d802a7dec050cf6e49]
+link Vehicle to Scooter--><path codeLine="52" d="M199.051,152.7184 C205.2324,151.3854 211.6122,150.0338 217.62,148.8 C263.5186,139.3946 280.4942,152.2348 321.16,128.96 C329.8276,124 345.96,104.5878 357.3308,90.0488 " fill="none" id="Vehicle-Scooter" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="255.5323,122.3478,249.6474,122.7181,250.989,126.1064,255.5323,122.3478" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="30.38" x="258.23" y="126.787">could be</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="203.9404" y="160.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="349.5785" y="103.2302">1</text><!--MD5=[7fa656d13838733e7b6e9c650048e773]
+link Vehicle to Drone--><path codeLine="53" d="M199.0324,166.2344 C231.3778,170.1838 280.271,173.0606 321.16,162.44 C332.4626,159.5012 343.9326,153.326 352.9288,147.591 " fill="none" id="Vehicle-Drone" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="255.7275,156.5962,249.9411,155.4617,250.3794,159.0795,255.7275,156.5962" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="30.38" x="258.23" y="160.267">could be</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="203.9194" y="175.9617">1</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacingAndGlyphs" textLength="4.34" x="342.9635" y="160.8798">1</text><!--MD5=[4f696f90b8a7578f97d1fc5dd1e58417]
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Administrator {
+
+}
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+class Vehicle{
+    -int id
+    -float batteryCapacity
+    -float actualBattery
+    -double maxWeight
+}
+class Scooter {
+    -boolean qrCode
+}
+class Drone{
+}
+
+
+
+class VehicleState{
+-int id
+-String descricao
+}
+
+
+/'- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '/
+
+
+
+
+Administrator "1" - - "1" User: acts like >
+Administrator "1" - - "*" Scooter: adds, removes and update >
+Administrator "1" - - "*" Drone: adds, removes and update >
+
+
+Pharmacy "1" - - "1..*" Vehicle: has >
+
+
+Vehicle "1" - - "1" VehicleState: has >
+
+
+Vehicle "1" - - "1" Scooter: could be >
+Vehicle "1" - - "1" Drone: could be >
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Administrator {
+
+}
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+class Vehicle{
+    -int id
+    -float batteryCapacity
+    -float actualBattery
+    -double maxWeight
+}
+class Scooter {
+    -boolean qrCode
+}
+class Drone{
+}
+
+
+
+class VehicleState{
+-int id
+-String descricao
+}
+
+
+
+
+
+
+Administrator "1" - - "1" User: acts like >
+Administrator "1" - - "*" Scooter: adds, removes and update >
+Administrator "1" - - "*" Drone: adds, removes and update >
+
+
+Pharmacy "1" - - "1..*" Vehicle: has >
+
+
+Vehicle "1" - - "1" VehicleState: has >
+
+
+Vehicle "1" - - "1" Scooter: could be >
+Vehicle "1" - - "1" Drone: could be >
+
+@enduml
+
+PlantUML version 1.2020.26(Mon Dec 21 17:45:07 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

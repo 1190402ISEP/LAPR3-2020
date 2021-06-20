@@ -1,0 +1,94 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+
+
+
+class Product {
+    -Integer id
+    -String name
+    -Integer stock
+    -Float price
+    -float weight
+    -float iva
+}
+
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+
+}
+
+class OrderState {
+    -Integer id
+    -String designation
+}
+
+
+class Invoice {
+    -float totalPrice
+    -float deliveryFee
+}
+
+class CreditCard {
+    -Integer number
+    -Integer CVV
+    -Date expirateDate
+}
+
+class BasketProduct {
+    -Integer quantity
+
+}
+
+/'------------------------------------------------------------------------------------ '/
+
+
+Client "1" -- "1" User: acts like >
+
+Client "1" -- "*" CreditCard: has >
+Client "1" -- "*" Order: place >
+Client "1" -- "*" BasketProduct: has >
+
+Product "1" - "*" BasketProduct: inside >
+
+Pharmacy "1" -- "*" Product: has >
+
+Order "1" ---- "1" Invoice: has >
+
+Invoice "1" -- "1..*" Product: has >
+
+
+Order "1" -- "1" OrderState: has >
+Order "1" -- "1" CreditCard: has associated >
+
+
+
+@enduml

@@ -1,0 +1,3 @@
+#clients
+Posto Correios Forno--41.192838982307705, -8.575957875013673;293
+Centro de Distribuição dos Correios de Ermesinde--41.202796939939326, -8.545020846177202;378

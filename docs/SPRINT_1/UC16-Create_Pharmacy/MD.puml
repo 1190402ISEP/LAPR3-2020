@@ -1,0 +1,47 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class Platform {
+  -String designation
+}
+
+class Administrator {
+
+}
+
+class PharmacyOwner {
+
+}
+
+class Address {
+    -String Street
+    -String PostalCode
+    -String GeographicalLocation
+    -Integer doorNumber
+}
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+/'------------------------------------------------------------------------------------ '/
+
+Platform "1" ---- "1..*" Pharmacy: has registered >
+
+Administrator "1" -- "*" Pharmacy: creates >
+Administrator "1" -- "*" PharmacyOwner: registers >
+
+Pharmacy "1" -- "1..*" Park: has >
+Pharmacy "1" -- "1..*" Scooter: has >
+Pharmacy "1" -- "*" Product: has >
+Pharmacy "1" -- "1" Address: has >
+
+PharmacyOwner "1" -- "1" Pharmacy: belongs >
+
+
+@enduml

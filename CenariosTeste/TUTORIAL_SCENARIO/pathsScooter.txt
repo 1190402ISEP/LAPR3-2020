@@ -1,0 +1,9 @@
+#trindade - cais da ribeira - dois sentidos
+41.15227, -8.60929;41.14063, -8.61118;2;asfalto
+
+coordinateOrigem;coordinateDestination;conectionType;tipoEstrada
+
+Conections Types:
+
+	1- sentido unico -> da coordenada das esquerda para a direita
+	2- dois sentidos

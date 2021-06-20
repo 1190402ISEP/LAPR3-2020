@@ -1,0 +1,56 @@
+@startuml
+autonumber
+
+participant ":ScooterDeliveryPlanningTask" as TASK
+participant ":OrdersQueue" as QU
+participant "orders:Map<Integer,List<Integer>>" as MAP
+participant ":PlanningDB" as DB
+participant "pharmacyOrders:List<Integer>" as ORDERS
+participant "cords:LinkedList<String>" AS CORDS
+participant "pesosPorEcomenda:Map<String, Float>" as MAPPESOS
+participant ":DeliveryPlanning" as PLAN
+participant "allFarmacias:Map<Integer, String>" as ALLFARMACIAS
+participant "remainingPath:LinkedList<String>" as REMAINING
+participant ":Print" as PT
+participant "fullRemainingPath:LinkedList<String>" as FULL
+participant "stop:StopForCharging" as STOP
+
+activate TASK
+TASK -> REMAINING: actualFarmacia = removeFirst()
+activate REMAINING
+deactivate REMAINING
+
+TASK -> REMAINING: startingFarmacia = removeLast()
+activate REMAINING
+deactivate REMAINING
+
+TASK -> PLAN: fullRemainingPath = shortestPathScooter(remainingPath, actualFarmacia, startingFarmacia)
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN: gastoEnergeticoRestante = calculateEnergyCost(fullRemainingPath, DeliveryPlanning.getActualPayload(), VehicleType.SCOOTER, pesosPorEncomenda)
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN: distanciaRestante = pathWeight(fullRemainingPath)
+activate PLAN
+deactivate PLAN
+
+TASK -> PLAN: tempoRestante = calculateSpentTime(distanciaRestante, velocidade)
+activate PLAN
+deactivate PLAN
+
+TASK -> PT: printRemainingDeliveryPath(outputFileName,actualFarmacia, fullRemainingPath, gastoEnergeticoRestante, distanciaRestante, tempoRestante, VehicleType.SCOOTER)
+activate PT
+deactivate PT
+
+TASK --> STOP**: create(fullRemainingPath, gastoEnergeticoRestante, tempoRestante, distanciaRestante, courierNIF, scooterID, pharmacyID, deliveryID, db)
+
+TASK -> STOP: run()
+activate STOP
+deactivate STOP
+
+
+deactivate TASK
+
+@enduml

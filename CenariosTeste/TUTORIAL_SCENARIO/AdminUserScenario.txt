@@ -1,0 +1,11 @@
+4;5;3;2;6;0
+
+Coloca-se separado por ; todos os casos a serem executados
+Lista de opções:
+
+1- ficheiro ReadScooterScenario.txt
+2- ficheiro ReadCourierScenario.txt
+3- ficheiro ReadDroneScenario.txt
+4- ficheiro ReadPharmacyOwnerScenario.txt
+5- ficheiro ReadPharmacyScenario.txt
+6- ficheiro ReadParkScenario.txt

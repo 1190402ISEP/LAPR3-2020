@@ -1,0 +1,4 @@
+rui3@gmail.com;255904324;Rui3;rui;41.1527558, -8.6310536;Ctt campo alegre;4620-742;1161
+rui2@gmail.com;255904321;Rui2;rui2;41.1724915, -8.6549371;Pereiro;4620-738;10
+rui4@gmail.com;255904323;Rui4;rui4;41.167775, -8.6301726;Centro Comercial Carvalhido;4620-734;14
+

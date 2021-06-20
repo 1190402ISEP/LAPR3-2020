@@ -1,0 +1,31 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+class Platform {
+  -String designation
+}
+
+
+class Client {
+    -String name
+    -String NIF
+}
+
+
+
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+Platform "1" ---- "*" User: has registered>
+
+Client "1" -- "1" User: acts like >
+Client "1" -- "1" Address: has >
+
+
+
+@enduml

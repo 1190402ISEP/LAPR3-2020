@@ -1,0 +1,76 @@
+@startuml
+
+class LinkedList<String> {
+ +String removeFirst()
+ +String removeLast()
+}
+
+
+class ScooterDeliveryPlanningTask {
+    +ScooterDeliveryPlanningTask()
+    +run()
+    +changeStates(Integer courierNIF, Integer scooterID, Integer pharmacyID)
+
+}
+
+class OrdersQueue {
+    +Map<Integer, List<Integer>> getOrders()
+    +clearQueue()
+
+}
+
+class PlanningDB {
+ +LinkedList<String> getCordsByOrders(List<Integer> pharmacyOrders)
+ +Map<Integer, List<Integer>> getPesosPorEncomenda(List<Integer> pharmacyOrders)
+ +String getCoordinatesByPharmacyID(Integer pharmacyID)
++Integer getAvailableCourier(Integer pharmacyID)
+ +Integer getAvailableScooter(Integer, courierNIF, Integer pharmacyID, float payload)
++Float getActualBatteryVehicle(Integer scooterID, Integer courierNIF)
++Map<Integer, String> getCordsOfPharmacysWithAvailableChargingStation(VehicleType type)
+ +Integer insertDelivery(Integer courierNIF, Integer scooterID, Integer pharmacyID, Float distance, Float time, Float energyCost)
++takeVehicleEnergy(Integer scooterID, Float energyCost, Integer pharmacyID)
+ +updateOrdersDeliveryID(List<Integer> pharmacyOrders, Integer idDelivery)
+ +updateOrderStateToDelivered(Integer idDelivery)
+
+
+
+}
+
+class DeliveryPlanning {
+  +Float getTotalPayload(Map<Integer, List<Integer>> pesosPorEcomenda)
+  +List<String> shortestPath(List<String> cords, String pharmacyCords, VehicleType type, Float actualBatteryWH, Map<Integer, String> allFarmacias, List<String> remainingPath, Float payload, Map<Integer, List<Integer>> pesosPorEncomenda)
+    +Float pathWeight(List<String> path)
+    +Float getVelocidadeScooter()
+    +Float calculateSpentTime(Float distance, Float velocidade)
+    +Float calculateEnergyCost(List<String> path, Float payload, VehicleType type, Map<Integer, List<Integer>> pesosPorEncomenda)
+    +List<String> shortestPathScooter(List<String> remainingPath, String actualFarmacia, String startingFarmacia)
+    +List<String> mostEficientPath(List<String> casasClientes, String startingFarmacia, VehicleType type, float bateriaAtualMW, float payload, Map<String, Float> pesosPorEncomenda, Map<Integer, String> allFarmacias, LinkedList<String> remainingPath)
+}
+
+class Print {
++printFileDelivery(List<String> path, Float distance, Float time, Float energyCost, Integer deliveryID, String outputFileName, Float actualBatteryWH, Float payload, Integer scooterID, Integer courierNIF, String pharmacyCords)
+ +printRemainingDeliveryPath(String outputFileName,String actualFarmacia, List<String> fullRemainingPath, Float gastoEnergeticoRestante, Float distanciaRestante, Float tempoRestante, VehicleType type)
++printPhisics(String outputFileName, VehicleType type)
+}
+
+class StopForCharging {
+ +StopForCharging(List<String> fullRemainingPath, Float gastoEnergeticoRestante, Float tempoRestante, Float distanciaRestante, Integer courierNIF, Integer scooterID, Integer pharmacyID, Integer deliveryID, PlanningDB db)
+    +run()
+}
+
+
+
+
+ScooterDeliveryPlanningTask ..> DeliveryPlanning
+ScooterDeliveryPlanningTask ..> OrdersQueue
+ScooterDeliveryPlanningTask ..> PlanningDB
+ScooterDeliveryPlanningTask ..> LinkedList
+ScooterDeliveryPlanningTask ..> Print
+ScooterDeliveryPlanningTask ..> StopForCharging
+
+
+
+
+
+
+@enduml

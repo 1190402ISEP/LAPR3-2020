@@ -1,0 +1,3 @@
+#clients
+Centro Comercial do Carvalhido--41.167775, -8.6301726;0
+CTT--41.1714565, -8.6128568;0

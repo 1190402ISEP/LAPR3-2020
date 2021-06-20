@@ -1,0 +1,140 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+
+
+class User {
+    -String name
+    -String email
+    -String password
+    -Integer NIF
+
+}
+
+
+class Client {
+    -Integer credits
+}
+
+class Address {
+    -String Street
+    -String PostalCode
+    -String GeographicalLocation
+    -Integer doorNumber
+
+}
+
+
+class Pharmacy {
+    -Integer id
+    -String designation
+}
+
+class Vehicle{
+    -int id
+    -float batteryCapacity
+    -float actualBattery
+    -double maxWeight
+}
+class Scooter {
+    -boolean qrCode
+}
+
+
+class Park {
+    -Integer id
+    -Integer maxCapacity
+}
+
+class ParkPlace {
+    -Integer id
+}
+
+
+class ChargingStation {
+    -Integer id
+}
+
+class Courier {
+    -float maxWeight
+}
+
+
+
+class Delivery {
+    -Integer id
+}
+
+class Order {
+    -Integer id
+    -Date orderDate
+    -Date deliverDate
+    -Integer NIF
+
+}
+
+class VehicleState{
+-int id
+-String description
+}
+
+class VehicleState{
+    -int id
+    -String descricao
+}
+
+class EmailService {
+}
+
+
+/'------------------------------------------------------------------------------------ '/
+
+
+
+
+
+
+
+
+ChargingStation "1" -- "1" ParkPlace : is a >
+
+
+Client "1" -- "1" User: acts like >
+Client "1" ---- "1" Address: has >
+Client "1" -- "*" Delivery: requests >
+Client "1" -- "*" Order: place >
+
+
+
+
+Park "1" -- "1..*" ChargingStation: has >
+Park "1" -- "1..*" ParkPlace: has >
+
+Pharmacy "1" -- "1..*" Park: has >
+Pharmacy "1" -- "1..*" Vehicle: has >
+Pharmacy "1" -- "1" Address: has >
+
+
+Vehicle "1" -- "1" ParkPlace: parks at >
+Vehicle "1" -- "1" VehicleState: has >
+
+Courier "1" --- "1..*" Scooter: uses >
+Courier "1" --- "*" Delivery: makes >
+Courier "*" --- "1" Pharmacy: works in >
+
+
+Delivery "1" -- "1..*" Order: delivers >
+
+
+
+
+Order "1" -- "1" OrderState: has >
+
+ChargingStation "*" -- "1" EmailService: has >
+
+Vehicle "1" -- "1" Scooter: could be >
+
+
+@enduml

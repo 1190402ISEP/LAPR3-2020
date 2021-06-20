@@ -1,0 +1,187 @@
+@startuml
+autonumber
+
+actor "Client" as CLI
+
+participant ":CheckoutBasketUI" as UI
+participant ":CheckoutBasketController" as CTRL
+participant ":UserSession" as US
+participant "session:UserSession" as S
+participant "user:User" as U
+participant ":ClientDB" as DB
+participant "list:List<CreditCard>" as LIST
+participant ":Utils" as SCARD
+participant "card:CreditCard" as CARD
+participant "products:List<Product>" as PRO
+
+
+
+
+
+activate CLI
+CLI -> UI: The client starts the checkout
+activate UI
+
+UI-> CTRL: getClient()
+
+activate CTRL
+
+CTRL -> US: session = getUserSession()
+activate US
+deactivate US
+
+CTRL -> S: user = getUser()
+
+activate S
+deactivate S
+ CTRL -> U: email = getUserEmail()
+
+ activate U
+ deactivate U
+
+ deactivate CTRL
+
+
+UI --> CLI: asks user if he want to use an \nexisting credit card or to create another
+
+deactivate UI
+
+alt if he wants to use an existing card
+
+CLI -> UI: requests the list of cards he have
+
+activate UI
+
+UI -> CTRL: getCreditCardsClient()
+
+activate CTRL
+
+
+
+ CTRL -> DB: list = getClientCreditCardsByEmail(email)
+
+ activate DB
+ deactivate DB
+
+deactivate CTRL
+
+UI --> CLI: shows the list of credit cards\n and asks user to choose one
+
+
+deactivate UI
+
+CLI -> UI: selects credit card
+
+activate UI
+
+
+UI -> CTRL: getCardByOption(option)
+
+activate CTRL
+
+CTRL -> SCARD: card = getItemByOption(list, option)
+activate SCARD
+deactivate SCARD
+
+deactivate CTRL
+
+deactivate UI
+
+end
+
+
+alt if user wants to create a new credit card
+
+CLI -> UI: the user requests to create a new credit card
+
+activate UI
+
+UI -> CTRL: newCreditCard()
+
+activate CTRL
+
+ref over CTRL: SD_UC22_Add_Credit_Card
+
+CTRL -> CTRL: card = getClientLastAddedCard()
+
+deactivate CTRL
+
+deactivate UI
+
+end
+
+
+
+CTRL -> DB: flag = hasClientNif(email)
+
+activate DB
+
+deactivate DB
+
+alt if flag is false
+
+UI --> CLI: requests data (NIF)
+
+CLI -> UI: enters the nif
+
+activate UI
+
+UI -> CTRL: setNif(nif)
+
+activate CTRL
+deactivate CTRL
+
+deactivate UI
+
+
+end
+
+
+
+alt if flag is true
+
+CTRL -> DB: nif = getClientNifByEmail(email)
+
+activate DB
+deactivate DB
+
+end
+
+CTRL -> DB: credits = getClientCreditsByEmail(email)
+
+activate DB
+deactivate DB
+
+UI --> CLI: shows available credits and ask\n how many he wants to use
+
+CLI -> UI: enters the aumount of credits (creditsToUse)
+
+activate UI
+
+UI -> CTRL: newOrder()
+
+activate CTRL
+
+
+CTRL -> DB: products = getProductsInBasketByClientEmail(email)
+
+activate DB
+deactivate DB
+
+CTRL -> DB: newOrder(email, products, card, nif, creditsToUse)
+
+activate DB
+deactivate DB
+
+deactivate CTRL
+
+UI --> CLI: process finished
+
+deactivate UI
+deactivate CLI
+
+
+
+
+
+@enduml

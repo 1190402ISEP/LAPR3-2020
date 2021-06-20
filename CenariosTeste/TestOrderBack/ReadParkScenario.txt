@@ -1,0 +1,12 @@
+#[c|u|etc];pharmacyID;voltage;max ocupation;paktype1-scooter 2-drone;current ocupation
+c;1;240;10;1;0
+c;1;240;10;2;0
+c;2;240;10;1;0
+c;2;240;10;2;0
+#[cp create place];is available;has chargingstation
+cp;1;1;1
+cp;1;1;1
+cp;2;1;1
+cp;3;1;1
+cp;4;1;1
+cp;1;1;1

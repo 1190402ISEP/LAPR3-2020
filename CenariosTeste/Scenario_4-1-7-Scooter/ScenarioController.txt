@@ -1,0 +1,7 @@
+6;1;1;2;1;2;1;2;1;0;-1
+
+
+1- login
+2- register
+0- logout e voltar ao menu inicial
+-1- fechar programa

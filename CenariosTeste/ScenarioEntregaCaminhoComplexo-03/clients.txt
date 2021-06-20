@@ -1,0 +1,6 @@
+#cliente
+cais da ribeira--41.14063, -8.61118;25
+#other points
+clerigos--41.14582, -8.61398;87
+majestic--41.14723, -8.60657;91
+bolhao--41.14871, -8.60746;87

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="271px" preserveAspectRatio="none" style="width:458px;height:271px;" version="1.1" viewBox="0 0 458 271" width="458px" zoomAndPan="magnify"><defs><filter height="300%" id="f127ysuzq7rinq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f127ysuzq7rinq)" height="77.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f127ysuzq7rinq)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="409" y="138.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="89.6094" y2="186.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="414" x2="414" y1="89.6094" y2="186.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="86.5332">Timer</text><ellipse cx="26" cy="15" fill="#FEFECE" filter="url(#f127ysuzq7rinq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,23 L26,50 M13,31 L39,31 M26,50 L13,65 M26,50 L39,65 " fill="none" filter="url(#f127ysuzq7rinq)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="5" y="199.8457">Timer</text><ellipse cx="26" cy="212.9219" fill="#FEFECE" filter="url(#f127ysuzq7rinq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M26,220.9219 L26,247.9219 M13,228.9219 L39,228.9219 M26,247.9219 L13,262.9219 M26,247.9219 L39,262.9219 " fill="none" filter="url(#f127ysuzq7rinq)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f127ysuzq7rinq)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="380" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="387" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#f127ysuzq7rinq)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="380" y="185.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="387" y="206.8457">:System</text><rect fill="#FFFFFF" filter="url(#f127ysuzq7rinq)" height="77.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f127ysuzq7rinq)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="409" y="138.3125"/><polygon fill="#A80036" points="397,134.3125,407,138.3125,397,142.3125,401,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="31" x2="403" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="38" y="125.2803">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="265" x="49" y="117.1045">When the scheduling time arrives, the system</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="344" x="53" y="133.4561">collects all pending orders and makes the delivery planning.</text><!--MD5=[af62b122389bf307f36f9b289de308b5]
+@startuml
+autonumber
+actor "Timer" as CLI
+
+participant ":System" as SY
+
+activate CLI
+CLI -> SY:When the scheduling time arrives, the system\n collects all pending orders and makes the delivery planning.
+
+activate SY
+
+deactivate SY
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

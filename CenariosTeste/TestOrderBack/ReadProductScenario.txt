@@ -1,0 +1,3 @@
+c;Produto de teste;50;2;0.1;23;1234567890
+#
+c;Produto de teste;0;2;0.1;23;1234567890

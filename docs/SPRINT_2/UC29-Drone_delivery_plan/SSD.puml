@@ -1,0 +1,16 @@
+@startuml
+autonumber
+actor "Timer" as CLI
+
+participant ":System" as SY
+
+activate CLI
+CLI -> SY: If scooters or couriers are not available,\n the system plans delivery using drones.
+
+
+
+activate SY
+deactivate SY
+
+
+@enduml

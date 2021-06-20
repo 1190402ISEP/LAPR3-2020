@@ -1,0 +1,3 @@
+1
+
+Aqui seleciona-se o produto que queremos adicionar ao carrinho. Neste caso o clinte selecionou o primeiro da lista de produtos existentes

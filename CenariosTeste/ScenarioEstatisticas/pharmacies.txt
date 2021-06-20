@@ -1,0 +1,2 @@
+#pharmacies
+trindade--41.15227, -8.60929;104

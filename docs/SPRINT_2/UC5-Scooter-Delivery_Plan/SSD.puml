@@ -1,0 +1,15 @@
+@startuml
+autonumber
+actor "Timer" as CLI
+
+participant ":System" as SY
+
+activate CLI
+CLI -> SY:When the scheduling time arrives, the system\n collects all pending orders and makes the delivery planning.
+
+activate SY
+
+deactivate SY
+
+
+@enduml
